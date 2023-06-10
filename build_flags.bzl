@@ -30,4 +30,9 @@ load(
 flags = [
     # The device_config_value_set soong module to use to set aconfig values.
     flag("RELEASE_DEVICE_CONFIG_VALUE_SETS", ALL, None),
+
+    # The platform version.
+    # TODO(joeo): Remove the default here. Maybe for platform builds not having
+    # a version should be an error and should be allowed for unbundled builds.
+    flag("RELEASE_PLATFORM_VERSION", ALL, "VP1A"),
 ]
