@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-device_config_value_set {
-    name: "device_config_value_set-trunk_staging",
+aconfig_value_set {
+    name: "aconfig_value_set-trunk_food",
     values: [
-        "device_config_values-trunk_staging-all"
+        "aconfig_values-trunk_food-all"
     ]
 }
 
-device_config_values {
-    name: "device_config_values-trunk_staging-all",
+aconfig_values {
+    name: "aconfig_values-trunk_food-all",
     package: "com.android.all",
     srcs: [
         "flag_values.textproto",
