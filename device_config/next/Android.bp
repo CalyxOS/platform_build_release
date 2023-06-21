@@ -21,7 +21,7 @@ device_config_value_set {
 
 device_config_values {
     name: "device_config_values-next-all",
-    namespace: "com.android.all",
+    package: "com.android.all",
     srcs: [
         "flag_values.textproto",
     ]
