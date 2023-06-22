@@ -28,8 +28,8 @@ load(
 
 # Flags should be alphabetical by flag name to reduce merge conflifcts
 flags = [
-    # The device_config_value_set soong module to use to set aconfig values.
-    flag("RELEASE_DEVICE_CONFIG_VALUE_SETS", ALL, None),
+    # The aconfig_value_set soong module to use to set aconfig values.
+    flag("RELEASE_ACONFIG_VALUE_SETS", ALL, None),
 
     # The platform version.
     # TODO(joeo): Remove the default here. Maybe for platform builds not having
