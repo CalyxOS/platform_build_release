@@ -12,16 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-device_config_value_set {
-    name: "device_config_value_set-trunk",
+aconfig_value_set {
+    name: "aconfig_value_set-next",
     values: [
-        "device_config_values-trunk-all"
+        "aconfig_values-next-all"
     ]
 }
 
-device_config_values {
-    name: "device_config_values-trunk-all",
-    namespace: "com.android.all",
+aconfig_values {
+    name: "aconfig_values-next-all",
+    package: "com.android.all",
     srcs: [
         "flag_values.textproto",
     ]
