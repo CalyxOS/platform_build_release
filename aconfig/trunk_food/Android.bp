@@ -13,14 +13,14 @@
 // limitations under the License.
 
 aconfig_value_set {
-    name: "aconfig_value_set-aosp-trunk_food",
+    name: "aconfig_value_set-trunk_food",
     values: [
-        "aconfig_values-aosp-trunk_food-all"
+        "aconfig_values-trunk_food-all"
     ]
 }
 
 aconfig_values {
-    name: "aconfig_values-aosp-trunk_food-all",
+    name: "aconfig_values-trunk_food-all",
     package: "com.android.all",
     srcs: [
         "flag_values.textproto",
