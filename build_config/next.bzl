@@ -24,4 +24,5 @@ load("//build/make/core/release_config.bzl", "value")
 values = [
     value("RELEASE_ACONFIG_VALUE_SETS", "aconfig_value_set-next"),
     value("RELEASE_PLATFORM_VERSION", "UP1A"),
+    value("RELEASE_PLATFORM_VERSION_CODENAME_REL", "true"),
 ]
