@@ -38,6 +38,9 @@ flags = [
     # they always have.
     flag("RELEASE_AIDL_USE_UNFROZEN", ALL, True),
 
+    # The behavior for the tree wrt building mainline modules or using prebuilts
+    flag("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", ALL, "true"),
+
     # The platform version.
     # TODO(joeo): Remove the default here. Maybe for platform builds not having
     # a version should be an error and should be allowed for unbundled builds.
