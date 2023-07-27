@@ -23,5 +23,6 @@ load("//build/make/core/release_config.bzl", "value")
 # Flags should be alphabetical by flag name to reduce merge conflifcts
 values = [
     value("RELEASE_ACONFIG_VALUE_SETS", "aconfig_value_set-aosp-next"),
+    value("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", "false"),
     value("RELEASE_PLATFORM_VERSION", "UP1A"),
 ]
