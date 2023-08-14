@@ -28,6 +28,9 @@ load(
 
 # Flags should be alphabetical by flag name to reduce merge conflifcts
 flags = [
+    # The default permission for all flags
+    flag("RELEASE_ACONFIG_FLAG_DEFAULT_PERMISSION", ALL, "READ_WRITE"),
+
     # The aconfig_value_set soong module to use to set aconfig values.
     flag("RELEASE_ACONFIG_VALUE_SETS", ALL, None),
 
