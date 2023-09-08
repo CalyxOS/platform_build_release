@@ -52,6 +52,9 @@ flags = [
     # Enables new DICE functionality in Microdroid VMs.
     flag("RELEASE_AVF_ENABLE_DICE_CHANGES", ALL, False),
 
+    # Enables new llPvm functionality in Microdroid VMs.
+    flag("RELEASE_AVF_ENABLE_LLPVM_CHANGES", ALL, False),
+
     # Enables loading vendor modules (both kernel & userspace) in Microdroid VM.
     flag("RELEASE_AVF_ENABLE_VENDOR_MODULES", ALL, False),
 
