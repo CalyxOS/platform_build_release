@@ -61,6 +61,9 @@ flags = [
     # The behavior for the tree wrt building mainline modules or using prebuilts
     flag("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", ALL, "true"),
 
+    # The version of mainline prebuilts used when prebuilts are enabled.
+    flag("RELEASE_MAINLINE_MODULE_PREBUILT_VERSION", ALL, "mainline-module-prebuilt_nightly"),
+
     # The platform version.
     # TODO(joeo): Remove the default here. Maybe for platform builds not having
     # a version should be an error and should be allowed for unbundled builds.
