@@ -62,7 +62,7 @@ flags = [
     flag("RELEASE_AVF_ENABLE_VENDOR_MODULES", ALL, False),
 
     # The behavior for the tree wrt building mainline modules or using prebuilts
-    flag("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", ALL, "true"),
+    flag("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", ALL, False),
 
     # The version of mainline prebuilts used when prebuilts are enabled.
     flag("RELEASE_MAINLINE_MODULE_PREBUILT_VERSION", ALL, "mainline-module-prebuilt_nightly"),
