@@ -79,4 +79,7 @@ flags = [
     # PLATFORM_VERSION_CODENAME is REL. This VNDK version flag will be removed
     # when the VNDK is deprecated
     flag("RELEASE_PLATFORM_VNDK_VERSION", ALL, ""),
+
+    # feature flag for removing legacy emoji font from system image.
+    flag("RELEASE_REMOVE_LEGACY_EMOJI_FONT", SYSTEM, "false"),
 ]
