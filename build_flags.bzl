@@ -62,7 +62,7 @@ flags = [
     flag("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", ALL, "true"),
 
     # The version of mainline prebuilts used when prebuilts are enabled.
-    flag("RELEASE_MAINLINE_MODULE_PREBUILT_VERSION", ALL, "mainline-module-prebuilt_nightly"),
+    flag("RELEASE_MAINLINE_MODULE_PREBUILT_VERSION", ALL, "mainline_module_prebuilt_nightly"),
 
     # The platform version.
     # TODO(joeo): Remove the default here. Maybe for platform builds not having
