@@ -74,4 +74,9 @@ flags = [
 
     # Set to true when the current platform version should be marked as REL.
     flag("RELEASE_PLATFORM_VERSION_CODENAME_REL", ALL, ""),
+
+    # The PLATFORM_VNDK_VERSION will be set to this version when the
+    # PLATFORM_VERSION_CODENAME is REL. This VNDK version flag will be removed
+    # when the VNDK is deprecated
+    flag("RELEASE_PLATFORM_VNDK_VERSION", ALL, ""),
 ]
