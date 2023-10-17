@@ -82,6 +82,9 @@ flags = [
     # The version of mainline prebuilts used when prebuilts are enabled.
     flag("RELEASE_MAINLINE_MODULE_PREBUILT_VERSION", ALL, "mainline_module_prebuilt_nightly"),
 
+    # This flag will control the rollout of new versions of the SoundPicker app.
+    flag("RELEASE_PACKAGE_SOUND_PICKER", ALL, "SoundPicker"),
+
     # The platform version.
     # TODO(joeo): Remove the default here. Maybe for platform builds not having
     # a version should be an error and should be allowed for unbundled builds.
