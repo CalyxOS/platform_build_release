@@ -22,9 +22,8 @@ Build flag values for release config trunk.
 #
 
 load("//build/make/core/release_config.bzl", "value")
-load("//build/release/build_config/trunk_versions.bzl", "platform_version_flags")
 
 # Flags should be alphabetical by flag name to reduce merge conflifcts
 values = [
     value("RELEASE_ACONFIG_VALUE_SETS", "//build/release/aconfig/trunk:aconfig_value_set-aosp-trunk"),
-] + platform_version_flags
+]
