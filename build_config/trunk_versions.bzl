@@ -20,7 +20,7 @@ load("//build/make/core/release_config.bzl", "value")
 platform_version_flags = [
     value("RELEASE_PLATFORM_VERSION", "ZP1A"),
     value("RELEASE_PLATFORM_SDK_VERSION", "34"),
-    value("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", "10"),
+    value("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", "7"),
     value("RELEASE_PLATFORM_SECURITY_PATCH", "2023-12-05"),
     value("RELEASE_PLATFORM_VERSION_CODENAME", "VanillaIceCream"),
     value("RELEASE_PLATFORM_VERSION_ALL_CODENAMES", "UpsideDownCake,VanillaIceCream"),
