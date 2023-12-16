@@ -113,8 +113,14 @@ flags = [
     # Enables flagged apis to be exposed.
     flag("RELEASE_EXPOSE_FLAGGED_API", ALL, True),
 
+    # Enables Bluetooth Ranging Service
+    flag("RELEASE_HARDWARE_BLUETOOTH_RANGING_SERVICE", ALL, True),
+
     # The version of mainline prebuilts used when prebuilts are enabled.
     flag("RELEASE_MAINLINE_MODULE_PREBUILT_VERSION", ALL, "mainline_module_prebuilt_nightly"),
+
+    # Enables ABI monitoring of NDK libraries.
+    flag("RELEASE_NDK_ABI_MONITORED", ALL, False),
 
     # This flag will control the rollout of new versions of the SoundPicker app.
     flag("RELEASE_PACKAGE_SOUND_PICKER", ALL, "SoundPicker"),
@@ -137,7 +143,7 @@ flags = [
     flag("RELEASE_PLATFORM_SDK_VERSION", ALL, "34"),
 
     # The sdk extension version of this release configuration.
-    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "10"),
+    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "11"),
 
     # Set to REL for production platform builds, otherwise the codename string,
     # e.g. UpsideDownCake or VanillaIceCream
@@ -163,4 +169,7 @@ flags = [
 
     # feature flag for removing legacy emoji font from system image.
     flag("RELEASE_REMOVE_LEGACY_EMOJI_FONT", SYSTEM, False),
+
+    # b/292140387: Flag to switch to the new NFC apex
+    flag("RELEASE_PACKAGE_NFC_STACK", SYSTEM, "NfcNci"),
 ]
