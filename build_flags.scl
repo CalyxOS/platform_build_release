@@ -116,9 +116,6 @@ flags = [
     # feature flag to deprecate VNDK
     flag("RELEASE_DEPRECATE_VNDK", ALL, False),
 
-    # Enables flagged apis to be exposed.
-    flag("RELEASE_EXPOSE_FLAGGED_API", ALL, True),
-
     # Enables Bluetooth Ranging Service
     flag("RELEASE_HARDWARE_BLUETOOTH_RANGING_SERVICE", ALL, True),
 
