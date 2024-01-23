@@ -1,6 +1,6 @@
 flag_value {
   package: "com.android.window.flags"
-  name: "sync_window_config_update_flag"
+  name: "bal_show_toasts_blocked"
   state: ENABLED
   permission: READ_WRITE
 }

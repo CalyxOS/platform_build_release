@@ -1,6 +1,6 @@
 flag_value {
   package: "com.android.window.flags"
-  name: "window_state_resize_item_flag"
+  name: "activity_embedding_overlay_presentation_flag"
   state: ENABLED
   permission: READ_WRITE
 }
