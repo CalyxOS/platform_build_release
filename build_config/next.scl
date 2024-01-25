@@ -25,6 +25,7 @@ load("//build/make/core/release_config.scl", "value")
 
 # Platform version variables
 platform_version_flags = [
+    value("RELEASE_BOARD_API_LEVEL", "202404"),
     value("RELEASE_PLATFORM_VERSION", "UP1A"),
     value("RELEASE_PLATFORM_SDK_VERSION", "34"),
     value("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", "11"),
