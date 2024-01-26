@@ -98,6 +98,9 @@ flags = [
     # Enables loading vendor modules (both kernel & userspace) in Microdroid VM.
     flag("RELEASE_AVF_ENABLE_VENDOR_MODULES", ALL, False),
 
+    # Enables Virtual Cpufreq support in Microdroid VM.
+    flag("RELEASE_AVF_ENABLE_VIRT_CPUFREQ", ALL, False),
+
     # If enabled, DeathRecipient is not strongly referenced from JNI.
     flag("RELEASE_BINDER_DEATH_RECIPIENT_WEAK_FROM_JNI", ALL, False),
 
