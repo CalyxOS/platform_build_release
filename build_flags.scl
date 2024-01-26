@@ -133,20 +133,27 @@ flags = [
     # Enables ABI monitoring of NDK libraries.
     flag("RELEASE_NDK_ABI_MONITORED", ALL, False),
 
+    # b/292140387: Flag to switch to the new NFC apex
+    flag("RELEASE_PACKAGE_NFC_STACK", SYSTEM, "NfcNci"),
+
     # This flag will control the rollout of new versions of the SoundPicker app.
     flag("RELEASE_PACKAGE_SOUND_PICKER", ALL, "SoundPicker"),
 
     # tzdata to be installed to the system image.
     flag("RELEASE_PACKAGE_TZDATA_MODULE", ALL, None),
 
+    # True for using variable font of the NotoSansCJK
+    flag("RELEASE_PACKAGE_VARIABLE_NOTO_SANS_CJK", SYSTEM, False),
+
     # The name of the virtual camera package to add to the system partition.
     flag("RELEASE_PACKAGE_VIRTUAL_CAMERA", SYSTEM, ""),
 
-    # The platform version.
-    # TODO(joeo): Remove the default here. Maybe for platform builds not having
-    # a version should be an error and should be allowed for unbundled builds.
-    # The platform version. This is the 4 letter code, e.g. UD1A, UPB1, ZP1A, etc.
-    flag("RELEASE_PLATFORM_VERSION", ALL, "ZP1A"),
+    # The sdk extension version of this release configuration.
+    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "7"),
+
+    # The SDK version of the platform, e.g. 34 for UDC. This should only be increased
+    # when the API is finalized and the codename is set to rel, not during development.
+    flag("RELEASE_PLATFORM_SDK_VERSION", ALL, "34"),
 
     #  Used to indicate the security patch that has been applied to the device.
     #  It must signify that the build includes all security patches issued up through the designated Android Public Security Bulletin.
@@ -155,16 +162,11 @@ flags = [
     #  If there is no $PLATFORM_SECURITY_PATCH set, keep it empty.
     flag("RELEASE_PLATFORM_SECURITY_PATCH", ALL, "2023-12-05"),
 
-    # The SDK version of the platform, e.g. 34 for UDC. This should only be increased
-    # when the API is finalized and the codename is set to rel, not during development.
-    flag("RELEASE_PLATFORM_SDK_VERSION", ALL, "34"),
-
-    # The sdk extension version of this release configuration.
-    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "7"),
-
-    # Set to REL for production platform builds, otherwise the codename string,
-    # e.g. UpsideDownCake or VanillaIceCream
-    flag("RELEASE_PLATFORM_VERSION_CODENAME", ALL, "VanillaIceCream"),
+    # The platform version.
+    # TODO(joeo): Remove the default here. Maybe for platform builds not having
+    # a version should be an error and should be allowed for unbundled builds.
+    # The platform version. This is the 4 letter code, e.g. UD1A, UPB1, ZP1A, etc.
+    flag("RELEASE_PLATFORM_VERSION", ALL, "ZP1A"),
 
     # A comma separated list of all codenames that are in preview.
     # This variable is sort of a lie for historical reasons and only
@@ -173,6 +175,10 @@ flags = [
 
     # A comma separated list of all preview codenames the platform will accept apps built against
     flag("RELEASE_PLATFORM_VERSION_ALL_PREVIEW_CODENAMES", ALL, "VanillaIceCream"),
+
+    # Set to REL for production platform builds, otherwise the codename string,
+    # e.g. UpsideDownCake or VanillaIceCream
+    flag("RELEASE_PLATFORM_VERSION_CODENAME", ALL, "VanillaIceCream"),
 
     # The last stable version name of the platform that was released.  During
     # development, this stays at that previous version, while the codename indicates
@@ -186,10 +192,5 @@ flags = [
 
     # feature flag for removing legacy emoji font from system image.
     flag("RELEASE_REMOVE_LEGACY_EMOJI_FONT", SYSTEM, False),
-
-    # b/292140387: Flag to switch to the new NFC apex
-    flag("RELEASE_PACKAGE_NFC_STACK", SYSTEM, "NfcNci"),
-
-    # True for using variable font of the NotoSansCJK
-    flag("RELEASE_PACKAGE_VARIABLE_NOTO_SANS_CJK", SYSTEM, False),
 ]
+# Flags should be alphabetical by flag name to reduce merge conflifcts
