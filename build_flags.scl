@@ -130,6 +130,9 @@ flags = [
     # apis ("exportable" stubs).
     flag("RELEASE_HIDDEN_API_EXPORTABLE_STUBS", ALL, False),
 
+    # Allow system property storage node to be 1M to accomodate aconfig flags.
+    flag("RELEASE_LARGE_SYSTEM_PROPERTY_NODE", ALL, False),
+
     # The version of mainline prebuilts used when prebuilts are enabled.
     flag("RELEASE_MAINLINE_MODULE_PREBUILT_VERSION", ALL, "mainline_module_prebuilt_nightly"),
 
@@ -154,12 +157,8 @@ flags = [
     # The name of the virtual camera package to add to the system partition.
     flag("RELEASE_PACKAGE_VIRTUAL_CAMERA", SYSTEM, ""),
 
-    # The sdk extension version of this release configuration.
-    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "7"),
-
-    # The SDK version of the platform, e.g. 34 for UDC. This should only be increased
-    # when the API is finalized and the codename is set to rel, not during development.
-    flag("RELEASE_PLATFORM_SDK_VERSION", ALL, "34"),
+    # The platform version. This is the 4 letter code, e.g. UD1A, UPB1, ZP1A, etc.
+    flag("RELEASE_PLATFORM_VERSION", ALL, "ZP1A"),
 
     #  Used to indicate the security patch that has been applied to the device.
     #  It must signify that the build includes all security patches issued up through the designated Android Public Security Bulletin.
@@ -168,11 +167,12 @@ flags = [
     #  If there is no $PLATFORM_SECURITY_PATCH set, keep it empty.
     flag("RELEASE_PLATFORM_SECURITY_PATCH", ALL, "2023-12-05"),
 
-    # The platform version.
-    # TODO(joeo): Remove the default here. Maybe for platform builds not having
-    # a version should be an error and should be allowed for unbundled builds.
-    # The platform version. This is the 4 letter code, e.g. UD1A, UPB1, ZP1A, etc.
-    flag("RELEASE_PLATFORM_VERSION", ALL, "ZP1A"),
+    # The SDK version of the platform, e.g. 34 for UDC. This should only be increased
+    # when the API is finalized and the codename is set to rel, not during development.
+    flag("RELEASE_PLATFORM_SDK_VERSION", ALL, "34"),
+
+    # The sdk extension version of this release configuration.
+    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "11"),
 
     # A comma separated list of all codenames that are in preview.
     # This variable is sort of a lie for historical reasons and only
@@ -185,6 +185,10 @@ flags = [
     # Set to REL for production platform builds, otherwise the codename string,
     # e.g. UpsideDownCake or VanillaIceCream
     flag("RELEASE_PLATFORM_VERSION_CODENAME", ALL, "VanillaIceCream"),
+
+    # A comma separated list of all known codenames.
+    # For REL (finalized) configurations, it has to only contain finalized codenames.
+    flag("RELEASE_PLATFORM_VERSION_KNOWN_CODENAMES", ALL, "Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream"),
 
     # The last stable version name of the platform that was released.  During
     # development, this stays at that previous version, while the codename indicates
