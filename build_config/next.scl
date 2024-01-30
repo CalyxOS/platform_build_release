@@ -46,3 +46,4 @@ values = [
     value("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", False),
     value("RELEASE_PACKAGE_TZDATA_MODULE", "com.android.tzdata"),
 ] + platform_version_flags
+# Flags should be alphabetical by flag name to reduce merge conflifcts
