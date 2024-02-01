@@ -203,6 +203,9 @@ flags = [
     flag("RELEASE_SM_OPEN_DECLARED_PASSTHROUGH_HAL", ALL, False),
 
     # feature flag for enabling use_resource_processor: true by default
-    flag("RELEASE_USE_RESOURCE_PROCESSOR_BY_DEFAULT", ALL, False)
+    flag("RELEASE_USE_RESOURCE_PROCESSOR_BY_DEFAULT", ALL, False),
+
+    # b/318717084 - enable the WebViewBootstrap mainline module
+    flag("RELEASE_USE_WEBVIEW_BOOTSTRAP_MODULE", ALL, False),
 ]
 # Flags should be alphabetical by flag name to reduce merge conflifcts
