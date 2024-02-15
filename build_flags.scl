@@ -78,6 +78,9 @@ flags = [
     # Enables Virtual Cpufreq support in Microdroid VM.
     flag("RELEASE_AVF_ENABLE_VIRT_CPUFREQ", ALL, False),
 
+    # Specify which Microdroid kernel version to use for Microdroid VMs.
+    flag("RELEASE_AVF_MICRODROID_KERNEL_VERSION", SYSTEM, None),
+
     # If enabled, DeathRecipient is not strongly referenced from JNI.
     flag("RELEASE_BINDER_DEATH_RECIPIENT_WEAK_FROM_JNI", ALL, False),
 
