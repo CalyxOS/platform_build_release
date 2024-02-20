@@ -49,29 +49,6 @@ flags = [
     # Move ANGLE libraries from vendor partition to system partition.
     flag("RELEASE_ANGLE_ON_SYSTEM", ALL, False),
 
-    # The contributions made by apexes (source or prebuilts) to the rest of the build.
-    flag("RELEASE_APEX_CONTRIBUTIONS_ADSERVICES", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_APPSEARCH", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_ART", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_BLUETOOTH", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_CONFIGINFRASTRUCTURE", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_CONNECTIVITY", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_CONSCRYPT", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_CRASHRECOVERY", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_DEVICELOCK", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_HEALTHFITNESS", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_IPSEC", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_MEDIA", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_MEDIAPROVIDER", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_ONDEVICEPERSONALIZATION", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_PERMISSION", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_REMOTEKEYPROVISIONING", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_SCHEDULING", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_SDKEXTENSIONS", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_STATSD", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_UWB", ALL, None),
-    flag("RELEASE_APEX_CONTRIBUTIONS_WIFI", ALL, None),
-
     # Enables acces to the AVF APIs to pre-installed apps.
     flag("RELEASE_AVF_ALLOW_PREINSTALLED_APPS", SYSTEM, False),
 
@@ -122,14 +99,21 @@ flags = [
     # Enables ABI monitoring of NDK libraries.
     flag("RELEASE_NDK_ABI_MONITORED", ALL, False),
 
+    # b/292140387: Flag to switch to the new NFC apex
+    flag("RELEASE_PACKAGE_NFC_STACK", SYSTEM, "NfcNci"),
+
     # This flag will control the rollout of new versions of the SoundPicker app.
     flag("RELEASE_PACKAGE_SOUND_PICKER", ALL, "SoundPicker"),
 
     # The name of the virtual camera package to add to the system partition.
     flag("RELEASE_PACKAGE_VIRTUAL_CAMERA", SYSTEM, ""),
 
-    # The platform version. This is the 4 letter code, e.g. UD1A, UPB1, ZP1A, etc.
-    flag("RELEASE_PLATFORM_VERSION", ALL, "ZP1A"),
+    # The sdk extension version of this release configuration.
+    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "11"),
+
+    # The SDK version of the platform, e.g. 34 for UDC. This should only be increased
+    # when the API is finalized and the codename is set to rel, not during development.
+    flag("RELEASE_PLATFORM_SDK_VERSION", ALL, "34"),
 
     #  Used to indicate the security patch that has been applied to the device.
     #  It must signify that the build includes all security patches issued up through the designated Android Public Security Bulletin.
@@ -138,16 +122,8 @@ flags = [
     #  If there is no $PLATFORM_SECURITY_PATCH set, keep it empty.
     flag("RELEASE_PLATFORM_SECURITY_PATCH", ALL, "2023-12-05"),
 
-    # The SDK version of the platform, e.g. 34 for UDC. This should only be increased
-    # when the API is finalized and the codename is set to rel, not during development.
-    flag("RELEASE_PLATFORM_SDK_VERSION", ALL, "34"),
-
-    # The sdk extension version of this release configuration.
-    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "11"),
-
-    # Set to REL for production platform builds, otherwise the codename string,
-    # e.g. UpsideDownCake or VanillaIceCream
-    flag("RELEASE_PLATFORM_VERSION_CODENAME", ALL, "VanillaIceCream"),
+    # The platform version. This is the 4 letter code, e.g. UD1A, UPB1, ZP1A, etc.
+    flag("RELEASE_PLATFORM_VERSION", ALL, "ZP1A"),
 
     # A comma separated list of all codenames that are in preview.
     # This variable is sort of a lie for historical reasons and only
@@ -156,6 +132,10 @@ flags = [
 
     # A comma separated list of all preview codenames the platform will accept apps built against
     flag("RELEASE_PLATFORM_VERSION_ALL_PREVIEW_CODENAMES", ALL, "UpsideDownCake,VanillaIceCream"),
+
+    # Set to REL for production platform builds, otherwise the codename string,
+    # e.g. UpsideDownCake or VanillaIceCream
+    flag("RELEASE_PLATFORM_VERSION_CODENAME", ALL, "VanillaIceCream"),
 
     # A comma separated list of all known codenames.
     # For REL (finalized) configurations, it has to only contain finalized codenames.
@@ -173,7 +153,4 @@ flags = [
 
     # feature flag for removing legacy emoji font from system image.
     flag("RELEASE_REMOVE_LEGACY_EMOJI_FONT", SYSTEM, False),
-
-    # b/292140387: Flag to switch to the new NFC apex
-    flag("RELEASE_PACKAGE_NFC_STACK", SYSTEM, "NfcNci"),
 ]
