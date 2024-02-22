@@ -93,6 +93,9 @@ flags = [
     # If true, then crashrecovery module is enabled as an apex
     flag("RELEASE_CRASHRECOVERY_MODULE", ALL, False),
 
+    # If true, then files are moved from platform to apex
+    flag("RELEASE_CRASHRECOVERY_FILE_MOVE", ALL, False),
+
     # Enable build system to create new aconfig storage files.
     flag("RELEASE_CREATE_ACONFIG_STORAGE_FILE", ALL, False),
 
