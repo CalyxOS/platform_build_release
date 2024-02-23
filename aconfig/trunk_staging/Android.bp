@@ -102,5 +102,6 @@ aconfig_value_set {
         "aconfig-values-aosp-trunk_staging-com.android.libhardware.dynamic.sensors.flags-all",
         "aconfig-values-aosp-trunk_staging-com.android.settings.factory_reset-all",
         "aconfig-values-aosp-trunk_staging-com.android.graphics.libgui.flags-all",
+        "aconfig-values-aosp-trunk_staging-android.permission.flags-all",
     ],
 }
