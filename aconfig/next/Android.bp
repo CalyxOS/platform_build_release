@@ -15,6 +15,7 @@
 aconfig_value_set {
     name: "aconfig_value_set-aosp-next",
     values: [
+        "aconfig_values-aosp-root-all",
         "aconfig-values-aosp-next-com.android.internal.telephony.flags-all",
         "aconfig-values-aosp-next-com.android.server.display.feature.flags-all",
         "aconfig-values-aosp-next-com.android.settings.flags-all",
