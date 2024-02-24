@@ -137,6 +137,9 @@ flags = [
     # b/292140387: Flag to switch to the new NFC apex
     flag("RELEASE_PACKAGE_NFC_STACK", SYSTEM, "NfcNci"),
 
+    # Flag will control the release of the Profiling module apex.
+    flag("RELEASE_PACKAGE_PROFILING_MODULE", ALL, False),
+
     # This flag will control the rollout of new versions of the SoundPicker app.
     flag("RELEASE_PACKAGE_SOUND_PICKER", ALL, "SoundPicker"),
 
