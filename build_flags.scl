@@ -170,7 +170,7 @@ flags = [
     flag("RELEASE_PLATFORM_SDK_VERSION", ALL, "34"),
 
     # The sdk extension version of this release configuration.
-    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "11"),
+    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "12"),
 
     # The platform version. This is the 4 letter code, e.g. UD1A, UPB1, ZP1A, etc.
     flag("RELEASE_PLATFORM_VERSION", ALL, "ZP1A"),
