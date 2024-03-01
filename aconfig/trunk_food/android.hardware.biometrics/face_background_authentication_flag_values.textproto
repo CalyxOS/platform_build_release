@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.hardware.biometrics"
+  name: "face_background_authentication"
+  state: ENABLED
+  permission: READ_WRITE
+}
