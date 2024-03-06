@@ -170,7 +170,7 @@ flags = [
     flag("RELEASE_PLATFORM_SDK_VERSION", ALL, "34"),
 
     # The sdk extension version of this release configuration.
-    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "11"),
+    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "12"),
 
     # The platform version. This is the 4 letter code, e.g. UD1A, UPB1, ZP1A, etc.
     flag("RELEASE_PLATFORM_VERSION", ALL, "ZP1A"),
@@ -203,6 +203,9 @@ flags = [
 
     # feature flag for removing legacy emoji font from system image.
     flag("RELEASE_REMOVE_LEGACY_EMOJI_FONT", SYSTEM, False),
+
+    # Ignore /data/data relabelling in libselinux.
+    flag("RELEASE_SELINUX_DATA_DATA_IGNORE", ALL, False),
 
     # feature flag for a new API to open declared passthrough HAL
     flag("RELEASE_SM_OPEN_DECLARED_PASSTHROUGH_HAL", ALL, False),
