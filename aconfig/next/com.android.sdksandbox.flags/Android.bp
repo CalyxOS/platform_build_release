@@ -13,8 +13,8 @@
 // limitations under the License.
 
 aconfig_values {
-    name: "aconfig-values-aosp-next-com.example.android.aconfig.demo.flags-all",
-    package: "com.example.android.aconfig.demo.flags",
+    name: "aconfig-values-aosp-next-com.android.sdksandbox.flags-all",
+    package: "com.android.sdksandbox.flags",
     srcs: [
         "*_flag_values.textproto",
     ],
