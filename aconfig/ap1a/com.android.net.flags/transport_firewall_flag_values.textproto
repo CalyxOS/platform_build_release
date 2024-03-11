@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.net.flags"
+  name: "transport_firewall"
+  state: ENABLED
+  permission: READ_ONLY
+}

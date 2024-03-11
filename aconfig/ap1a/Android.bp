@@ -18,6 +18,7 @@ aconfig_value_set {
         "aconfig-values-ap1a-com.android.window.flags-all",
         "aconfig-values-ap1a-com.android.input.flags-all",
         "aconfig-values-ap1a-com.android.media.flags-all",
+        "aconfig-values-ap1a-com.android.net.flags-all",
         "aconfig-values-ap1a-com.example.android.aconfig.demo.flags-all",
         "aconfig-values-ap1a-com.android.systemui.accessibility.accessibilitymenu-all",
         "aconfig-values-ap1a-com.android.server.display.feature.flags-all",
