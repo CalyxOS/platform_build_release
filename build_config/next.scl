@@ -32,6 +32,7 @@ values = [
     value("RELEASE_BOARD_API_LEVEL", "202404"),
     value("RELEASE_CRASHRECOVERY_MODULE", True),
     value("RELEASE_DEPRECATE_VNDK", True),
+    value("RELEASE_PACKAGE_PROFILING_MODULE", True),
     value("RELEASE_PACKAGE_VIRTUAL_CAMERA", "virtual_camera"),
     value("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", "12"),
     value("RELEASE_PLATFORM_SDK_VERSION", "34"),
