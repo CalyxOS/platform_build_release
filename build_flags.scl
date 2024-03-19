@@ -103,7 +103,7 @@ flags = [
     flag("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", ALL, True),
 
     # feature flag to deprecate VNDK
-    flag("RELEASE_DEPRECATE_VNDK", ALL, False),
+    flag("RELEASE_DEPRECATE_VNDK", ALL, True),
 
     # Enables Bluetooth Ranging Service
     flag("RELEASE_HARDWARE_BLUETOOTH_RANGING_SERVICE", ALL, True),
