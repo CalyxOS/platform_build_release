@@ -42,6 +42,7 @@ values = [
     value("RELEASE_ACONFIG_FLAG_DEFAULT_PERMISSION", "READ_ONLY"),
     value("RELEASE_ACONFIG_VALUE_SETS", "aconfig_value_set-aosp-next"),
     value("RELEASE_AIDL_USE_UNFROZEN", False),
+    value("RELEASE_AVF_ALLOW_PREINSTALLED_APPS", True),
     value("RELEASE_DEPRECATE_VNDK", True),
     value("RELEASE_PACKAGE_TZDATA_MODULE", "com.android.tzdata"),
 ] + platform_version_flags
