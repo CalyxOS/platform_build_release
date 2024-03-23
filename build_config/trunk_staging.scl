@@ -42,6 +42,7 @@ values = [
     value("RELEASE_DEPRECATE_VNDK", True),
     value("RELEASE_NDK_ABI_MONITORED", True),
     value("RELEASE_PACKAGE_TZDATA_MODULE", "com.android.tzdata"),
+    value("RELEASE_PACKAGE_VARIABLE_NOTO_SANS_CJK", True),
     value("RELEASE_PACKAGE_VIRTUAL_CAMERA", "virtual_camera"),
     value("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", "11"),
     value("RELEASE_PLATFORM_SDK_VERSION", "34"),
