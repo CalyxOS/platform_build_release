@@ -48,6 +48,7 @@ values = [
     value("RELEASE_PLATFORM_VERSION_LAST_STABLE", "14"),
     value("RELEASE_PLATFORM_VNDK_VERSION", "35"),
     value("RELEASE_REMOVE_LEGACY_EMOJI_FONT", True),
+    value("RELEASE_SM_OPEN_DECLARED_PASSTHROUGH_HAL", True),
     # keep-sorted end
 ]
 # Flags should be alphabetical by flag name to reduce merge conflifcts
