@@ -42,7 +42,6 @@ aconfig_value_set {
         "aconfig-values-aosp-next-android.speech.flags-all",
         "aconfig-values-aosp-next-com.google.android.iwlan.flags-all",
         "aconfig-values-aosp-next-android.view.contentprotection.flags-all",
-        "aconfig-values-aosp-next-com.android.aconfig.test-all",
         "aconfig-values-aosp-next-com.android.media.audio-all",
         "aconfig-values-aosp-next-android.location.flags-all",
         "aconfig-values-aosp-next-com.android.server.job-all",
