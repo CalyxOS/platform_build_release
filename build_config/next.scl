@@ -34,6 +34,7 @@ values = [
     value("RELEASE_BOARD_API_LEVEL", "202404"),
     value("RELEASE_CRASHRECOVERY_MODULE", True),
     value("RELEASE_DEPRECATE_VNDK", True),
+    value("RELEASE_PACKAGE_FLAG_EMOJI_FONT_VERSION", "2.042"),
     value("RELEASE_PACKAGE_HENTAIGANA_FONT", True),
     value("RELEASE_PACKAGE_NFC_STACK", "com.android.nfcservices"),
     value("RELEASE_PACKAGE_PROFILING_MODULE", True),
