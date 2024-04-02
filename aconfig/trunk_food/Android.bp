@@ -22,6 +22,7 @@ aconfig_value_set {
         "aconfig-values-aosp-trunk_food-com.android.graphics.libgui.flags-all",
         "aconfig-values-aosp-trunk_food-com.android.server.power.optimization-all",
         "aconfig-values-aosp-trunk_food-android.hardware.usb.flags-all",
+        "aconfig-values-aosp-trunk_food-com.android.libcore-all",
         "aconfig-values-aosp-trunk_food-com.android.media.audioserver-all",
         "aconfig-values-aosp-trunk_food-android.app.job-all",
         "aconfig-values-aosp-trunk_food-com.android.bluetooth.flags-all",

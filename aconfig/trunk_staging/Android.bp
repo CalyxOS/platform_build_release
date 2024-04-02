@@ -47,6 +47,7 @@ aconfig_value_set {
         "aconfig-values-aosp-trunk_staging-android.companion.virtualdevice.flags-all",
         "aconfig-values-aosp-trunk_staging-android.app.admin.flags-all",
         "aconfig-values-aosp-trunk_staging-android.hardware.usb.flags-all",
+        "aconfig-values-aosp-trunk_staging-com.android.libcore-all",
         "aconfig-values-aosp-trunk_staging-com.android.nfc.flags-all",
         "aconfig-values-aosp-trunk_staging-com.android.wm.shell-all",
         "aconfig-values-aosp-trunk_staging-com.android.wifi.flags-all",
