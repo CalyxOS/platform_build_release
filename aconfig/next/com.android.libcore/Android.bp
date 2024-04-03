@@ -1,4 +1,4 @@
-// Copyright 2023 Google Inc. All rights reserved.
+// Copyright 2024 Google Inc. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,19 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-aconfig_value_set {
-    name: "aconfig_value_set-aosp-trunk_staging",
-    values: [
-        "aconfig_values-aosp-root-all",
-        "aconfig_values-aosp-trunk_staging-all",
-        "aconfig-values-aosp-trunk_staging-com.android.libcore-all",
-    ]
-}
-
 aconfig_values {
-    name: "aconfig_values-aosp-trunk_staging-all",
-    package: "com.android.all",
+    name: "aconfig-values-aosp-next-com.android.libcore-all",
+    package: "com.android.libcore",
     srcs: [
-        "flag_values.textproto",
-    ]
+        "*_flag_values.textproto",
+    ],
 }
