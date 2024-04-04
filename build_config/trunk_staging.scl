@@ -54,6 +54,7 @@ values = [
     value("RELEASE_PLATFORM_VERSION_LAST_STABLE", "14"),
     value("RELEASE_PLATFORM_VNDK_VERSION", "35"),
     value("RELEASE_SELINUX_DATA_DATA_IGNORE", True),
+    value("RELEASE_UNLOCKED_STORAGE_API", True),
     # keep-sorted end
 ]
 # Flags should be alphabetical by flag name to reduce merge conflifcts
