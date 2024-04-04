@@ -207,6 +207,9 @@ flags = [
     # feature flag for a new API to open declared passthrough HAL
     flag("RELEASE_SM_OPEN_DECLARED_PASSTHROUGH_HAL", ALL, False),
 
+    # flag to enable the unlocked-only storage API's SEPolicy rules
+    flag("RELEASE_UNLOCKED_STORAGE_API", ALL, False),
+
     # feature flag for enabling use_resource_processor: true by default
     flag("RELEASE_USE_RESOURCE_PROCESSOR_BY_DEFAULT", ALL, False),
 
