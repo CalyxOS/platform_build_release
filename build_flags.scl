@@ -117,6 +117,9 @@ flags = [
     # Specify which Microdroid kernel version to use for Microdroid VMs.
     flag("RELEASE_AVF_MICRODROID_KERNEL_VERSION", SYSTEM, None, origin="aosp"),
 
+    # Enable running custom VMs with paravirtualized devices.
+    flag("RELEASE_AVF_SUPPORT_CUSTOM_VM_WITH_PARAVIRTUALIZED_DEVICES", ALL, False),
+
     # If enabled, DeathRecipient is not strongly referenced from JNI.
     flag("RELEASE_BINDER_DEATH_RECIPIENT_WEAK_FROM_JNI", ALL, False, origin="aosp"),
 
