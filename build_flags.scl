@@ -198,6 +198,11 @@ flags = [
     # The name of the virtual camera package to add to the system partition.
     flag("RELEASE_PACKAGE_VIRTUAL_CAMERA", SYSTEM, "", origin="aosp"),
 
+    # Used to set minimum supported target sdk version. Apps targeting sdk
+    # version lower than the set value will result in a warning being shown
+    # when any activity from the app is started.
+    flag("RELEASE_PLATFORM_MIN_SUPPORTED_TARGET_SDK_VERSION", SYSTEM, "28", origin="aosp"),
+
     #  Used to indicate the security patch that has been applied to the device.
     #  It must signify that the build includes all security patches issued up through the designated Android Public Security Bulletin.
     #  It must be of the form "YYYY-MM-DD" on production devices.
