@@ -156,6 +156,30 @@ flags = [
     # apis ("exportable" stubs).
     flag("RELEASE_HIDDEN_API_EXPORTABLE_STUBS", ALL, False, origin="aosp"),
 
+    # Control which version of Kernel 6.1 is installed.
+    flag("RELEASE_KERNEL_BLUEJAY_DIR", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_BLUEJAY_VERSION", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_CHEETAH_DIR", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_CHEETAH_VERSION", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_FELIX_DIR", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_FELIX_VERSION", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_HUSKY_DIR", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_HUSKY_VERSION", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_LYNX_DIR", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_LYNX_VERSION", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_ORIOLE_DIR", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_ORIOLE_VERSION", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_PANTHER_DIR", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_PANTHER_VERSION", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_RAVEN_DIR", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_RAVEN_VERSION", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_RIPCURRENT_DIR", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_RIPCURRENT_VERSION", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_SHIBA_DIR", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_SHIBA_VERSION", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_TANGORPRO_DIR", VENDOR, "", origin="aosp"),
+    flag("RELEASE_KERNEL_TANGORPRO_VERSION", VENDOR, "", origin="aosp"),
+
     # Allow system property storage node to be 1M to accomodate aconfig flags.
     flag("RELEASE_LARGE_SYSTEM_PROPERTY_NODE", ALL, False, origin="aosp"),
 
