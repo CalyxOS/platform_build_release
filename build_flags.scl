@@ -290,5 +290,9 @@ flags = [
 
     # b/318717084 - enable the WebViewBootstrap mainline module
     flag("RELEASE_USE_WEBVIEW_BOOTSTRAP_MODULE", ALL, False, origin="aosp"),
+
+    # flag to enable the writing of appcompat override system properties. Not expected to go
+    # beyond trunk
+    flag("RELEASE_WRITE_APPCOMPAT_OVERRIDE_SYSTEM_PROPERTIES", ALL, False, origin="aosp"),
 ]
 # Flags should be alphabetical by flag name to reduce merge conflifcts
