@@ -273,6 +273,9 @@ flags = [
     # when the VNDK is deprecated
     flag("RELEASE_PLATFORM_VNDK_VERSION", ALL, "35", origin="aosp"),
 
+    # Control if we should read from new storage.
+    flag("RELEASE_READ_FROM_NEW_STORAGE", ALL, False, origin="google"),
+
     # feature flag for removing legacy emoji font from system image.
     flag("RELEASE_REMOVE_LEGACY_EMOJI_FONT", SYSTEM, False, origin="aosp"),
 
