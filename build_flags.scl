@@ -212,6 +212,9 @@ flags = [
     # feature flag for removing legacy emoji font from system image.
     flag("RELEASE_REMOVE_LEGACY_EMOJI_FONT", SYSTEM, False),
 
+    # Control if we should read from new storage.
+    flag("RELEASE_READ_FROM_NEW_STORAGE", ALL, False, origin="google"),
+
     # Enable reading from new storage from C/C++ aconfig flag codegen.
     flag("RELEASE_READ_FROM_NEW_STORAGE_CC", SYSTEM, False),
 
