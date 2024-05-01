@@ -71,6 +71,7 @@ flags = [
     flag("RELEASE_APEX_CONTRIBUTIONS_IPSEC", ALL, None, origin="aosp"),
     flag("RELEASE_APEX_CONTRIBUTIONS_MEDIA", ALL, None, origin="aosp"),
     flag("RELEASE_APEX_CONTRIBUTIONS_MEDIAPROVIDER", ALL, None, origin="aosp"),
+    flag("RELEASE_APEX_CONTRIBUTIONS_MODULE_METADATA", ALL, None, origin="aosp"),
     flag("RELEASE_APEX_CONTRIBUTIONS_NETWORKSTACKGOOGLE", ALL, None, origin="aosp"),
     flag("RELEASE_APEX_CONTRIBUTIONS_NEURALNETWORKS", ALL, None, origin="aosp"),
     flag("RELEASE_APEX_CONTRIBUTIONS_ONDEVICEPERSONALIZATION", ALL, None, origin="aosp"),
