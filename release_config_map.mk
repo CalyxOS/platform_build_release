@@ -25,4 +25,7 @@ $(call declare-release-config, trunk, $(local_dir)build_config/trunk.scl)
 $(call declare-release-config, trunk_food, $(local_dir)build_config/trunk_food.scl, trunk)
 $(call declare-release-config, trunk_staging, $(local_dir)build_config/trunk_staging.scl)
 
+# Temporary config to ease testing build flag migration to protobuf
+$(call declare-release-config, protobuf_flags, $(local_dir)build_config/protobuf_flags.scl, trunk_staging)
+
 local_dir :=
