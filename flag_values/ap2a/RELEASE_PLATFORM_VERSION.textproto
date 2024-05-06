@@ -1,4 +1,4 @@
-name:  "RELEASE_PLATFORM_VERSION"
-value:  {
-  string_value:  "UP1A"
+name: "RELEASE_PLATFORM_VERSION"
+value: {
+  string_value: "UP1A"
 }
