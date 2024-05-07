@@ -1,4 +1,4 @@
-name:  "trunk_food"
-inherits:  "trunk"
-aconfig_value_sets:  "aconfig_value_set-aosp-trunk_food"
-aconfig_flags_only:  true
+name: "trunk_food"
+inherits: "trunk"
+aconfig_value_sets: "aconfig_value_set-aosp-trunk_food"
+aconfig_flags_only: true

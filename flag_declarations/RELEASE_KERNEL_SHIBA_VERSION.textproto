@@ -1,8 +1,8 @@
-name:  "RELEASE_KERNEL_SHIBA_VERSION"
-namespace:  "android_UNKNOWN"
-description:  ""
-value:  {
-  string_value:  ""
+name: "RELEASE_KERNEL_SHIBA_VERSION"
+namespace: "android_UNKNOWN"
+description: ""
+value: {
+  string_value: ""
 }
-workflow:  PREBUILT
-containers:  "vendor"
+workflow: PREBUILT
+containers: "vendor"
