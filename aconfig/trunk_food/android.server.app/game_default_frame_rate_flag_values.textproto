@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.server.app"
-  name: "game_default_frame_rate"
-  state: ENABLED
-  permission: READ_ONLY
-}
