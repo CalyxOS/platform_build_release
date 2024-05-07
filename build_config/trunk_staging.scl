@@ -23,6 +23,7 @@ Build flag values for release config trunk_staging.
 
 load("//build/make/core/release_config.scl", "value")
 
+fail("trunk_staging now uses protobuf")
 # Flags should be alphabetical by flag name to reduce merge conflifcts
 values = [
     # keep-sorted start numeric=yes
@@ -39,6 +40,7 @@ values = [
     value("RELEASE_AVF_SUPPORT_CUSTOM_VM_WITH_PARAVIRTUALIZED_DEVICES", True),
     value("RELEASE_BINDER_DEATH_RECIPIENT_WEAK_FROM_JNI", True),
     value("RELEASE_BOARD_API_LEVEL", "202504"),
+    value("RELEASE_BUILD_FLAGS_IN_PROTOBUF", True),
     value("RELEASE_CREATE_ACONFIG_STORAGE_FILE", True),
     value("RELEASE_DEPRECATE_VNDK", True),
     value("RELEASE_NDK_ABI_MONITORED", True),
