@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.stats"
+  name: "stats_pull_network_stats_manager_init_order_fix"
+  state: ENABLED
+  permission: READ_ONLY
+}
