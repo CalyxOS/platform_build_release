@@ -51,7 +51,7 @@ values = [
     value("RELEASE_KERNEL_CHEETAH_VERSION", "6.1"),
     value("RELEASE_KERNEL_FELIX_DIR", "device/google/felix-kernels/5.10/trunk-11808466"),
     value("RELEASE_KERNEL_FELIX_VERSION", "5.10"),
-    value("RELEASE_KERNEL_HUSKY_DIR", "device/google/shusky-kernels/6.1/trunk-11791747"),
+    value("RELEASE_KERNEL_HUSKY_DIR", "device/google/shusky-kernels/6.1/trunk-11834305"),
     value("RELEASE_KERNEL_HUSKY_VERSION", "6.1"),
     value("RELEASE_KERNEL_LYNX_DIR", "device/google/lynx-kernels/5.10/trunk-11808466"),
     value("RELEASE_KERNEL_LYNX_VERSION", "5.10"),
