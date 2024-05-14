@@ -1,4 +1,0 @@
-name: "RELEASE_KERNEL_BLUEJAY_VERSION"
-value: {
-  string_value: "5.10"
-}
