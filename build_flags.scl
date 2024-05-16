@@ -76,6 +76,7 @@ flags = [
     flag("RELEASE_APEX_CONTRIBUTIONS_NEURALNETWORKS", ALL, None, origin="aosp"),
     flag("RELEASE_APEX_CONTRIBUTIONS_ONDEVICEPERSONALIZATION", ALL, None, origin="aosp"),
     flag("RELEASE_APEX_CONTRIBUTIONS_PERMISSION", ALL, None, origin="aosp"),
+    flag("RELEASE_APEX_CONTRIBUTIONS_PRIMARY_LIBS", ALL, None, origin="aosp"),
     flag("RELEASE_APEX_CONTRIBUTIONS_REMOTEKEYPROVISIONING", ALL, None, origin="aosp"),
     flag("RELEASE_APEX_CONTRIBUTIONS_RESOLV", ALL, None, origin="aosp"),
     flag("RELEASE_APEX_CONTRIBUTIONS_SCHEDULING", ALL, None, origin="aosp"),
