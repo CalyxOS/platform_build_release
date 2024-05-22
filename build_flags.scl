@@ -124,6 +124,9 @@ flags = [
     # apis ("exportable" stubs).
     flag("RELEASE_HIDDEN_API_EXPORTABLE_STUBS", ALL, False),
 
+    # Allow system property storage node to be 1M to accomodate aconfig flags.
+    flag("RELEASE_LARGE_SYSTEM_PROPERTY_NODE", ALL, False),
+
     # The version of mainline prebuilts used when prebuilts are enabled.
     flag("RELEASE_MAINLINE_MODULE_PREBUILT_VERSION", ALL, "mainline_module_prebuilt_nightly"),
 
@@ -158,7 +161,7 @@ flags = [
     flag("RELEASE_PACKAGE_SOUND_PICKER", ALL, "SoundPicker"),
 
     # tzdata to be installed to the system image.
-    flag("RELEASE_PACKAGE_TZDATA_MODULE", ALL, None),
+    flag("RELEASE_PACKAGE_TZDATA_MODULE", ALL, "com.android.tzdata"),
 
     # True for using variable font of the NotoSansCJK
     flag("RELEASE_PACKAGE_VARIABLE_NOTO_SANS_CJK", SYSTEM, False),
@@ -171,13 +174,6 @@ flags = [
     # when any activity from the app is started.
     flag("RELEASE_PLATFORM_MIN_SUPPORTED_TARGET_SDK_VERSION", SYSTEM, "28"),
 
-    # The sdk extension version of this release configuration.
-    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "7"),
-
-    # The SDK version of the platform, e.g. 34 for UDC. This should only be increased
-    # when the API is finalized and the codename is set to rel, not during development.
-    flag("RELEASE_PLATFORM_SDK_VERSION", ALL, "34"),
-
     #  Used to indicate the security patch that has been applied to the device.
     #  It must signify that the build includes all security patches issued up through the designated Android Public Security Bulletin.
     #  It must be of the form "YYYY-MM-DD" on production devices.
@@ -185,9 +181,13 @@ flags = [
     #  If there is no $PLATFORM_SECURITY_PATCH set, keep it empty.
     flag("RELEASE_PLATFORM_SECURITY_PATCH", ALL, "2023-12-05"),
 
-    # The platform version.
-    # TODO(joeo): Remove the default here. Maybe for platform builds not having
-    # a version should be an error and should be allowed for unbundled builds.
+    # The SDK version of the platform, e.g. 34 for UDC. This should only be increased
+    # when the API is finalized and the codename is set to rel, not during development.
+    flag("RELEASE_PLATFORM_SDK_VERSION", ALL, "34"),
+
+    # The sdk extension version of this release configuration.
+    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "11"),
+
     # The platform version. This is the 4 letter code, e.g. UD1A, UPB1, ZP1A, etc.
     flag("RELEASE_PLATFORM_VERSION", ALL, "ZP1A"),
 
