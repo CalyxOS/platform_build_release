@@ -1,6 +1,0 @@
-flag_value {
-  package: "com.android.server.telecom.flags"
-  name: "separately_bind_to_bt_incall_service"
-  state: ENABLED
-  permission: READ_WRITE
-}
