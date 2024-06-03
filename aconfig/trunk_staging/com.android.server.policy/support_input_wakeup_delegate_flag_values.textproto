@@ -1,6 +1,0 @@
-flag_value {
-  package: "com.android.server.policy"
-  name: "support_input_wakeup_delegate"
-  state: ENABLED
-  permission: READ_WRITE
-}

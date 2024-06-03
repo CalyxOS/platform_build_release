@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.service.notification"
-  name: "redact_sensitive_notifications_from_untrusted_listeners"
-  state: ENABLED
-  permission: READ_WRITE
-}

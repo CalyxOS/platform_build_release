@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.os"
-  name: "telemetry_apis_framework_initialization"
-  state: ENABLED
-  permission: READ_ONLY
-}

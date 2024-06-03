@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.permission.flags"
-  name: "retail_demo_role_enabled"
-  state: ENABLED
-  permission: READ_WRITE
-}
