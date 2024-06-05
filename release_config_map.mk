@@ -22,4 +22,7 @@ FLAG_DECLARATION_FILES := $(local_dir)build_flags.scl
 # Attach the flag value definitions to the various release configurations.
 $(call declare-release-config, trunk_staging, $(local_dir)build_config/trunk_staging.scl)
 
+# 24Q2, aka AP2A
+$(call declare-release-config, ap2a, $(local_dir)build_config/ap2a.scl)
+
 local_dir :=
