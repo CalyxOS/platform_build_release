@@ -15,7 +15,6 @@
 aconfig_value_set {
     name: "aconfig_value_set-aosp-trunk_staging",
     values: [
-      "aconfig_values-aosp-root-all",
       "aconfig-values-aosp-trunk_staging-com.android.providers.settings-all",
       "aconfig-values-aosp-trunk_staging-com.android.system.virtualmachine.flags-all",
       "aconfig-values-aosp-trunk_staging-com.android.internal.pm.pkg.component.flags-all",
