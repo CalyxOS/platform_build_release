@@ -15,7 +15,6 @@
 aconfig_value_set {
     name: "aconfig_value_set-aosp-trunk_staging",
     values: [
-        "aconfig_values-aosp-root-all",
         "aconfig-values-aosp-trunk_staging-com.android.internal.foldables.flags-all",
         "aconfig-values-aosp-trunk_staging-android.media.audio-all",
         "aconfig-values-aosp-trunk_staging-com.android.server.telecom.flags-all",
