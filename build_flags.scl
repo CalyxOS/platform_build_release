@@ -49,6 +49,12 @@ flags = [
     # Move ANGLE libraries from vendor partition to system partition.
     flag("RELEASE_ANGLE_ON_SYSTEM", ALL, False),
 
+    # jars need to be excluded from Apex Boot Jars for targets with mainline prebuilts enabled.
+    flag("RELEASE_APEX_BOOT_JARS_PREBUILT_EXCLUDED_LIST", ALL, ""),
+
+    # Move User avatar picker from SettingsLib to preinstalled app.
+    flag("RELEASE_AVATAR_PICKER_APP", ALL, False),
+
     # Enables acces to the AVF APIs to pre-installed apps.
     flag("RELEASE_AVF_ALLOW_PREINSTALLED_APPS", SYSTEM, False),
 
@@ -72,6 +78,12 @@ flags = [
     # Enables loading vendor modules (both kernel & userspace) in Microdroid VM.
     flag("RELEASE_AVF_ENABLE_VENDOR_MODULES", ALL, False),
 
+    # Enables Virtual Cpufreq support in Microdroid VM.
+    flag("RELEASE_AVF_ENABLE_VIRT_CPUFREQ", ALL, False),
+
+    # Specify which Microdroid kernel version to use for Microdroid VMs.
+    flag("RELEASE_AVF_MICRODROID_KERNEL_VERSION", SYSTEM, None),
+
     # If enabled, DeathRecipient is not strongly referenced from JNI.
     flag("RELEASE_BINDER_DEATH_RECIPIENT_WEAK_FROM_JNI", ALL, False),
 
@@ -81,39 +93,70 @@ flags = [
     # Set to True to freeze the board API level with vendor FRC
     flag("RELEASE_BOARD_API_LEVEL_FROZEN", ALL, False),
 
+    # If true, then crashrecovery module is enabled as an apex
+    flag("RELEASE_CRASHRECOVERY_MODULE", ALL, False),
+
+    # If true, then files are moved from platform to apex
+    flag("RELEASE_CRASHRECOVERY_FILE_MOVE", ALL, False),
+
+    # Enable build system to create new aconfig storage files.
+    flag("RELEASE_CREATE_ACONFIG_STORAGE_FILE", ALL, False),
+
     # The behavior for the tree wrt building mainline modules or using prebuilts
     flag("RELEASE_DEFAULT_MODULE_BUILD_FROM_SOURCE", ALL, True),
 
     # feature flag to deprecate VNDK
     flag("RELEASE_DEPRECATE_VNDK", ALL, False),
 
-    # Enables flagged apis to be exposed.
-    flag("RELEASE_EXPOSE_FLAGGED_API", ALL, True),
-
     # Enables Bluetooth Ranging Service
     flag("RELEASE_HARDWARE_BLUETOOTH_RANGING_SERVICE", ALL, True),
+
+    # b/319697968: Flag to determine the dependency of hiddenapi to the stubs that contain all
+    # flagged apis ("everything" stubs), or to the stubs that contain only the enabled flagged
+    # apis ("exportable" stubs).
+    flag("RELEASE_HIDDEN_API_EXPORTABLE_STUBS", ALL, False),
+
+    # Allow system property storage node to be 1M to accomodate aconfig flags.
+    flag("RELEASE_LARGE_SYSTEM_PROPERTY_NODE", ALL, False),
 
     # The version of mainline prebuilts used when prebuilts are enabled.
     flag("RELEASE_MAINLINE_MODULE_PREBUILT_VERSION", ALL, "mainline_module_prebuilt_nightly"),
 
+    # If true, then files are moved from platform to apex
+    flag("RELEASE_MOVE_PDFRENDERER_TO_MODULE", ALL, False),
+
     # Enables ABI monitoring of NDK libraries.
     flag("RELEASE_NDK_ABI_MONITORED", ALL, False),
+
+    # Version of the emoji font file.
+    flag("RELEASE_PACKAGE_EMOJI_FONT_VERSION", SYSTEM, "2.042"),
+
+    # Version of the flag emoji font file.
+    flag("RELEASE_PACKAGE_FLAG_EMOJI_FONT_VERSION", SYSTEM, "2.034"),
+
+    # This flag will control of including Japanese variant (Hentaigana) font.
+    flag("RELEASE_PACKAGE_HENTAIGANA_FONT", SYSTEM, False),
+
+    # The sqlite release.
+    flag("RELEASE_PACKAGE_LIBSQLITE3", SYSTEM, ""),
 
     # b/292140387: Flag to switch to the new NFC apex
     flag("RELEASE_PACKAGE_NFC_STACK", SYSTEM, "NfcNci"),
 
+    # Flag will control the release of the Profiling module apex.
+    flag("RELEASE_PACKAGE_PROFILING_MODULE", ALL, False),
+
     # This flag will control the rollout of new versions of the SoundPicker app.
     flag("RELEASE_PACKAGE_SOUND_PICKER", ALL, "SoundPicker"),
 
+    # tzdata to be installed to the system image.
+    flag("RELEASE_PACKAGE_TZDATA_MODULE", ALL, "com.android.tzdata"),
+
+    # True for using variable font of the NotoSansCJK
+    flag("RELEASE_PACKAGE_VARIABLE_NOTO_SANS_CJK", SYSTEM, False),
+
     # The name of the virtual camera package to add to the system partition.
     flag("RELEASE_PACKAGE_VIRTUAL_CAMERA", SYSTEM, ""),
-
-    # The sdk extension version of this release configuration.
-    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "11"),
-
-    # The SDK version of the platform, e.g. 34 for UDC. This should only be increased
-    # when the API is finalized and the codename is set to rel, not during development.
-    flag("RELEASE_PLATFORM_SDK_VERSION", ALL, "34"),
 
     #  Used to indicate the security patch that has been applied to the device.
     #  It must signify that the build includes all security patches issued up through the designated Android Public Security Bulletin.
@@ -122,16 +165,23 @@ flags = [
     #  If there is no $PLATFORM_SECURITY_PATCH set, keep it empty.
     flag("RELEASE_PLATFORM_SECURITY_PATCH", ALL, "2023-12-05"),
 
+    # The SDK version of the platform, e.g. 34 for UDC. This should only be increased
+    # when the API is finalized and the codename is set to rel, not during development.
+    flag("RELEASE_PLATFORM_SDK_VERSION", ALL, "34"),
+
+    # The sdk extension version of this release configuration.
+    flag("RELEASE_PLATFORM_SDK_EXTENSION_VERSION", ALL, "11"),
+
     # The platform version. This is the 4 letter code, e.g. UD1A, UPB1, ZP1A, etc.
     flag("RELEASE_PLATFORM_VERSION", ALL, "ZP1A"),
 
     # A comma separated list of all codenames that are in preview.
     # This variable is sort of a lie for historical reasons and only
     # includes codenames up to and including the currently active codename
-    flag("RELEASE_PLATFORM_VERSION_ALL_CODENAMES", ALL, "UpsideDownCake,VanillaIceCream"),
+    flag("RELEASE_PLATFORM_VERSION_ALL_CODENAMES", ALL, "VanillaIceCream"),
 
     # A comma separated list of all preview codenames the platform will accept apps built against
-    flag("RELEASE_PLATFORM_VERSION_ALL_PREVIEW_CODENAMES", ALL, "UpsideDownCake,VanillaIceCream"),
+    flag("RELEASE_PLATFORM_VERSION_ALL_PREVIEW_CODENAMES", ALL, "VanillaIceCream"),
 
     # Set to REL for production platform builds, otherwise the codename string,
     # e.g. UpsideDownCake or VanillaIceCream
@@ -153,4 +203,14 @@ flags = [
 
     # feature flag for removing legacy emoji font from system image.
     flag("RELEASE_REMOVE_LEGACY_EMOJI_FONT", SYSTEM, False),
+
+    # feature flag for a new API to open declared passthrough HAL
+    flag("RELEASE_SM_OPEN_DECLARED_PASSTHROUGH_HAL", ALL, False),
+
+    # feature flag for enabling use_resource_processor: true by default
+    flag("RELEASE_USE_RESOURCE_PROCESSOR_BY_DEFAULT", ALL, False),
+
+    # b/318717084 - enable the WebViewBootstrap mainline module
+    flag("RELEASE_USE_WEBVIEW_BOOTSTRAP_MODULE", ALL, False),
 ]
+# Flags should be alphabetical by flag name to reduce merge conflifcts
