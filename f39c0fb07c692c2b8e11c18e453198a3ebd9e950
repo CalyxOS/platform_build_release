@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f7761fe_23b9bddc",
+        "filename": "build_config/ap2a.scl",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-09-04T09:08:46Z",
+      "side": 1,
+      "message": "What? 😄\n\nAccidental change in AOSP? https://android.googlesource.com/platform/build/release/+/e4fc71a1aef3d297e11f710d4e31fc34f77bfd90%5E%21/#F0",
+      "revId": "f39c0fb07c692c2b8e11c18e453198a3ebd9e950",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
