@@ -16,6 +16,23 @@
       "message": "What does this do? It should be in the commit message.",
       "revId": "0a55f1b61fa3dd660437d5d617bcb1bd66ba4c89",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc7afe2f_fa00faa1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-07T21:21:27Z",
+      "side": 1,
+      "message": "Also, don\u0027t we have a way to put these in `vendor/calyx` instead?",
+      "revId": "0a55f1b61fa3dd660437d5d617bcb1bd66ba4c89",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
