@@ -16,6 +16,24 @@
       "message": "I think we should do 2024-10-01 since that\u0027s technically correct. Even with our split.\n\nThe patches we picked and refer to here are from the \u00272024-10-01\u0027 section.\n\nIt does open a whole other discussion wrt other devices / coming months, but at least for this, \u00272024-10-01\u0027 would be the most accurate for all devices.\n\nWe don\u0027t necessarily need to solve it this month, but it\u0027d be good to start the conversation at least.",
       "revId": "9140ff5f2f136ce8ee2b7423ce8cce1d0d9dbd22",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "495f69f5_088768f9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-08T19:50:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8409ac51_31efe77d",
+      "revId": "9140ff5f2f136ce8ee2b7423ce8cce1d0d9dbd22",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
