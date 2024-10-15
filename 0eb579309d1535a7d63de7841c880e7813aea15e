@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "adeba8a5_39a599e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-15T16:27:38Z",
+      "side": 1,
+      "message": "testing aconfig extensions:\n\nremote:   https://review.calyxos.org/c/CalyxOS/vendor_calyx/+/31549 release: Add aconfig flags extension for AP3A        \nremote:   https://review.calyxos.org/c/CalyxOS/vendor_calyx/+/31550 aconfig: Add release and buildconfig textproto        \nremote:   https://review.calyxos.org/c/CalyxOS/vendor_calyx/+/31551 aconfig: Enable cross_user_suspension feature",
+      "revId": "0eb579309d1535a7d63de7841c880e7813aea15e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
