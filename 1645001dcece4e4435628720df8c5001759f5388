@@ -16,6 +16,24 @@
       "message": "Mention patches in commit msg",
       "revId": "1645001dcece4e4435628720df8c5001759f5388",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86cdc608_ee5a0b16",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-12-02T21:01:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8f1bee77_d72a9e69",
+      "revId": "1645001dcece4e4435628720df8c5001759f5388",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
