@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f1bee77_d72a9e69",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-12-02T19:49:39Z",
+      "side": 1,
+      "message": "Mention patches in commit msg",
+      "revId": "1645001dcece4e4435628720df8c5001759f5388",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
