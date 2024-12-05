@@ -16,6 +16,24 @@
       "message": "Why are the skia CVEs in \"Previously Implemented\"? They are in https://review.calyxos.org/c/CalyxOS/platform_external_skia/+/32937",
       "revId": "bbdafb1a04c5f783a6b36bea96aff1363d1fa555",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24d3e587_b223b205",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-12-05T15:37:36Z",
+      "side": 1,
+      "message": "Because I accidentally copied the ASB\u0027s framework to implemented (first section to first section), and system to not implemented (second section to second section)\n\nFixed.",
+      "parentUuid": "e59d97f2_e4eaa753",
+      "revId": "bbdafb1a04c5f783a6b36bea96aff1363d1fa555",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
