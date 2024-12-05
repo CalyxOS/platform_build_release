@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e59d97f2_e4eaa753",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-12-05T15:18:02Z",
+      "side": 1,
+      "message": "Why are the skia CVEs in \"Previously Implemented\"? They are in https://review.calyxos.org/c/CalyxOS/platform_external_skia/+/32937",
+      "revId": "bbdafb1a04c5f783a6b36bea96aff1363d1fa555",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
