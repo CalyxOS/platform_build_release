@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac33e02f_a10224a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-12-09T17:20:32Z",
+      "side": 1,
+      "message": "I was going to comment that the kernels aren\u0027t right but then I realised the conflicts are with ap3a but we\u0027re now on ap4a. All good then, especially given build works, boots.",
+      "revId": "f9e0ba6a2f5be05f02b66179eda7d636db53f38f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
