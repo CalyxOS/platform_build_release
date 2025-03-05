@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.healthfitness.flags"
+  name: "permission_tracker_fix_mapping_init"
+  state: ENABLED
+  permission: READ_ONLY
+}

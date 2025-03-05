@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "leaudio_big_depends_on_audio_state"
+  state: ENABLED
+  permission: READ_WRITE
+}

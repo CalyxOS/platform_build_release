@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "enhanced_confirmation_in_call_apis_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

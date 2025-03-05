@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "signal_connecting_on_focus_gain"
+  state: ENABLED
+  permission: READ_WRITE
+}

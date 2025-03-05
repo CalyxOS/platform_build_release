@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "respect_animation_clip"
+  state: ENABLED
+  permission: READ_ONLY
+}

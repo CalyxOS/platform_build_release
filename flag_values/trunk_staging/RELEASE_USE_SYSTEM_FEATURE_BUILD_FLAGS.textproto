@@ -1,0 +1,4 @@
+name: "RELEASE_USE_SYSTEM_FEATURE_BUILD_FLAGS"
+value: {
+  bool_value: true
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.service.autofill"
+  name: "highlight_autofill_single_field"
+  state: ENABLED
+  permission: READ_WRITE
+}

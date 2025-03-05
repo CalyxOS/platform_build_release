@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app.job"
+  name: "handle_abandoned_jobs"
+  state: ENABLED
+  permission: READ_WRITE
+}

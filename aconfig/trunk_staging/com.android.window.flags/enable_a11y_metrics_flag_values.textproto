@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "enable_a11y_metrics"
+  state: ENABLED
+  permission: READ_WRITE
+}

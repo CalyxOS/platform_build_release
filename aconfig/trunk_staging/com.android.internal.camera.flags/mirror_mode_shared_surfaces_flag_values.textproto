@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.camera.flags"
+  name: "mirror_mode_shared_surfaces"
+  state: ENABLED
+  permission: READ_WRITE
+}

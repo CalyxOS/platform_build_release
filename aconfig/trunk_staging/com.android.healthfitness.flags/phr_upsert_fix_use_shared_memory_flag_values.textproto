@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.healthfitness.flags"
+  name: "phr_upsert_fix_use_shared_memory"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,4 @@
+name: "RELEASE_MEMORY_MANAGEMENT_DAEMON"
+value: {
+  bool_value: true
+}

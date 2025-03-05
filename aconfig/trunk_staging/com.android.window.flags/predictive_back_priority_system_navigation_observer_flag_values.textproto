@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "predictive_back_priority_system_navigation_observer"
+  state: ENABLED
+  permission: READ_ONLY
+}

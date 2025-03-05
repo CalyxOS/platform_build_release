@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.os"
+  name: "message_queue_testability"
+  state: ENABLED
+  permission: READ_ONLY
+}

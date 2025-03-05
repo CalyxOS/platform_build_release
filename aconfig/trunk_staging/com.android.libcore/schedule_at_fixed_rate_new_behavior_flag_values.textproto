@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.libcore"
+  name: "schedule_at_fixed_rate_new_behavior"
+  state: ENABLED
+  permission: READ_ONLY
+}

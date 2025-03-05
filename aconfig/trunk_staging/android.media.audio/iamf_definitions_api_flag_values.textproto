@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.audio"
+  name: "iamf_definitions_api"
+  state: ENABLED
+  permission: READ_WRITE
+}

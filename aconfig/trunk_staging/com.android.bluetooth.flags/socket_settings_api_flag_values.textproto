@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "socket_settings_api"
+  state: ENABLED
+  permission: READ_WRITE
+}

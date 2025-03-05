@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.text.flags"
+  name: "handwriting_unsupported_show_soft_input_fix"
+  state: ENABLED
+  permission: READ_WRITE
+}

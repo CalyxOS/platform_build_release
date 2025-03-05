@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "leaudio_broadcast_resync_helper"
+  state: ENABLED
+  permission: READ_WRITE
+}

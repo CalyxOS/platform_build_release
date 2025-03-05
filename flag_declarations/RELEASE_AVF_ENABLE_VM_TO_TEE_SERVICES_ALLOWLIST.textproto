@@ -1,0 +1,8 @@
+name: "RELEASE_AVF_ENABLE_VM_TO_TEE_SERVICES_ALLOWLIST"
+namespace: "android_virtualization"
+description: "Support for allowing some vms to access vendor smc services (b/360102915)"
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "system"

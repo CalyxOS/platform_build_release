@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.adservices.ondevicepersonalization.flags"
+  name: "executorch_inference_api_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

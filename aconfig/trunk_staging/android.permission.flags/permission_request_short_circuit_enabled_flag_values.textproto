@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "permission_request_short_circuit_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

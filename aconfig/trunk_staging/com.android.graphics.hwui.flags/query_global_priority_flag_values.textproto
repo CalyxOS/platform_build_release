@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.graphics.hwui.flags"
+  name: "query_global_priority"
+  state: ENABLED
+  permission: READ_WRITE
+}

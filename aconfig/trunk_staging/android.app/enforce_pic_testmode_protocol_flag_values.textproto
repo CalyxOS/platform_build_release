@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "enforce_pic_testmode_protocol"
+  state: ENABLED
+  permission: READ_ONLY
+}

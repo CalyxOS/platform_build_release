@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "appop_mode_caching_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.adservices.ondevicepersonalization.flags"
+  name: "execute_in_isolated_service_api_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

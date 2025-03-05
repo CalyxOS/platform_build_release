@@ -14,7 +14,7 @@
 
 aconfig_value_set {
     name: "aconfig_value_set-platform_build_release-root",
-    values: [
-        "aconfig-values-platform_build_release-root-com.android.aconfig.test-all"
-    ]
+    srcs: [
+        "*/Android.bp",
+    ],
 }

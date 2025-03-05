@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.nfc.flags"
+  name: "allow_multiple_hce_bindings"
+  state: ENABLED
+  permission: READ_WRITE
+}

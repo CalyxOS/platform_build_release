@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.display.feature.flags"
+  name: "enable_apply_display_changed_during_display_added"
+  state: ENABLED
+  permission: READ_ONLY
+}

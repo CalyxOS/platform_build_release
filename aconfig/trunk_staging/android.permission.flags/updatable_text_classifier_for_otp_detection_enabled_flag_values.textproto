@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "updatable_text_classifier_for_otp_detection_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

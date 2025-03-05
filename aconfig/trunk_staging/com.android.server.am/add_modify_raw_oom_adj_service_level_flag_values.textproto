@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.am"
+  name: "add_modify_raw_oom_adj_service_level"
+  state: ENABLED
+  permission: READ_WRITE
+}

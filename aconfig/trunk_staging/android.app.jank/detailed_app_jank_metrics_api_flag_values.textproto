@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app.jank"
+  name: "detailed_app_jank_metrics_api"
+  state: ENABLED
+  permission: READ_WRITE
+}

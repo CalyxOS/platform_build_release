@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settingslib.flags"
+  name: "settings_preference_write_consent_enabled"
+  state: ENABLED
+  permission: READ_WRITE
+}

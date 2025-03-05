@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "status_bar_auto_start_screen_record_chip"
+  state: ENABLED
+  permission: READ_WRITE
+}

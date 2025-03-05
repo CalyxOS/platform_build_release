@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.display.feature.flags"
+  name: "is_always_on_available_api"
+  state: ENABLED
+  permission: READ_ONLY
+}

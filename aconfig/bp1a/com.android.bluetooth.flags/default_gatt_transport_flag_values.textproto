@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "default_gatt_transport"
+  state: ENABLED
+  permission: READ_ONLY
+}

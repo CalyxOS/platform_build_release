@@ -1,0 +1,6 @@
+flag_value {
+  package: "libgooglecamerahal.flags"
+  name: "disable_capture_request_timeout"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "reset_draw_state_on_client_invisible"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.swcodec.flags"
+  name: "apv_software_codec"
+  state: ENABLED
+  permission: READ_ONLY
+}

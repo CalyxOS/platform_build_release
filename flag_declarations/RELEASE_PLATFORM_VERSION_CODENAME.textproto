@@ -1,5 +1,5 @@
 name: "RELEASE_PLATFORM_VERSION_CODENAME"
-namespace: "android_UNKNOWN"
+namespace: "android_sdk"
 description: "Set to REL for production platform builds, otherwise the codename string, e.g. UpsideDownCake or VanillaIceCream"
 value: {
   string_value: "VanillaIceCream"

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.camera.flags"
+  name: "depth_jpeg_extensions"
+  state: ENABLED
+  permission: READ_WRITE
+}

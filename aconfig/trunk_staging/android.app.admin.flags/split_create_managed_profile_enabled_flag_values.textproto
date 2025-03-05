@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app.admin.flags"
+  name: "split_create_managed_profile_enabled"
+  state: ENABLED
+  permission: READ_WRITE
+}

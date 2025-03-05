@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.multiuser"
+  name: "cache_profiles_read_only"
+  state: ENABLED
+  permission: READ_ONLY
+}

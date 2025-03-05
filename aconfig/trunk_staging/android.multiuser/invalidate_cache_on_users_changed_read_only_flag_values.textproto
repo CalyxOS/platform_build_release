@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.multiuser"
+  name: "invalidate_cache_on_users_changed_read_only"
+  state: ENABLED
+  permission: READ_ONLY
+}

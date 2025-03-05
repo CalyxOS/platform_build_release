@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.display.feature.flags"
+  name: "enable_waiting_confirmation_before_mirroring"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.hardware.radio"
+  name: "hd_radio_emergency_alert_system"
+  state: ENABLED
+  permission: READ_WRITE
+}

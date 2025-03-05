@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_NEURALNETWORKS"
+value: {
+  string_value: "neuralnetworks.google.contributions.prebuilt"
+}

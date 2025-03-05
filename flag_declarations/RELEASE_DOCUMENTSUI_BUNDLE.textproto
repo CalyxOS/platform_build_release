@@ -1,0 +1,6 @@
+name: "RELEASE_DOCUMENTSUI_BUNDLE"
+namespace: "documentsui"
+description: "If true, then DocumentsUI is enabled as an apex"
+workflow: LAUNCH
+containers: "system"
+containers: "vendor"

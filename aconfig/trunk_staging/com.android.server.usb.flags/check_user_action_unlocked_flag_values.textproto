@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.usb.flags"
+  name: "check_user_action_unlocked"
+  state: ENABLED
+  permission: READ_WRITE
+}

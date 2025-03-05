@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.appsearch.flags"
+  name: "enable_additional_builder_copy_constructors"
+  state: ENABLED
+  permission: READ_ONLY
+}

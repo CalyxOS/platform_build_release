@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "multiuser_wifi_picker_tracker_support"
+  state: ENABLED
+  permission: READ_WRITE
+}

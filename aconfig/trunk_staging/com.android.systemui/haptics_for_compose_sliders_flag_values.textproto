@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "haptics_for_compose_sliders"
+  state: ENABLED
+  permission: READ_WRITE
+}

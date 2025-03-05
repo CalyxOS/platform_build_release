@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "remove_pending_hid_connection"
+  state: ENABLED
+  permission: READ_WRITE
+}

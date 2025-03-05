@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "filter_irrelevant_input_device_change"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.companion.virtualdevice.flags"
+  name: "default_device_camera_access_policy"
+  state: ENABLED
+  permission: READ_WRITE
+}

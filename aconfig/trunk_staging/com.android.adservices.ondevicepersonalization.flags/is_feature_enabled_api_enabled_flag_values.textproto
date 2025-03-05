@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.adservices.ondevicepersonalization.flags"
+  name: "is_feature_enabled_api_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

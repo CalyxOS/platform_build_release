@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settingslib.flags"
+  name: "hearing_devices_input_routing_control"
+  state: ENABLED
+  permission: READ_WRITE
+}

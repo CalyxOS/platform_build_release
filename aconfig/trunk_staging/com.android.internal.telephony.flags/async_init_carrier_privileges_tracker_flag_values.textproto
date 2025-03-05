@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.telephony.flags"
+  name: "async_init_carrier_privileges_tracker"
+  state: ENABLED
+  permission: READ_WRITE
+}

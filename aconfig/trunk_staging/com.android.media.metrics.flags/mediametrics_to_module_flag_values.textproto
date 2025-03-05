@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.media.metrics.flags"
+  name: "mediametrics_to_module"
+  state: ENABLED
+  permission: READ_WRITE
+}

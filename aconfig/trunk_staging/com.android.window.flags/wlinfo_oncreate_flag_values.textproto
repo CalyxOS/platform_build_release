@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "wlinfo_oncreate"
+  state: ENABLED
+  permission: READ_WRITE
+}

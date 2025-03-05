@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "show_toast_when_app_control_brightness"
+  state: ENABLED
+  permission: READ_WRITE
+}

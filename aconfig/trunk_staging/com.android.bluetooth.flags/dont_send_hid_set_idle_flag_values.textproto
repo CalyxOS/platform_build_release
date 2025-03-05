@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "dont_send_hid_set_idle"
+  state: ENABLED
+  permission: READ_WRITE
+}

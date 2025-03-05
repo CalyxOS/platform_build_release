@@ -1,0 +1,11 @@
+name: "RELEASE_HARDWARE_AUDIO_USE_CAP_AIDL"
+namespace: "media_audio"
+description: "Enables use of Configurable Audio Policy via AIDL HAL. When the flag is 'false' the framework falls back to loading the CAP config directly from the vendor partition (as it used to be with HIDL)."
+value: {
+  bool_value: true
+}
+workflow: LAUNCH
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

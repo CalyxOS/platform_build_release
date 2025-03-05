@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "queue_dis_requests"
+  state: ENABLED
+  permission: READ_WRITE
+}

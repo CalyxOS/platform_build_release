@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.camera.flags"
+  name: "enable_stream_reconfiguration_for_unchanged_streams"
+  state: ENABLED
+  permission: READ_WRITE
+}

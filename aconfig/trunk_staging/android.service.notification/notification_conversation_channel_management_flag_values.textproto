@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.service.notification"
+  name: "notification_conversation_channel_management"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.input.flags"
+  name: "enable_per_device_input_latency_metrics"
+  state: ENABLED
+  permission: READ_WRITE
+}

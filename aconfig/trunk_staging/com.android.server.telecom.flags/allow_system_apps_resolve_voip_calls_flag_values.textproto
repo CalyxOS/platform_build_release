@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.telecom.flags"
+  name: "allow_system_apps_resolve_voip_calls"
+  state: ENABLED
+  permission: READ_WRITE
+}

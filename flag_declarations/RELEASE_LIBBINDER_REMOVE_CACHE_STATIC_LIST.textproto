@@ -1,0 +1,6 @@
+name: "RELEASE_LIBBINDER_REMOVE_CACHE_STATIC_LIST"
+namespace: "system_performance"
+description: "Remove the static list from cache and use flags instead"
+workflow: LAUNCH
+containers: "system"
+

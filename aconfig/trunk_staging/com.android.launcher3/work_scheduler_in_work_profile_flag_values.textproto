@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.launcher3"
+  name: "work_scheduler_in_work_profile"
+  state: ENABLED
+  permission: READ_WRITE
+}

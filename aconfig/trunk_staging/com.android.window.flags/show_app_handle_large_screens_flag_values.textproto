@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "show_app_handle_large_screens"
+  state: ENABLED
+  permission: READ_WRITE
+}

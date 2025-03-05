@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.appsearch.flags"
+  name: "enable_apps_indexer_incremental_put"
+  state: ENABLED
+  permission: READ_ONLY
+}

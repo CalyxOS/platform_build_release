@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.wifi.flags"
+  name: "autojoin_restriction_security_types_api"
+  state: ENABLED
+  permission: READ_ONLY
+}

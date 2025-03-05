@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.example.android.aconfig.demo.flags"
+  name: "pc_test_7"
+  state: ENABLED
+  permission: READ_WRITE
+}

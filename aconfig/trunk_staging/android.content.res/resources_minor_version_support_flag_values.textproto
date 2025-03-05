@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.content.res"
+  name: "resources_minor_version_support"
+  state: ENABLED
+  permission: READ_ONLY
+}

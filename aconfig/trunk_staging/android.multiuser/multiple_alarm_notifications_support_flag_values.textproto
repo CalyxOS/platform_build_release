@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.multiuser"
+  name: "multiple_alarm_notifications_support"
+  state: ENABLED
+  permission: READ_WRITE
+}

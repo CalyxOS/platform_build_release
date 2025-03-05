@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.tv.flags"
+  name: "set_resource_holder_retain"
+  state: ENABLED
+  permission: READ_WRITE
+}

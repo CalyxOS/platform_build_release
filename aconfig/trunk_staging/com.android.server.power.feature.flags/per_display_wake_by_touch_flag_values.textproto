@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.power.feature.flags"
+  name: "per_display_wake_by_touch"
+  state: ENABLED
+  permission: READ_ONLY
+}

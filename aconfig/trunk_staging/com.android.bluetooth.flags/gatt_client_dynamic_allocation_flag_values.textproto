@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "gatt_client_dynamic_allocation"
+  state: ENABLED
+  permission: READ_WRITE
+}

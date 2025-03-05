@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.media.editing.flags"
+  name: "muxer_mp4_enable_apv"
+  state: ENABLED
+  permission: READ_WRITE
+}

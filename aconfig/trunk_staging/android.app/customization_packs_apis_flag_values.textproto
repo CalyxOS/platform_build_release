@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "customization_packs_apis"
+  state: ENABLED
+  permission: READ_WRITE
+}

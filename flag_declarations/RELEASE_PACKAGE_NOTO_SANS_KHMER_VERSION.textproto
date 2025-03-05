@@ -1,0 +1,9 @@
+name: "RELEASE_PACKAGE_NOTO_SANS_KHMER_VERSION"
+namespace: "text"
+description: "Version of the Noto Sans Khmer font."
+value: {
+  string_value: "1.901"
+}
+workflow: PREBUILT
+containers: "system"
+

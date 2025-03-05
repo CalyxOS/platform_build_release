@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.security.keystore2"
+  name: "use_blob_state_column"
+  state: ENABLED
+  permission: READ_ONLY
+}

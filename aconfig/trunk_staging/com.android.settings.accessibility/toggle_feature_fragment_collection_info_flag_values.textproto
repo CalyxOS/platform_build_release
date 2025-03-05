@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.accessibility"
+  name: "toggle_feature_fragment_collection_info"
+  state: ENABLED
+  permission: READ_WRITE
+}

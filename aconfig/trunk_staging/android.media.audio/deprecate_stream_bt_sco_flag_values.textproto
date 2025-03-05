@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.audio"
+  name: "deprecate_stream_bt_sco"
+  state: ENABLED
+  permission: READ_WRITE
+}

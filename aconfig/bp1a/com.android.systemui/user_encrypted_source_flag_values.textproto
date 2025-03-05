@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "user_encrypted_source"
+  state: ENABLED
+  permission: READ_ONLY
+}

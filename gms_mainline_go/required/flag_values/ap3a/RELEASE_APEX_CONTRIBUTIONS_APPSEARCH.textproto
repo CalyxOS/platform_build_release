@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_APPSEARCH"
+value: {
+  string_value: "appsearch.go.google.contributions.prebuilt"
+}

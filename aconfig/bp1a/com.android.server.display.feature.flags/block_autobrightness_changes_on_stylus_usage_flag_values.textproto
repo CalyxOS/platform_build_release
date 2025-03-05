@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.display.feature.flags"
+  name: "block_autobrightness_changes_on_stylus_usage"
+  state: ENABLED
+  permission: READ_ONLY
+}

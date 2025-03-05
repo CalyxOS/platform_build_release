@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.adservices.flags"
+  name: "fledge_enable_winning_seller_id_in_ad_selection_outcome"
+  state: ENABLED
+  permission: READ_WRITE
+}

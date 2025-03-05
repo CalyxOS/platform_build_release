@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "rfcomm_cancel_ongoing_sdp_on_close"
+  state: ENABLED
+  permission: READ_WRITE
+}

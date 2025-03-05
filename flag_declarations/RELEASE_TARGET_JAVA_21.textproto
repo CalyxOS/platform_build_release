@@ -1,0 +1,11 @@
+name: "RELEASE_TARGET_JAVA_21"
+namespace: "core_libraries"
+description: "Control if we should target java 21."
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

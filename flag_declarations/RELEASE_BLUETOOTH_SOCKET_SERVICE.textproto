@@ -1,0 +1,11 @@
+name: "RELEASE_BLUETOOTH_SOCKET_SERVICE"
+namespace: "android_UNKNOWN"
+description: "Enables Bluetooth Socket Service"
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

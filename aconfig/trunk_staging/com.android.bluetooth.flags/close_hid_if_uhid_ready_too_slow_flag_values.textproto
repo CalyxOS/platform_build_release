@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "close_hid_if_uhid_ready_too_slow"
+  state: ENABLED
+  permission: READ_WRITE
+}

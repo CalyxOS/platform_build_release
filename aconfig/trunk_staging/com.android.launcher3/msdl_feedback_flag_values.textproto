@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.launcher3"
+  name: "msdl_feedback"
+  state: ENABLED
+  permission: READ_WRITE
+}

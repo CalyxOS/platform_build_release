@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.os"
+  name: "material_shape_tokens"
+  state: ENABLED
+  permission: READ_WRITE
+}

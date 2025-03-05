@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "device_unlock_listener"
+  state: ENABLED
+  permission: READ_WRITE
+}

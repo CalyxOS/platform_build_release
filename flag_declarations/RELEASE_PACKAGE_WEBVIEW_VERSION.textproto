@@ -1,0 +1,9 @@
+name: "RELEASE_PACKAGE_WEBVIEW_VERSION"
+namespace: "webview"
+description: "The version of WebView to include in the build"
+value: {
+  string_value: "128.0.6613.88"
+}
+workflow: PREBUILT
+containers: "product"
+containers: "system"

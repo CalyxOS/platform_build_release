@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "screenshot_policy_split_and_desktop_mode"
+  state: ENABLED
+  permission: READ_WRITE
+}

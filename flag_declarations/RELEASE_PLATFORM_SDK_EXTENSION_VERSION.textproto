@@ -1,5 +1,5 @@
 name: "RELEASE_PLATFORM_SDK_EXTENSION_VERSION"
-namespace: "android_UNKNOWN"
+namespace: "android_sdk"
 description: "The sdk extension version of this release configuration."
 value: {
   string_value: "12"

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.security"
+  name: "asm_reintroduce_grace_period"
+  state: ENABLED
+  permission: READ_WRITE
+}

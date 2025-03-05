@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "a2dp_clear_pending_start_on_session_restart"
+  state: ENABLED
+  permission: READ_ONLY
+}

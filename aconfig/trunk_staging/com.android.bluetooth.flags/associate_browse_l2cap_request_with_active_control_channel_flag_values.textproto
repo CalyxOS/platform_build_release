@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "associate_browse_l2cap_request_with_active_control_channel"
+  state: ENABLED
+  permission: READ_WRITE
+}

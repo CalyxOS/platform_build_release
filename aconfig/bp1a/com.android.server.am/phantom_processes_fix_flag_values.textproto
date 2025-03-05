@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.am"
+  name: "phantom_processes_fix"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.audio"
+  name: "enable_multichannel_group_device"
+  state: ENABLED
+  permission: READ_ONLY
+}

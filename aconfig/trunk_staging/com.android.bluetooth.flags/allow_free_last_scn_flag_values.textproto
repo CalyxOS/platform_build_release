@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "allow_free_last_scn"
+  state: ENABLED
+  permission: READ_WRITE
+}

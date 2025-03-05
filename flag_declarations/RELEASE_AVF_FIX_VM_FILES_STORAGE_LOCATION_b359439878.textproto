@@ -1,0 +1,8 @@
+name: "RELEASE_AVF_FIX_VM_FILES_STORAGE_LOCATION_b359439878"
+namespace: "android_virtualization"
+description: "Fixes bug in how VM files are stored in apps data directory (b/359439878)"
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "system"

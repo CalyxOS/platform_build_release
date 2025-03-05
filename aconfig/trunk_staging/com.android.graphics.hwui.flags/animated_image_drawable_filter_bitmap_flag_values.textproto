@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.graphics.hwui.flags"
+  name: "animated_image_drawable_filter_bitmap"
+  state: ENABLED
+  permission: READ_WRITE
+}

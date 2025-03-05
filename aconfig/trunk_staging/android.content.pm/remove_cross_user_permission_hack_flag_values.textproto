@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.content.pm"
+  name: "remove_cross_user_permission_hack"
+  state: ENABLED
+  permission: READ_ONLY
+}

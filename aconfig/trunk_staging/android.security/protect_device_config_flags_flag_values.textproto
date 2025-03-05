@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.security"
+  name: "protect_device_config_flags"
+  state: ENABLED
+  permission: READ_ONLY
+}

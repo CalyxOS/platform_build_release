@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "drop_acl_fragment_on_disconnect"
+  state: ENABLED
+  permission: READ_ONLY
+}

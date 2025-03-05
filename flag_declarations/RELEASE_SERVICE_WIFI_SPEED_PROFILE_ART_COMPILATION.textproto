@@ -1,0 +1,8 @@
+name: "RELEASE_SERVICE_WIFI_SPEED_PROFILE_ART_COMPILATION"
+namespace: "art_performance"
+description: "b/241823638: Flag to enable ART Speed Profile compilation for WIFI module service."
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "system"

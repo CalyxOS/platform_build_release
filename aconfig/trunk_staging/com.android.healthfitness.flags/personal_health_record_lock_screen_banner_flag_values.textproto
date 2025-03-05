@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.healthfitness.flags"
+  name: "personal_health_record_lock_screen_banner"
+  state: ENABLED
+  permission: READ_ONLY
+}

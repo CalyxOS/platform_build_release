@@ -1,0 +1,4 @@
+name: "RELEASE_HC_PHR_FHIR_STRUCTURAL_VALIDATION"
+value: {
+  bool_value: true
+}

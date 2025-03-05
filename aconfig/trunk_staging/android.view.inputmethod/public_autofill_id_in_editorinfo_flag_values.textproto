@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.inputmethod"
+  name: "public_autofill_id_in_editorinfo"
+  state: ENABLED
+  permission: READ_ONLY
+}

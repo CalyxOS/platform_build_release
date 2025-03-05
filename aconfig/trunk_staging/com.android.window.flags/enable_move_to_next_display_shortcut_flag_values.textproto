@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "enable_move_to_next_display_shortcut"
+  state: ENABLED
+  permission: READ_WRITE
+}

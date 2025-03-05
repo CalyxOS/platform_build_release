@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.server"
+  name: "allow_network_time_update_service"
+  state: ENABLED
+  permission: READ_WRITE
+}

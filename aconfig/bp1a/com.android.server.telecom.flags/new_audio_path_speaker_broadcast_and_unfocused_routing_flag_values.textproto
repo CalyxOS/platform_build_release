@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.telecom.flags"
+  name: "new_audio_path_speaker_broadcast_and_unfocused_routing"
+  state: ENABLED
+  permission: READ_ONLY
+}

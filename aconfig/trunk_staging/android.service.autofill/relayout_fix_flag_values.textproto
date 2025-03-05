@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.service.autofill"
+  name: "relayout_fix"
+  state: ENABLED
+  permission: READ_WRITE
+}

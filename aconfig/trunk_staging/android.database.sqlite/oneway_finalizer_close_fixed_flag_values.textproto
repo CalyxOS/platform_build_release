@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.database.sqlite"
+  name: "oneway_finalizer_close_fixed"
+  state: ENABLED
+  permission: READ_ONLY
+}

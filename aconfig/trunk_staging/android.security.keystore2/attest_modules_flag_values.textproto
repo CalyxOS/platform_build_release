@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.security.keystore2"
+  name: "attest_modules"
+  state: ENABLED
+  permission: READ_ONLY
+}

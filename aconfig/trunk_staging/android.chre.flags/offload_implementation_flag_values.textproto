@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.chre.flags"
+  name: "offload_implementation"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_RESOLV"
+value: {
+  string_value: "resolv.go.google.contributions.prebuilt"
+}

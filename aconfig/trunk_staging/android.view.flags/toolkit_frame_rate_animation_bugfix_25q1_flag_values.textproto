@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.flags"
+  name: "toolkit_frame_rate_animation_bugfix_25q1"
+  state: ENABLED
+  permission: READ_ONLY
+}

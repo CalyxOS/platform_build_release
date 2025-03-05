@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.security"
+  name: "prevent_intent_redirect_show_toast_if_nested_keys_not_collected_r_w"
+  state: ENABLED
+  permission: READ_WRITE
+}

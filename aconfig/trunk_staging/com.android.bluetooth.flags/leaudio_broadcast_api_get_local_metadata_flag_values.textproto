@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "leaudio_broadcast_api_get_local_metadata"
+  state: ENABLED
+  permission: READ_WRITE
+}

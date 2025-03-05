@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "live_wallpaper_content_handling"
+  state: ENABLED
+  permission: READ_WRITE
+}

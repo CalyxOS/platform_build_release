@@ -1,0 +1,8 @@
+name: "RELEASE_PLATFORM_BASE_SDK_EXTENSION_VERSION"
+namespace: "android_sdk"
+description: "The sdk extension version that shipped with current RELEASE_PLATFORM_SDK_VERSION. This flag is only updated when RELEASE_PLATFORM_SDK_VERSION is updated."
+workflow: MANUAL
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

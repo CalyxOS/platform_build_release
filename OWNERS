@@ -26,6 +26,17 @@ per-file aconfig/?p??/*,aconfig/?p??/*/*=rajukulkarni@google.com # For Nextfood 
 per-file aconfig/?p??/*,aconfig/?p??/*/*=ramprasathd@google.com # For Nextfood promotion requests
 per-file aconfig/?p??/*,aconfig/?p??/*/*=zoeyhsieh@google.com # For Nextfood promotion requests
 
+per-file aconfig/*/*,aconfig/*/*/*=opg@google.com
+per-file aconfig/*/*,aconfig/*/*/*=tejaswiy@google.com
+
+per-file {flag_declarations,flag_values/*}/RELEASE_PLATFORM_BASE_SDK_EXTENSION_VERSION.textproto = file:platform/frameworks/base:/SDK_OWNERS # Android SDK
+per-file {flag_declarations,flag_values/*}/RELEASE_PLATFORM_SDK_EXTENSION_VERSION.textproto = file:platform/frameworks/base:/SDK_OWNERS # Android SDK
+per-file {flag_declarations,flag_values/*}/RELEASE_PLATFORM_SDK_VERSION.textproto = file:platform/frameworks/base:/SDK_OWNERS # Android SDK
+per-file {flag_declarations,flag_values/*}/RELEASE_PLATFORM_VERSION_ALL_CODENAMES.textproto = file:platform/frameworks/base:/SDK_OWNERS # Android SDK
+per-file {flag_declarations,flag_values/*}/RELEASE_PLATFORM_VERSION_ALL_PREVIEW_CODENAMES.textproto = file:platform/frameworks/base:/SDK_OWNERS # Android SDK
+per-file {flag_declarations,flag_values/*}/RELEASE_PLATFORM_VERSION_CODENAME.textproto = file:platform/frameworks/base:/SDK_OWNERS # Android SDK
+per-file {flag_declarations,flag_values/*}/RELEASE_PLATFORM_VERSION_KNOWN_CODENAMES.textproto = file:platform/frameworks/base:/SDK_OWNERS # Android SDK
+
 jham@google.com # emergency backup #{LAST_RESORT_SUGGESTION}
 amithds@google.com # emergency backup #{LAST_RESORT_SUGGESTION}
 rassb@google.com # emergency backup #{LAST_RESORT_SUGGESTION}

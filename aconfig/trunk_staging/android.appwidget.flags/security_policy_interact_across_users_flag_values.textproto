@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.appwidget.flags"
+  name: "security_policy_interact_across_users"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.display.feature.flags"
+  name: "enable_get_suggested_frame_rate"
+  state: ENABLED
+  permission: READ_ONLY
+}

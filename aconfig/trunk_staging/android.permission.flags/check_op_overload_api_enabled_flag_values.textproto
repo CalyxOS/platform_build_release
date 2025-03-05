@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "check_op_overload_api_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

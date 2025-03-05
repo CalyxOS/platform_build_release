@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.healthfitness.flags"
+  name: "replace_body_sensor_permission_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

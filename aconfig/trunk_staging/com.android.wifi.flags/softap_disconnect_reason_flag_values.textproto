@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.wifi.flags"
+  name: "softap_disconnect_reason"
+  state: ENABLED
+  permission: READ_ONLY
+}

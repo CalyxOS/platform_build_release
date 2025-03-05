@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "metadata_api_microphone_for_call_enabled"
+  state: ENABLED
+  permission: READ_WRITE
+}

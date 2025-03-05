@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.content.pm"
+  name: "change_launcher_badging"
+  state: ENABLED
+  permission: READ_ONLY
+}

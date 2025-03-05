@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settingslib.flags"
+  name: "hearing_device_set_connection_status_report"
+  state: ENABLED
+  permission: READ_WRITE
+}

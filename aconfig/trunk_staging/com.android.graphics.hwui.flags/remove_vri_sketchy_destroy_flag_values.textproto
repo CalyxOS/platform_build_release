@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.graphics.hwui.flags"
+  name: "remove_vri_sketchy_destroy"
+  state: ENABLED
+  permission: READ_WRITE
+}

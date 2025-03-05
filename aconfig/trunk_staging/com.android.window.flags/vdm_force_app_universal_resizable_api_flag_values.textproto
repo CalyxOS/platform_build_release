@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "vdm_force_app_universal_resizable_api"
+  state: ENABLED
+  permission: READ_WRITE
+}

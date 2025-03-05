@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "enable_desktop_app_launch_alttab_transitions_bugfix"
+  state: ENABLED
+  permission: READ_WRITE
+}

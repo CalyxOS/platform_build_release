@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "communal_widget_resizing"
+  state: ENABLED
+  permission: READ_WRITE
+}

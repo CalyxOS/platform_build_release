@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.healthfitness.flags"
+  name: "ecosystem_metrics_db_changes"
+  state: ENABLED
+  permission: READ_ONLY
+}

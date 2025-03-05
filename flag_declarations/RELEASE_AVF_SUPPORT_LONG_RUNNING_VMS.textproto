@@ -1,5 +1,5 @@
 name: "RELEASE_AVF_SUPPORT_LONG_RUNNING_VMS"
-namespace: "android_UNKNOWN"
+namespace: "android_virtualization"
 description: "Improves support for long running VMs"
 value: {
   bool_value: false

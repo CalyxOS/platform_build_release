@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.uprobestats.flags"
+  name: "executable_method_file_offsets"
+  state: ENABLED
+  permission: READ_ONLY
+}

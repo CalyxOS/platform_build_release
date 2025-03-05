@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.text.flags"
+  name: "deprecate_elegant_text_height_api"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.flags"
+  name: "calculate_bounds_in_parent_from_bounds_in_screen"
+  state: ENABLED
+  permission: READ_ONLY
+}

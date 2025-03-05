@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.launcher3"
+  name: "enable_multi_instance_menu_taskbar"
+  state: ENABLED
+  permission: READ_WRITE
+}

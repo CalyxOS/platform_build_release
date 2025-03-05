@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "connect_hap_on_other_profile_connect"
+  state: ENABLED
+  permission: READ_WRITE
+}

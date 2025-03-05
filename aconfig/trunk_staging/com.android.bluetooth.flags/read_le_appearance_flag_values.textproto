@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "read_le_appearance"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "smp_state_machine_stuck_after_disconnection_fix"
+  state: ENABLED
+  permission: READ_ONLY
+}

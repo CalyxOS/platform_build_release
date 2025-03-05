@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.healthfitness.flags"
+  name: "phr_upsert_fix_parcel_size_calculation"
+  state: ENABLED
+  permission: READ_ONLY
+}

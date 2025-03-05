@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.flags"
+  name: "catalyst_power_usage_summary_screen"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "leaudio_add_aics_support"
+  state: ENABLED
+  permission: READ_WRITE
+}

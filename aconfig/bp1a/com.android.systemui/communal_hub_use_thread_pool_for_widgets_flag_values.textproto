@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "communal_hub_use_thread_pool_for_widgets"
+  state: ENABLED
+  permission: READ_ONLY
+}

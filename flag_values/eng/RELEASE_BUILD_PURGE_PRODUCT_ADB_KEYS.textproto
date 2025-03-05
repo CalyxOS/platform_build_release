@@ -1,0 +1,4 @@
+name: "RELEASE_BUILD_PURGE_PRODUCT_ADB_KEYS"
+value: {
+  bool_value: false
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.content.res"
+  name: "layout_readwrite_flags"
+  state: ENABLED
+  permission: READ_ONLY
+}

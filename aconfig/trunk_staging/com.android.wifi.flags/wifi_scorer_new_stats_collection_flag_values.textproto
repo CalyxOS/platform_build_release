@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.wifi.flags"
+  name: "wifi_scorer_new_stats_collection"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,5 +1,5 @@
 name: "RELEASE_AVF_ENABLE_DEVICE_ASSIGNMENT"
-namespace: "android_UNKNOWN"
+namespace: "android_virtualization"
 description: "Enables assigning hardware devices to the guest VMs. If this flag is enabled, then RELEASE_AVF_ENABLE_MICRODROID_VENDOR_MODULES must also be enabled."
 value: {
   bool_value: false

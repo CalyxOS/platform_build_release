@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.org.conscrypt.flags"
+  name: "spake2plus_api"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.wifi.flags"
+  name: "secure_ranging"
+  state: ENABLED
+  permission: READ_ONLY
+}

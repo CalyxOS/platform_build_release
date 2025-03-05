@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.hardware.input"
+  name: "keyboard_a11y_shortcut_control"
+  state: ENABLED
+  permission: READ_WRITE
+}

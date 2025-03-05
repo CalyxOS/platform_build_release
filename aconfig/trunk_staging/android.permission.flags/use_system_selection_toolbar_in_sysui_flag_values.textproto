@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "use_system_selection_toolbar_in_sysui"
+  state: ENABLED
+  permission: READ_WRITE
+}

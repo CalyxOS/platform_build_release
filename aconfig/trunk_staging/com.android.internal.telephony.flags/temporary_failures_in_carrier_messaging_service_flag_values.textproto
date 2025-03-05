@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.telephony.flags"
+  name: "temporary_failures_in_carrier_messaging_service"
+  state: ENABLED
+  permission: READ_WRITE
+}

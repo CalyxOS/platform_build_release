@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.nfc.flags"
+  name: "check_passed_in_package"
+  state: ENABLED
+  permission: READ_WRITE
+}

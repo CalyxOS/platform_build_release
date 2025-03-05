@@ -1,0 +1,8 @@
+name: "RELEASE_BUILD_USE_VARIANT_FLAGS"
+namespace: "android_UNKNOWN"
+description: "Whether to use BUILD_VARIANT overrides if available"
+workflow: MANUAL
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

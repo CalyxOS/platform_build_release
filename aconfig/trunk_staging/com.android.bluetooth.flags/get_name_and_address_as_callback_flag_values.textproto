@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "get_name_and_address_as_callback"
+  state: ENABLED
+  permission: READ_WRITE
+}

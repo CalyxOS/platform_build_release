@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "forward_get_set_report_failure_to_uhid"
+  state: ENABLED
+  permission: READ_ONLY
+}

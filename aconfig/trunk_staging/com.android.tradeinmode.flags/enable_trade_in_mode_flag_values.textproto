@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.tradeinmode.flags"
+  name: "enable_trade_in_mode"
+  state: ENABLED
+  permission: READ_ONLY
+}

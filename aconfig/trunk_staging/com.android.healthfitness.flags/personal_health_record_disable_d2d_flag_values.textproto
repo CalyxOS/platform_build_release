@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.healthfitness.flags"
+  name: "personal_health_record_disable_d2d"
+  state: ENABLED
+  permission: READ_ONLY
+}

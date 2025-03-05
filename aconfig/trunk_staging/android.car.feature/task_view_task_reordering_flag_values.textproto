@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.car.feature"
+  name: "task_view_task_reordering"
+  state: ENABLED
+  permission: READ_WRITE
+}

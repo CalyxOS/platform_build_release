@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.hardware.input"
+  name: "touchpad_system_gesture_disable"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,5 +1,5 @@
 name: "RELEASE_CRASHRECOVERY_MODULE"
-namespace: "android_UNKNOWN"
+namespace: "modularization"
 description: "If true, then crashrecovery module is enabled as an apex"
 value: {
   bool_value: false

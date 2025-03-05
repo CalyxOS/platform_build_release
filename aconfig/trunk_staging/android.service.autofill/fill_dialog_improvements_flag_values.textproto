@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.service.autofill"
+  name: "fill_dialog_improvements"
+  state: ENABLED
+  permission: READ_WRITE
+}

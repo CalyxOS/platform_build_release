@@ -1,5 +1,5 @@
 name: "RELEASE_AVF_ENABLE_EARLY_VM"
-namespace: "android_UNKNOWN"
+namespace: "android_virtualization"
 description: "Adds supports for VMs in the early boot, before /data mount."
 value: {
   bool_value: false

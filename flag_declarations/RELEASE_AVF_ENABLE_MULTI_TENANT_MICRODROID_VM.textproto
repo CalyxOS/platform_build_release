@@ -1,5 +1,5 @@
 name: "RELEASE_AVF_ENABLE_MULTI_TENANT_MICRODROID_VM"
-namespace: "android_UNKNOWN"
+namespace: "android_virtualization"
 description: "Enables running multiple payloads in the same Microdroid VM instance."
 value: {
   bool_value: false

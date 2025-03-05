@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.os.profiling"
+  name: "persist_queue"
+  state: ENABLED
+  permission: READ_WRITE
+}

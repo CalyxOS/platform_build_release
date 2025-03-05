@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.telephony.flags"
+  name: "subscription_plan_allow_status_and_end_date"
+  state: ENABLED
+  permission: READ_WRITE
+}

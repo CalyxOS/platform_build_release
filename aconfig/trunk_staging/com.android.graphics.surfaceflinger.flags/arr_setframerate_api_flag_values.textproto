@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.graphics.surfaceflinger.flags"
+  name: "arr_setframerate_api"
+  state: ENABLED
+  permission: READ_ONLY
+}

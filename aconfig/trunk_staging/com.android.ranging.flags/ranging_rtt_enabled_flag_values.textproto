@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.ranging.flags"
+  name: "ranging_rtt_enabled"
+  state: ENABLED
+  permission: READ_WRITE
+}

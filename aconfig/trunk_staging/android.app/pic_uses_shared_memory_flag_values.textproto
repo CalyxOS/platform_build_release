@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "pic_uses_shared_memory"
+  state: ENABLED
+  permission: READ_ONLY
+}

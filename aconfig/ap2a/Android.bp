@@ -19,7 +19,6 @@ aconfig_value_set {
         "aconfig-values-aosp-ap2a-com.android.server.notification-all",
         "aconfig-values-aosp-ap2a-com.android.server.companion.virtual-all",
         "aconfig-values-aosp-ap2a-android.app-all",
-        "aconfig-values-aosp-ap2a-com.android.aconfig.test-all",
         "aconfig-values-aosp-ap2a-com.android.internal.camera.flags-all",
         "aconfig-values-aosp-ap2a-com.android.internal.telephony.flags-all",
         "aconfig-values-aosp-ap2a-com.android.media.flags-all",

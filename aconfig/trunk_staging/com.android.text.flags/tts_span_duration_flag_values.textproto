@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.text.flags"
+  name: "tts_span_duration"
+  state: ENABLED
+  permission: READ_WRITE
+}

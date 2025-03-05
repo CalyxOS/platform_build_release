@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.codec"
+  name: "codec_buffer_state_cleanup"
+  state: ENABLED
+  permission: READ_WRITE
+}

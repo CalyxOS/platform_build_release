@@ -1,0 +1,9 @@
+name: "RELEASE_SYSTEMUI_USE_SPEED_PROFILE"
+namespace: "systemui"
+description: "b/271887637: Flag to use speed profile in the SystemUI."
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "system_ext"
+

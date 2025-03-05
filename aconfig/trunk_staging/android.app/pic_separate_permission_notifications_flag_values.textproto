@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "pic_separate_permission_notifications"
+  state: ENABLED
+  permission: READ_ONLY
+}

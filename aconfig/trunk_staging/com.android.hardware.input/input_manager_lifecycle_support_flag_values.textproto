@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.hardware.input"
+  name: "input_manager_lifecycle_support"
+  state: ENABLED
+  permission: READ_ONLY
+}

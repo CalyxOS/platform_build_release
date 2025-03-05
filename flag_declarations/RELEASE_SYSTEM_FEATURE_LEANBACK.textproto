@@ -1,0 +1,11 @@
+name: "RELEASE_SYSTEM_FEATURE_LEANBACK"
+namespace: "android_UNKNOWN"
+description: "System feature version for: android.software.leanback"
+value: {
+  # "" == default (no-op, defer to xml feature def)
+  # "%d" (integer) == feature version (enabled)
+  # "UNAVAILABLE" == feature disabled
+  string_value: ""
+}
+workflow: MANUAL
+containers: "system"

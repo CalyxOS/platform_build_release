@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.accessibility"
+  name: "warning_use_default_dialog_type"
+  state: ENABLED
+  permission: READ_WRITE
+}

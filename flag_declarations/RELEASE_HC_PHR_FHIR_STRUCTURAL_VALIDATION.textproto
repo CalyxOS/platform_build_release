@@ -1,0 +1,5 @@
+name:  "RELEASE_HC_PHR_FHIR_STRUCTURAL_VALIDATION"
+namespace:  "health_fitness_aconfig"
+description:  "This flag guards adding java_resources to the Health Connect service for PHR FHIR structural validation"
+workflow:  LAUNCH
+containers:  "system"

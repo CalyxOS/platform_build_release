@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.telephony.flags"
+  name: "support_carrier_services_for_hsum"
+  state: ENABLED
+  permission: READ_WRITE
+}

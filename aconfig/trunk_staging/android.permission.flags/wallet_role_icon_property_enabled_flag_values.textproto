@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "wallet_role_icon_property_enabled"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,4 @@
+name: "RELEASE_INSTALL_APEX_SYSTEMSERVER_DEXPREOPT_SAME_PARTITION"
+value: {
+  bool_value: true
+}

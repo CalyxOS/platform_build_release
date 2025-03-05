@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "text_classifier_choice_api_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

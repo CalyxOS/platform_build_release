@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.os"
+  name: "ravenwood_flag_ro_2"
+  state: ENABLED
+  permission: READ_ONLY
+}

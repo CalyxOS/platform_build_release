@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.providers.media.flags"
+  name: "enable_mark_media_as_favorite_api"
+  state: ENABLED
+  permission: READ_ONLY
+}

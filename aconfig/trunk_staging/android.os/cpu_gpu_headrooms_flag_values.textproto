@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.os"
+  name: "cpu_gpu_headrooms"
+  state: ENABLED
+  permission: READ_WRITE
+}

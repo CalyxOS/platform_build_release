@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.media.projection.flags"
+  name: "media_projection_connected_display"
+  state: ENABLED
+  permission: READ_WRITE
+}

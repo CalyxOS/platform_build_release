@@ -1,5 +1,5 @@
 name: "RELEASE_PLATFORM_SDK_VERSION"
-namespace: "android_UNKNOWN"
+namespace: "android_sdk"
 description: "The SDK version of the platform, e.g. 34 for UDC. This should only be increased when the API is finalized and the codename is set to rel, not during development."
 value: {
   string_value: "34"

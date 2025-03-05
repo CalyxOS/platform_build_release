@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.os.vibrator"
+  name: "vibration_pipeline_enabled"
+  state: ENABLED
+  permission: READ_WRITE
+}

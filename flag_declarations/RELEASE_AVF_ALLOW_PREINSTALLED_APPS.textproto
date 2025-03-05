@@ -1,5 +1,5 @@
 name: "RELEASE_AVF_ALLOW_PREINSTALLED_APPS"
-namespace: "android_UNKNOWN"
+namespace: "android_virtualization"
 description: "Enables acces to the AVF APIs to pre-installed apps."
 value: {
   bool_value: false

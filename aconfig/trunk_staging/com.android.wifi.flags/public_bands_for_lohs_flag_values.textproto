@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.wifi.flags"
+  name: "public_bands_for_lohs"
+  state: ENABLED
+  permission: READ_ONLY
+}

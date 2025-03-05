@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settingslib.flags"
+  name: "write_system_preference_permission_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "enable_tv_implicit_enter_pip_restriction"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.flags"
+  name: "page_size_app_compat_setting"
+  state: ENABLED
+  permission: READ_WRITE
+}

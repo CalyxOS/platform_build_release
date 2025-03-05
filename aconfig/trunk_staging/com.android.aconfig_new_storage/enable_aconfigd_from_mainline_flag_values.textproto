@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.aconfig_new_storage"
+  name: "enable_aconfigd_from_mainline"
+  state: ENABLED
+  permission: READ_ONLY
+}

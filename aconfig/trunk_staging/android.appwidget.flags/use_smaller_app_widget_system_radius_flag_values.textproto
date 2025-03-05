@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.appwidget.flags"
+  name: "use_smaller_app_widget_system_radius"
+  state: ENABLED
+  permission: READ_ONLY
+}

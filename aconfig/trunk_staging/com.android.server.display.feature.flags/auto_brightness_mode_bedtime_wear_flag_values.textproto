@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.display.feature.flags"
+  name: "auto_brightness_mode_bedtime_wear"
+  state: ENABLED
+  permission: READ_ONLY
+}

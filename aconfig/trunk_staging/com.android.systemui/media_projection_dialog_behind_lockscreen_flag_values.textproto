@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "media_projection_dialog_behind_lockscreen"
+  state: ENABLED
+  permission: READ_WRITE
+}

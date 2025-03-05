@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.nfc.flags"
+  name: "post_callbacks"
+  state: ENABLED
+  permission: READ_WRITE
+}

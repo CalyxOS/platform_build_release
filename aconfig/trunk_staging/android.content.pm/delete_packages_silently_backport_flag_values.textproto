@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.content.pm"
+  name: "delete_packages_silently_backport"
+  state: ENABLED
+  permission: READ_WRITE
+}

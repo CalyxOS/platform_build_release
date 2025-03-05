@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.accessibility"
+  name: "a11y_expansion_state_api"
+  state: ENABLED
+  permission: READ_WRITE
+}

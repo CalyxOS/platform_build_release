@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.flags"
+  name: "use_refactored_round_scrollbar"
+  state: ENABLED
+  permission: READ_ONLY
+}

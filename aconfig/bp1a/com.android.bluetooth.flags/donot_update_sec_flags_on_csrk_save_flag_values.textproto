@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "donot_update_sec_flags_on_csrk_save"
+  state: ENABLED
+  permission: READ_ONLY
+}

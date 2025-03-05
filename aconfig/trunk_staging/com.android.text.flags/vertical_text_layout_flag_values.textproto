@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.text.flags"
+  name: "vertical_text_layout"
+  state: ENABLED
+  permission: READ_WRITE
+}

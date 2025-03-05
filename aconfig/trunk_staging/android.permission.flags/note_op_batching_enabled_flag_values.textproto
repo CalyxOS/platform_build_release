@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "note_op_batching_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

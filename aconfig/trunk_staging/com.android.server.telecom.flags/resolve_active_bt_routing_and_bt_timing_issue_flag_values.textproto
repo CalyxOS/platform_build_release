@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.telecom.flags"
+  name: "resolve_active_bt_routing_and_bt_timing_issue"
+  state: ENABLED
+  permission: READ_WRITE
+}

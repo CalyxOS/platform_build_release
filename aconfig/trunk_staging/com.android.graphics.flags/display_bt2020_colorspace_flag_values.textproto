@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.graphics.flags"
+  name: "display_bt2020_colorspace"
+  state: ENABLED
+  permission: READ_ONLY
+}

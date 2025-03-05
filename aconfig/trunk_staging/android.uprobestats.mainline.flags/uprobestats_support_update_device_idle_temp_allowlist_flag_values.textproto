@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.uprobestats.mainline.flags"
+  name: "uprobestats_support_update_device_idle_temp_allowlist"
+  state: ENABLED
+  permission: READ_ONLY
+}

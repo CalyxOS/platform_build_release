@@ -1,0 +1,4 @@
+name: "RELEASE_UPROBESTATS_MODULE"
+value: {
+  bool_value: true
+}

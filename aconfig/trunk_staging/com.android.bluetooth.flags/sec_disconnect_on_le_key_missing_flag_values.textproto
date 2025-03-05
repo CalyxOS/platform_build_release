@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "sec_disconnect_on_le_key_missing"
+  state: ENABLED
+  permission: READ_WRITE
+}

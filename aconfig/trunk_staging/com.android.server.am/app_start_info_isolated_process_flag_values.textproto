@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.am"
+  name: "app_start_info_isolated_process"
+  state: ENABLED
+  permission: READ_WRITE
+}

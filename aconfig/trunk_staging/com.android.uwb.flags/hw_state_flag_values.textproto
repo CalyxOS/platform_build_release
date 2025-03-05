@@ -2,5 +2,5 @@ flag_value {
   package: "com.android.uwb.flags"
   name: "hw_state"
   state: ENABLED
-  permission: READ_ONLY
+  permission: READ_WRITE
 }

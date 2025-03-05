@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.multiuser"
+  name: "multiuser_widget"
+  state: ENABLED
+  permission: READ_WRITE
+}

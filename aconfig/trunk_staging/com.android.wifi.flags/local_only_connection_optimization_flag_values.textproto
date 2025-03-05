@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.wifi.flags"
+  name: "local_only_connection_optimization"
+  state: ENABLED
+  permission: READ_ONLY
+}

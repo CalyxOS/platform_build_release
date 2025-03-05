@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "only_show_media_stream_slider_in_single_volume_mode"
+  state: ENABLED
+  permission: READ_WRITE
+}

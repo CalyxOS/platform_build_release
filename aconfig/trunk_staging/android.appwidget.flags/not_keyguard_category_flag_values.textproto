@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.appwidget.flags"
+  name: "not_keyguard_category"
+  state: ENABLED
+  permission: READ_ONLY
+}

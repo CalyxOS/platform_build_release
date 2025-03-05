@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "adm_fix_disconnect_of_set_member"
+  state: ENABLED
+  permission: READ_ONLY
+}

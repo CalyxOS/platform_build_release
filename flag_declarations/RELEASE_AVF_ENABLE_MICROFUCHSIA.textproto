@@ -1,5 +1,5 @@
 name: "RELEASE_AVF_ENABLE_MICROFUCHSIA"
-namespace: "android_UNKNOWN"
+namespace: "android_virtualization"
 description: "Allows microfuchsia to run on AVF."
 value: {
   bool_value: false

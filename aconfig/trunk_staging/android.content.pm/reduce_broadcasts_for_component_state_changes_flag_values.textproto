@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.content.pm"
+  name: "reduce_broadcasts_for_component_state_changes"
+  state: ENABLED
+  permission: READ_ONLY
+}

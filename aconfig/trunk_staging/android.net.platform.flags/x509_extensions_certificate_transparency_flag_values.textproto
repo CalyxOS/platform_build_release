@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.net.platform.flags"
+  name: "x509_extensions_certificate_transparency"
+  state: ENABLED
+  permission: READ_WRITE
+}

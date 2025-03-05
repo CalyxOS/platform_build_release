@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.graphics.hwui.flags"
+  name: "bitmap_ashmem_long_name"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "update_dims_when_window_shown"
+  state: ENABLED
+  permission: READ_ONLY
+}

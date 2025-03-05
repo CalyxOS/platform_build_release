@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.security"
+  name: "aapm_feature_disable_install_unknown_sources"
+  state: ENABLED
+  permission: READ_WRITE
+}

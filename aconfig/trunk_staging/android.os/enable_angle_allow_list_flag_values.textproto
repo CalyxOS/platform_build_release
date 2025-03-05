@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.os"
+  name: "enable_angle_allow_list"
+  state: ENABLED
+  permission: READ_ONLY
+}

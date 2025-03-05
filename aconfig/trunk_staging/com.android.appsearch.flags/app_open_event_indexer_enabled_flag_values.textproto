@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.appsearch.flags"
+  name: "app_open_event_indexer_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

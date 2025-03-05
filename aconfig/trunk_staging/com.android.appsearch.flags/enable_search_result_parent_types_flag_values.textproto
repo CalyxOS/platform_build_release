@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.appsearch.flags"
+  name: "enable_search_result_parent_types"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.biometrics"
+  name: "frr_dialog_improvement"
+  state: ENABLED
+  permission: READ_WRITE
+}

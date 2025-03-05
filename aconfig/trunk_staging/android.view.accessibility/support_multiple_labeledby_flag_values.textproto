@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.accessibility"
+  name: "support_multiple_labeledby"
+  state: ENABLED
+  permission: READ_WRITE
+}

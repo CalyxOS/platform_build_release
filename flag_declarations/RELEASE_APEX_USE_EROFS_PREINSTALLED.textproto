@@ -1,0 +1,8 @@
+name: "RELEASE_APEX_USE_EROFS_PREINSTALLED"
+namespace: "android_UNKNOWN"
+description: "Uses erofs as a default file system for preinstalled/bundled APEXes."
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "system"

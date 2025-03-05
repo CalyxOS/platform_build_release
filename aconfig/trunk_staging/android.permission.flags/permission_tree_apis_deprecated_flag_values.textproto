@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "permission_tree_apis_deprecated"
+  state: ENABLED
+  permission: READ_ONLY
+}

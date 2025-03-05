@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.deviceidle"
+  name: "use_cpu_time_for_temp_allowlist"
+  state: ENABLED
+  permission: READ_WRITE
+}

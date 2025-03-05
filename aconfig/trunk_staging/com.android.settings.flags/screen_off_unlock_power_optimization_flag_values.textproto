@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.flags"
+  name: "screen_off_unlock_power_optimization"
+  state: ENABLED
+  permission: READ_WRITE
+}

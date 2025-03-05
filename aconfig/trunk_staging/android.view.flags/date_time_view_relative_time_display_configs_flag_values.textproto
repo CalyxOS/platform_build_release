@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.flags"
+  name: "date_time_view_relative_time_display_configs"
+  state: ENABLED
+  permission: READ_ONLY
+}

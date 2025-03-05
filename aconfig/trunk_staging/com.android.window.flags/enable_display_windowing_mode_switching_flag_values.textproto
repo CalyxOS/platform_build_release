@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "enable_display_windowing_mode_switching"
+  state: ENABLED
+  permission: READ_WRITE
+}

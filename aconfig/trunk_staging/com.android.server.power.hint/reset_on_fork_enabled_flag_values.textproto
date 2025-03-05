@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.power.hint"
+  name: "reset_on_fork_enabled"
+  state: ENABLED
+  permission: READ_WRITE
+}

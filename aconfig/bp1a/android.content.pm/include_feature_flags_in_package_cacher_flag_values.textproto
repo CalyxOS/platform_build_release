@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.content.pm"
+  name: "include_feature_flags_in_package_cacher"
+  state: ENABLED
+  permission: READ_ONLY
+}

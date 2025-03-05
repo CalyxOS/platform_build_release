@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "btsec_avdt_msg_ind_type_confusion"
+  state: ENABLED
+  permission: READ_WRITE
+}

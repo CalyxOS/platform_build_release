@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "disallow_app_progress_embedded_window"
+  state: ENABLED
+  permission: READ_ONLY
+}

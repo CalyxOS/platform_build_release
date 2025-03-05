@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "enable_sqlite_appops_accesses"
+  state: ENABLED
+  permission: READ_ONLY
+}

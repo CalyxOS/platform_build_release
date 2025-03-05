@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app.admin.flags"
+  name: "set_keyguard_disabled_features_coexistence"
+  state: ENABLED
+  permission: READ_WRITE
+}

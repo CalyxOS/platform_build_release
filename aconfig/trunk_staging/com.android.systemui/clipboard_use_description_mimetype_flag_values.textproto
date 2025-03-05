@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "clipboard_use_description_mimetype"
+  state: ENABLED
+  permission: READ_WRITE
+}

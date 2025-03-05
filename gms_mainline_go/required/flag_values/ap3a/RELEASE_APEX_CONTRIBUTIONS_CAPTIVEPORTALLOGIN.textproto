@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_CAPTIVEPORTALLOGIN"
+value: {
+  string_value: "captiveportallogin.go.google.contributions.prebuilt"
+}

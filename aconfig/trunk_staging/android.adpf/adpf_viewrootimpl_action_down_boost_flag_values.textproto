@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.adpf"
+  name: "adpf_viewrootimpl_action_down_boost"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.camera.flags"
+  name: "data_delivery_permission_checks"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,4 @@
+name:  "RELEASE_APEX_BOOT_JARS_PREBUILT_EXCLUDED_LIST"
+value:  {
+  string_value:  "com.android.mediaprovider:framework-photopicker"
+}

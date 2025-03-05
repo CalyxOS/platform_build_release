@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.audio"
+  name: "spatial_audio_settings_versioning"
+  state: ENABLED
+  permission: READ_WRITE
+}

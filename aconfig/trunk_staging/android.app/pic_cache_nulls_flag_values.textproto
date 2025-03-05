@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "pic_cache_nulls"
+  state: ENABLED
+  permission: READ_ONLY
+}

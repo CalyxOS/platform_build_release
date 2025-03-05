@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "predictive_back_three_button_nav"
+  state: ENABLED
+  permission: READ_WRITE
+}

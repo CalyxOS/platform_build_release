@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "unknown_call_package_install_blocking_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

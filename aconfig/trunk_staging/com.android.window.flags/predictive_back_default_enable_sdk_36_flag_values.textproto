@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "predictive_back_default_enable_sdk_36"
+  state: ENABLED
+  permission: READ_ONLY
+}

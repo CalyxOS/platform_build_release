@@ -1,0 +1,6 @@
+name: "RELEASE_LIBBINDER_ADDSERVICE_CACHE"
+namespace: "system_performance"
+description: "Enables caching in libbinder when registering a service."
+workflow: LAUNCH
+containers: "system"
+

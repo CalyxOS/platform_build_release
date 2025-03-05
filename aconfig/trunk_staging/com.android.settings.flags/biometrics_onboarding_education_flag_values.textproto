@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.flags"
+  name: "biometrics_onboarding_education"
+  state: ENABLED
+  permission: READ_WRITE
+}

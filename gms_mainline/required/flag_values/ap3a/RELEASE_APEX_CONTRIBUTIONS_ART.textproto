@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_ART"
+value: {
+  string_value: "art.google.contributions.prebuilt"
+}

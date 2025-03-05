@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.media.extractor.flags"
+  name: "extractor_mp4_enable_apv"
+  state: ENABLED
+  permission: READ_ONLY
+}

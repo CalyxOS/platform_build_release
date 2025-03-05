@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.adservices.ondevicepersonalization.flags"
+  name: "data_class_missing_ctors_and_getters_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

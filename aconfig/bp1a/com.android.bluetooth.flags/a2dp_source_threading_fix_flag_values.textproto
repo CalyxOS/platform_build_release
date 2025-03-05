@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "a2dp_source_threading_fix"
+  state: ENABLED
+  permission: READ_ONLY
+}

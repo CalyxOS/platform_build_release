@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.service.autofill"
+  name: "autofill_w_metrics"
+  state: ENABLED
+  permission: READ_WRITE
+}

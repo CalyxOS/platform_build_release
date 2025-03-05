@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "leaudio_sort_scans_to_sync_by_fails"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,11 @@
+name: "RELEASE_PLATFORM_SDK_MINOR_VERSION"
+namespace: "android_UNKNOWN"
+description: "The minor SDK version of the platform. This should only be increased when the API is finalized as part of a minor release."
+value: {
+  string_value: "0"
+}
+workflow: MANUAL
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

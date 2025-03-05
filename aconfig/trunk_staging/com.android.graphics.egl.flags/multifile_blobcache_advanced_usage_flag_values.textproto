@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.graphics.egl.flags"
+  name: "multifile_blobcache_advanced_usage"
+  state: ENABLED
+  permission: READ_ONLY
+}

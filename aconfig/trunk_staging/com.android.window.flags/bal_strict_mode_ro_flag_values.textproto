@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "bal_strict_mode_ro"
+  state: ENABLED
+  permission: READ_ONLY
+}

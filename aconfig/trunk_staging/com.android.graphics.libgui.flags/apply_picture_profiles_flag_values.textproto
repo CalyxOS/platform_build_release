@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.graphics.libgui.flags"
+  name: "apply_picture_profiles"
+  state: ENABLED
+  permission: READ_ONLY
+}

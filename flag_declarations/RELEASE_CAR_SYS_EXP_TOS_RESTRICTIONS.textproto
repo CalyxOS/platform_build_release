@@ -1,0 +1,5 @@
+name: "RELEASE_CAR_SYS_EXP_TOS_RESTRICTIONS"
+namespace: "car_sys_exp"
+description: "b/374362100: This flag controls the terms of service restriction experience in auto."
+workflow: LAUNCH
+containers: "system"

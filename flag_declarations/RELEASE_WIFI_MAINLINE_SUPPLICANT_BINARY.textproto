@@ -1,0 +1,5 @@
+name: "RELEASE_WIFI_MAINLINE_SUPPLICANT_BINARY"
+namespace: "wifi"
+description: "Include the mainline supplicant binary in the Wifi mainline Apex"
+workflow: LAUNCH
+containers: "com.android.wifi"

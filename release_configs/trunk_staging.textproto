@@ -1,2 +1,3 @@
 name: "trunk_staging"
 aconfig_value_sets: "aconfig_value_set-platform_build_release-trunk_staging"
+release_config_type: RELEASE_CONFIG

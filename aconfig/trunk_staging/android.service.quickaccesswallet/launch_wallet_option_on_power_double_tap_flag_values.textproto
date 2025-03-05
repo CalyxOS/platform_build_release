@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.service.quickaccesswallet"
+  name: "launch_wallet_option_on_power_double_tap"
+  state: ENABLED
+  permission: READ_WRITE
+}

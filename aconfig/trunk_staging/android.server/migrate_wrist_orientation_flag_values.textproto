@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.server"
+  name: "migrate_wrist_orientation"
+  state: ENABLED
+  permission: READ_ONLY
+}

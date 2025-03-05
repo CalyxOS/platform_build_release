@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.job"
+  name: "adjust_quota_default_constants"
+  state: ENABLED
+  permission: READ_WRITE
+}

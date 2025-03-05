@@ -1,0 +1,11 @@
+name: "RELEASE_DEFAULT_UPDATABLE_MODULE_VERSION"
+namespace: "android_UNKNOWN"
+description: "Use this flag to set version code for updatable apk and apex. This version code will be used only if the version field in module's manifest file is set to 0."
+value: {
+  string_value: "352090000"
+}
+workflow: MANUAL
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

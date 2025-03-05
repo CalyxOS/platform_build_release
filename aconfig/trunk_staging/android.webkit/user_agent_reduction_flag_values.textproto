@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.webkit"
+  name: "user_agent_reduction"
+  state: ENABLED
+  permission: READ_WRITE
+}

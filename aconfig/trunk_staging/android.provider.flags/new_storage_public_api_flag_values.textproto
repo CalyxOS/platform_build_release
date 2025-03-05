@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.provider.flags"
+  name: "new_storage_public_api"
+  state: ENABLED
+  permission: READ_ONLY
+}

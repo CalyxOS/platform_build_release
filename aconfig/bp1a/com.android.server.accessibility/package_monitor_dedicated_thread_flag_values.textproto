@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.accessibility"
+  name: "package_monitor_dedicated_thread"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "leaudio_improve_switch_during_phone_call"
+  state: ENABLED
+  permission: READ_WRITE
+}

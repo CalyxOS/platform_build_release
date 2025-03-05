@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "media_controls_button_media3"
+  state: ENABLED
+  permission: READ_WRITE
+}

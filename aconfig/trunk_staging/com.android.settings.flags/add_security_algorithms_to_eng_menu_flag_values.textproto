@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.flags"
+  name: "add_security_algorithms_to_eng_menu"
+  state: ENABLED
+  permission: READ_WRITE
+}

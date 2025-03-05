@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "l2cap_fcs_option_fix"
+  state: ENABLED
+  permission: READ_WRITE
+}

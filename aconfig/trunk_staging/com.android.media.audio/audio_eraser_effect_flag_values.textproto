@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.media.audio"
+  name: "audio_eraser_effect"
+  state: ENABLED
+  permission: READ_WRITE
+}

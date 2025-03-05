@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.hardware.usb.flags"
+  name: "expose_usb_speed_system_api"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.car.feature"
+  name: "vehicle_property_remove_system_api_tags"
+  state: ENABLED
+  permission: READ_WRITE
+}

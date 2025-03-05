@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.content.pm"
+  name: "app_compat_option_16kb"
+  state: ENABLED
+  permission: READ_ONLY
+}

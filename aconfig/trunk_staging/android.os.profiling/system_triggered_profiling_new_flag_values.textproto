@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.os.profiling"
+  name: "system_triggered_profiling_new"
+  state: ENABLED
+  permission: READ_ONLY
+}

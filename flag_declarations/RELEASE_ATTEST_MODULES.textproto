@@ -1,0 +1,5 @@
+name: "RELEASE_ATTEST_MODULES"
+namespace: "hardware_backed_security"
+description: "Support attestation of modules"
+workflow: LAUNCH
+containers: "system"

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.nfc.flags"
+  name: "ee_aid_select"
+  state: ENABLED
+  permission: READ_WRITE
+}

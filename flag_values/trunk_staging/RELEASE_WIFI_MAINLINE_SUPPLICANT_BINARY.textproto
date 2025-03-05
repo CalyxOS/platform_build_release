@@ -1,0 +1,4 @@
+name: "RELEASE_WIFI_MAINLINE_SUPPLICANT_BINARY"
+value: {
+  bool_value: true
+}

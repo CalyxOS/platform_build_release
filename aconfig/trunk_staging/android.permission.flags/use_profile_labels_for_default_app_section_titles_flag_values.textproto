@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "use_profile_labels_for_default_app_section_titles"
+  state: ENABLED
+  permission: READ_ONLY
+}

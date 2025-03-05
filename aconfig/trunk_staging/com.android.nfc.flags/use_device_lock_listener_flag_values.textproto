@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.nfc.flags"
+  name: "use_device_lock_listener"
+  state: ENABLED
+  permission: READ_WRITE
+}

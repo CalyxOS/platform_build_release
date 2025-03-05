@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.tv.flags"
+  name: "media_quality_fw"
+  state: ENABLED
+  permission: READ_WRITE
+}

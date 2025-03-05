@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "use_sticky_bcast_cache"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_CONFIGINFRASTRUCTURE"
+value: {
+  string_value: "configinfrastructure.google.contributions.prebuilt"
+}

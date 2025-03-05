@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.flags"
+  name: "mobile_network_security_2g_toggle"
+  state: ENABLED
+  permission: READ_WRITE
+}

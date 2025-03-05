@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.audio"
+  name: "hardening_permission_spa"
+  state: ENABLED
+  permission: READ_WRITE
+}

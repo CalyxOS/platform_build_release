@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app.admin.flags"
+  name: "set_auto_time_enabled_coexistence"
+  state: ENABLED
+  permission: READ_WRITE
+}

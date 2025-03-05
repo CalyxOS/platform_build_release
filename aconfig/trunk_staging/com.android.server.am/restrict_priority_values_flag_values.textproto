@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.am"
+  name: "restrict_priority_values"
+  state: ENABLED
+  permission: READ_ONLY
+}

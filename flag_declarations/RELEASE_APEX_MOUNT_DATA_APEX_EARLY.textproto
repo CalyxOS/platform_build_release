@@ -1,0 +1,8 @@
+name: "RELEASE_APEX_MOUNT_DATA_APEX_EARLY"
+namespace: "android_UNKNOWN"
+description: "Mounts Data APEXes in apexd-bootstrap stage"
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "system"

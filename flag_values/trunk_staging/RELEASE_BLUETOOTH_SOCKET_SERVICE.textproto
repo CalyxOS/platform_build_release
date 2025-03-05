@@ -1,0 +1,4 @@
+name: "RELEASE_BLUETOOTH_SOCKET_SERVICE"
+value: {
+  bool_value: true
+}

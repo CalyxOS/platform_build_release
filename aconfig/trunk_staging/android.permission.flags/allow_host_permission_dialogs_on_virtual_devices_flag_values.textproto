@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "allow_host_permission_dialogs_on_virtual_devices"
+  state: ENABLED
+  permission: READ_WRITE
+}

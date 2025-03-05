@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.stats"
+  name: "accumulate_network_stats_since_boot"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.wifi.flags"
+  name: "wifi_state_changed_listener"
+  state: ENABLED
+  permission: READ_ONLY
+}

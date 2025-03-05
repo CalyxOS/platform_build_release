@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.apex.flags"
+  name: "enable_brand_new_apex"
+  state: ENABLED
+  permission: READ_ONLY
+}

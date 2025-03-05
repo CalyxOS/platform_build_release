@@ -1,0 +1,11 @@
+name: "RELEASE_SYSTEM_FEATURE_AUTOMOTIVE"
+namespace: "android_UNKNOWN"
+description: "System feature version for: android.hardware.type.automotive"
+value: {
+  # "" == default (no-op, defer to xml feature def)
+  # "%d" (integer) == feature version (enabled)
+  # "UNAVAILABLE" == feature disabled
+  string_value: ""
+}
+workflow: MANUAL
+containers: "system"

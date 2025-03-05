@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.sdksandbox.flags"
+  name: "sdk_sandbox_verify_sdk_dex_files"
+  state: ENABLED
+  permission: READ_ONLY
+}

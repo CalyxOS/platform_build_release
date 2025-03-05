@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.accessibility"
+  name: "a11y_character_in_window_api"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.healthfitness.flags"
+  name: "logcat_censor_iae"
+  state: ENABLED
+  permission: READ_ONLY
+}

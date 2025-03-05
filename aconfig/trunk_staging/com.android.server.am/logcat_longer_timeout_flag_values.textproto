@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.am"
+  name: "logcat_longer_timeout"
+  state: ENABLED
+  permission: READ_ONLY
+}

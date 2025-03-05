@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "rfcomm_always_disc_initiator_in_disc_wait_ua"
+  state: ENABLED
+  permission: READ_WRITE
+}

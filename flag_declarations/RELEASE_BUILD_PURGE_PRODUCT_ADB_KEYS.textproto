@@ -1,0 +1,11 @@
+name: "RELEASE_BUILD_PURGE_PRODUCT_ADB_KEYS"
+namespace: "android_UNKNOWN"
+value: {
+  bool_value: true
+}
+description: "Remove product ADB keys from the build"
+workflow: MANUAL
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

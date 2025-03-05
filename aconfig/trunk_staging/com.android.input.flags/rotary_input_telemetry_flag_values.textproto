@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.input.flags"
+  name: "rotary_input_telemetry"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.flags"
+  name: "rate_limit_battery_changed_broadcast"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.telephony.flags"
+  name: "geofence_enhancement_for_better_ux"
+  state: ENABLED
+  permission: READ_WRITE
+}

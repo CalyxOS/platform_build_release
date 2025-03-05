@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.tv.flags"
+  name: "tif_unbind_inactive_tis"
+  state: ENABLED
+  permission: READ_WRITE
+}

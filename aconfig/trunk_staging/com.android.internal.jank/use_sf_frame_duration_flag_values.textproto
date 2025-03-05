@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.jank"
+  name: "use_sf_frame_duration"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.telephony.flags"
+  name: "ims_resolver_user_aware"
+  state: ENABLED
+  permission: READ_WRITE
+}

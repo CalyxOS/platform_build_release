@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_CONNECTIVITY"
+value: {
+  string_value: "connectivity.go.google.contributions.prebuilt"
+}

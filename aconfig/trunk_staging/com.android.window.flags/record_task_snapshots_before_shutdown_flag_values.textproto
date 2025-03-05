@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "record_task_snapshots_before_shutdown"
+  state: ENABLED
+  permission: READ_ONLY
+}

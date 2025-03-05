@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.libcore"
+  name: "read_only_dynamic_code_load"
+  state: ENABLED
+  permission: READ_ONLY
+}

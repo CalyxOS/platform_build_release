@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.hardware.flags"
+  name: "luts_api"
+  state: ENABLED
+  permission: READ_ONLY
+}

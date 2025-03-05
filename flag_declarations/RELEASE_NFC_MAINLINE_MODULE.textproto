@@ -1,0 +1,5 @@
+name:  "RELEASE_NFC_MAINLINE_MODULE"
+namespace:  "nfc"
+description:  "b/368405832: Flag to enable NFC mainline module"
+workflow:  LAUNCH
+containers:  "system"

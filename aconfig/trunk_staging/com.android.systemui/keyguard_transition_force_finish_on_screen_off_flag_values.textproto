@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "keyguard_transition_force_finish_on_screen_off"
+  state: ENABLED
+  permission: READ_WRITE
+}

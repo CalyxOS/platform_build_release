@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.car.feature"
+  name: "distant_display_transitions"
+  state: ENABLED
+  permission: READ_WRITE
+}

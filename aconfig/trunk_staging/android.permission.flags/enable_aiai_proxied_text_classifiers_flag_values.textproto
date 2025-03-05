@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "enable_aiai_proxied_text_classifiers"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.telecom.flags"
+  name: "keep_bluetooth_devices_cache_updated"
+  state: ENABLED
+  permission: READ_WRITE
+}

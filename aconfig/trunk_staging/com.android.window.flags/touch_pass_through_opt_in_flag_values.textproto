@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "touch_pass_through_opt_in"
+  state: ENABLED
+  permission: READ_WRITE
+}

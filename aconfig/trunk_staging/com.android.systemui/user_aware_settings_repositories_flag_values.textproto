@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "user_aware_settings_repositories"
+  state: ENABLED
+  permission: READ_WRITE
+}

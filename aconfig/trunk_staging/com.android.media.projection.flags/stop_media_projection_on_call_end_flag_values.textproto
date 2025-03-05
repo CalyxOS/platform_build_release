@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.media.projection.flags"
+  name: "stop_media_projection_on_call_end"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.audio"
+  name: "concurrent_audio_record_bypass_permission"
+  state: ENABLED
+  permission: READ_WRITE
+}

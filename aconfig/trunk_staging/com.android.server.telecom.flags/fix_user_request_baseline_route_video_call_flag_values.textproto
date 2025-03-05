@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.telecom.flags"
+  name: "fix_user_request_baseline_route_video_call"
+  state: ENABLED
+  permission: READ_WRITE
+}

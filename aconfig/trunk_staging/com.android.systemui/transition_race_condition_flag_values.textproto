@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "transition_race_condition"
+  state: ENABLED
+  permission: READ_WRITE
+}

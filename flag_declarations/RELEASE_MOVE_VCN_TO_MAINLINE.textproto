@@ -1,0 +1,11 @@
+name: "RELEASE_MOVE_VCN_TO_MAINLINE"
+namespace: "vcn"
+description: "If true, build VCN in the Tethering module"
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

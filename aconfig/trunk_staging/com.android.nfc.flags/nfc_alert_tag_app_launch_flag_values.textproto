@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.nfc.flags"
+  name: "nfc_alert_tag_app_launch"
+  state: ENABLED
+  permission: READ_WRITE
+}

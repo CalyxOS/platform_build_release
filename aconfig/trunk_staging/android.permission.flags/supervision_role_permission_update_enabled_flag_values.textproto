@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "supervision_role_permission_update_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.providers.media.flags"
+  name: "motion_photo_intent"
+  state: ENABLED
+  permission: READ_ONLY
+}

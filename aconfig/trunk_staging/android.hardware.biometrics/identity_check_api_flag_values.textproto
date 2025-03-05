@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.hardware.biometrics"
+  name: "identity_check_api"
+  state: ENABLED
+  permission: READ_WRITE
+}

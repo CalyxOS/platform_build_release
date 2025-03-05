@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.net.vcn"
+  name: "mainline_vcn_module_api"
+  state: ENABLED
+  permission: READ_WRITE
+}

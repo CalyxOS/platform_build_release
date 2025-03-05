@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.art.flags"
+  name: "art_service_v3"
+  state: ENABLED
+  permission: READ_ONLY
+}

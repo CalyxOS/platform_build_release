@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.camera.flags"
+  name: "query_process_state"
+  state: ENABLED
+  permission: READ_WRITE
+}

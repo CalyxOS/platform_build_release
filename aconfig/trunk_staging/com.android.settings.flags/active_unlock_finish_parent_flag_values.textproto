@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.flags"
+  name: "active_unlock_finish_parent"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.chre.flags"
+  name: "efw_xport_rewind_on_error"
+  state: ENABLED
+  permission: READ_WRITE
+}

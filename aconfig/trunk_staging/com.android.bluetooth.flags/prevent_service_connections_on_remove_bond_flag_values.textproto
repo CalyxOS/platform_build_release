@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "prevent_service_connections_on_remove_bond"
+  state: ENABLED
+  permission: READ_WRITE
+}

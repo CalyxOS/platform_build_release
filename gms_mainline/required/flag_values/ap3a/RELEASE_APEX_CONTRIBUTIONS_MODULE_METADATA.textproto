@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_MODULE_METADATA"
+value: {
+  string_value: "modulemetadata.google.contributions.prebuilt"
+}

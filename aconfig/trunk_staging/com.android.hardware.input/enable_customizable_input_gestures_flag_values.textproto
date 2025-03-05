@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.hardware.input"
+  name: "enable_customizable_input_gestures"
+  state: ENABLED
+  permission: READ_WRITE
+}

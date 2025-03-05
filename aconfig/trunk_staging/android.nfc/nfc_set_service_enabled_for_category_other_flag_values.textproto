@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.nfc"
+  name: "nfc_set_service_enabled_for_category_other"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.crashrecovery.flags"
+  name: "synchronous_reboot_in_rescue_party"
+  state: ENABLED
+  permission: READ_WRITE
+}

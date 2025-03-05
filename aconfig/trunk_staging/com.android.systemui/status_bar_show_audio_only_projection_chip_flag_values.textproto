@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "status_bar_show_audio_only_projection_chip"
+  state: ENABLED
+  permission: READ_WRITE
+}

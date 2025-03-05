@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.soundtrigger"
+  name: "generic_model_api"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,11 @@
+name: "RELEASE_ACONFIG_REQUIRE_ALL_READ_ONLY"
+namespace: "android_UNKNOWN"
+description: "If true, it is an error to set the permission of any aconfig flags to READ_WRITE."
+value: {
+  bool_value: false
+}
+workflow: MANUAL
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

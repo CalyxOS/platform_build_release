@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.os.vibrator"
+  name: "haptics_scale_v2_enabled"
+  state: ENABLED
+  permission: READ_WRITE
+}

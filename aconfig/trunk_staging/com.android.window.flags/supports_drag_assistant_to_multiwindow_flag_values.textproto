@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "supports_drag_assistant_to_multiwindow"
+  state: ENABLED
+  permission: READ_ONLY
+}

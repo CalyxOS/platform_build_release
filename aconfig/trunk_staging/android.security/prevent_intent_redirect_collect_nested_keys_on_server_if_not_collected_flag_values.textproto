@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.security"
+  name: "prevent_intent_redirect_collect_nested_keys_on_server_if_not_collected"
+  state: ENABLED
+  permission: READ_ONLY
+}

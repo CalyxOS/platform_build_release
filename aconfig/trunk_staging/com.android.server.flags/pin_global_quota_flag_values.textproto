@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.flags"
+  name: "pin_global_quota"
+  state: ENABLED
+  permission: READ_WRITE
+}

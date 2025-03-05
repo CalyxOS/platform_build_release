@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "better_support_non_match_parent_activity"
+  state: ENABLED
+  permission: READ_WRITE
+}

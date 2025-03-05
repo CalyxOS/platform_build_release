@@ -92,7 +92,6 @@ aconfig_value_set {
       "aconfig-values-platform_build_release-ap3a-com.android.media.mainline.flags-all",
       "aconfig-values-platform_build_release-ap3a-com.android.hardware.input-all",
       "aconfig-values-platform_build_release-ap3a-com.android.car.carlauncher-all",
-      "aconfig-values-platform_build_release-ap3a-com.android.aconfig.test-all",
       "aconfig-values-platform_build_release-ap3a-android.companion-all",
       "aconfig-values-platform_build_release-ap3a-android.multiuser-all",
       "aconfig-values-platform_build_release-ap3a-com.android.providers.contactkeys.flags-all",

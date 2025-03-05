@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.chre.flags"
+  name: "reduce_locking_context_hub_transaction_manager"
+  state: ENABLED
+  permission: READ_WRITE
+}

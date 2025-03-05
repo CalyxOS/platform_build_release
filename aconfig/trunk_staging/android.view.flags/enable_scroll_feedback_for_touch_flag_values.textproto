@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.flags"
+  name: "enable_scroll_feedback_for_touch"
+  state: ENABLED
+  permission: READ_ONLY
+}

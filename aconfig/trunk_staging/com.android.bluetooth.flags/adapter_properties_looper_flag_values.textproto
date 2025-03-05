@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "adapter_properties_looper"
+  state: ENABLED
+  permission: READ_WRITE
+}

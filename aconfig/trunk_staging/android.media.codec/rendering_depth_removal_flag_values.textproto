@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.codec"
+  name: "rendering_depth_removal"
+  state: ENABLED
+  permission: READ_WRITE
+}

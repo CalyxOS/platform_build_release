@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.ranging.flags"
+  name: "ranging_cs_enabled"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app.assist.flags"
+  name: "add_placeholder_view_for_null_child"
+  state: ENABLED
+  permission: READ_ONLY
+}

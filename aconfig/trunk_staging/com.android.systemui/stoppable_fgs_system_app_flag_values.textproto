@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "stoppable_fgs_system_app"
+  state: ENABLED
+  permission: READ_WRITE
+}

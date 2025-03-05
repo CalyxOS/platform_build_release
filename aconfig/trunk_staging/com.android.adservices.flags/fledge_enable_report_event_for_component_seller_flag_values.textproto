@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.adservices.flags"
+  name: "fledge_enable_report_event_for_component_seller"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.audio"
+  name: "dolby_ac4_level4_encoding_api"
+  state: ENABLED
+  permission: READ_ONLY
+}

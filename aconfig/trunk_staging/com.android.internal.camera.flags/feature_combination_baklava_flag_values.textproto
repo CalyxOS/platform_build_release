@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.camera.flags"
+  name: "feature_combination_baklava"
+  state: ENABLED
+  permission: READ_WRITE
+}

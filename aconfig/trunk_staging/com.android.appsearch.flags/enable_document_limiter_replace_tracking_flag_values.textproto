@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.appsearch.flags"
+  name: "enable_document_limiter_replace_tracking"
+  state: ENABLED
+  permission: READ_ONLY
+}

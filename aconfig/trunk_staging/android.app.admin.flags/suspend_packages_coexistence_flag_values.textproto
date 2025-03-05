@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app.admin.flags"
+  name: "suspend_packages_coexistence"
+  state: ENABLED
+  permission: READ_WRITE
+}

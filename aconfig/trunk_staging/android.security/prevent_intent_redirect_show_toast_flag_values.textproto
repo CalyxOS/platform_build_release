@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.security"
+  name: "prevent_intent_redirect_show_toast"
+  state: ENABLED
+  permission: READ_ONLY
+}

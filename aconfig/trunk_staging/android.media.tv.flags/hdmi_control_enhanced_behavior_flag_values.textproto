@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.tv.flags"
+  name: "hdmi_control_enhanced_behavior"
+  state: ENABLED
+  permission: READ_WRITE
+}

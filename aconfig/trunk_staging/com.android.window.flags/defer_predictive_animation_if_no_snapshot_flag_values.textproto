@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "defer_predictive_animation_if_no_snapshot"
+  state: ENABLED
+  permission: READ_ONLY
+}

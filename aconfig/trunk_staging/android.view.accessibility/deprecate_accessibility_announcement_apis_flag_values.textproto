@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.accessibility"
+  name: "deprecate_accessibility_announcement_apis"
+  state: ENABLED
+  permission: READ_WRITE
+}

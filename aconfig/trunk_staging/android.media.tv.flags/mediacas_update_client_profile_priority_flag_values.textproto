@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.tv.flags"
+  name: "mediacas_update_client_profile_priority"
+  state: ENABLED
+  permission: READ_WRITE
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.content.pm"
+  name: "cloud_compilation_pm"
+  state: ENABLED
+  permission: READ_ONLY
+}

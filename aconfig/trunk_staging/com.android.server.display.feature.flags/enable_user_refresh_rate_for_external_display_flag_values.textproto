@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.display.feature.flags"
+  name: "enable_user_refresh_rate_for_external_display"
+  state: ENABLED
+  permission: READ_ONLY
+}

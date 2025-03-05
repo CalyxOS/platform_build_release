@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.accessibility"
+  name: "tri_state_checked"
+  state: ENABLED
+  permission: READ_WRITE
+}

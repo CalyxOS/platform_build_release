@@ -1,0 +1,5 @@
+name: "RELEASE_MEMORY_MANAGEMENT_DAEMON"
+namespace: "system_performance"
+description: "Enables Memory Management Daemon in system image."
+workflow: LAUNCH
+containers: "system"

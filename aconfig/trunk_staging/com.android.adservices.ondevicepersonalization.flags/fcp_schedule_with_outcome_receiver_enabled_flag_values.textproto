@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.adservices.ondevicepersonalization.flags"
+  name: "fcp_schedule_with_outcome_receiver_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

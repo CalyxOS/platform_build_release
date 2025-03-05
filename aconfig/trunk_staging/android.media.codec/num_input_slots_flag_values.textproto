@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.codec"
+  name: "num_input_slots"
+  state: ENABLED
+  permission: READ_WRITE
+}

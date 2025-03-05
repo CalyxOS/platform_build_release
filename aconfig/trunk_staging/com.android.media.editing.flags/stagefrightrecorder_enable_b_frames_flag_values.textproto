@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.media.editing.flags"
+  name: "stagefrightrecorder_enable_b_frames"
+  state: ENABLED
+  permission: READ_WRITE
+}

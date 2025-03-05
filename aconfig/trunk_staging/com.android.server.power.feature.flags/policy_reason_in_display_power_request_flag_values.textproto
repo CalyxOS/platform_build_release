@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.power.feature.flags"
+  name: "policy_reason_in_display_power_request"
+  state: ENABLED
+  permission: READ_ONLY
+}
