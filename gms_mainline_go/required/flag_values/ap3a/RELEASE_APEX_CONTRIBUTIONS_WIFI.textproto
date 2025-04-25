@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_WIFI"
+value: {
+  string_value: "wifi.go.google.contributions.prebuilt"
+}

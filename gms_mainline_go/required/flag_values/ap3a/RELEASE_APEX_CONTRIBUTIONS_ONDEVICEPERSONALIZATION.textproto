@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_ONDEVICEPERSONALIZATION"
+value: {
+  string_value: "ondevicepersonalization.go.google.contributions.prebuilt"
+}

@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_PRIMARY_LIBS"
+value: {
+  string_value: "primarylibs.go.google.contributions.prebuilt"
+}

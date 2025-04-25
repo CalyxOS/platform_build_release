@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_TZDATA"
+value: {
+  string_value: "tzdata.go.google.contributions.prebuilt"
+}

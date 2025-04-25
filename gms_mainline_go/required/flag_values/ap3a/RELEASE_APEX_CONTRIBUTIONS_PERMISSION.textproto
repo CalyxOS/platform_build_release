@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_PERMISSION"
+value: {
+  string_value: "permission.go.google.contributions.prebuilt"
+}

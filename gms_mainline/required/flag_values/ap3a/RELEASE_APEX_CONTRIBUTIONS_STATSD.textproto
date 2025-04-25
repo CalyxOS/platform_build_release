@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_STATSD"
+value: {
+  string_value: "statsd.google.contributions.prebuilt"
+}
