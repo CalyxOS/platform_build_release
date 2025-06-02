@@ -1,0 +1,7 @@
+<<<<<<< HEAD   (abb47a AP4A: Set SPL to 2025-05-05)
+=======
+name: "RELEASE_PLATFORM_SECURITY_PATCH"
+value: {
+  string_value: "2025-06-01"
+}
+>>>>>>> CHANGE (e56748 Bump Security String to 2025-06-01)
