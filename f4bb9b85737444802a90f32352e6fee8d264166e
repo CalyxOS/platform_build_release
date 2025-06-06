@@ -16,6 +16,24 @@
       "message": "TODO: Go through the below",
       "revId": "f4bb9b85737444802a90f32352e6fee8d264166e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44165eea_59006f3a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-06-06T17:10:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2230dd0d_90fc4dc8",
+      "revId": "f4bb9b85737444802a90f32352e6fee8d264166e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
