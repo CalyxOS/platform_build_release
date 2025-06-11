@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "app_ops_service_handler_fix"
+  state: ENABLED
+  permission: READ_ONLY
+}

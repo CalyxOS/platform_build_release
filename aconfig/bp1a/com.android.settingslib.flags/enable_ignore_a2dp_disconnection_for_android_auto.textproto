@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settingslib.flags"
+  name: "ignore_a2dp_disconnection_for_android_auto"
+  state: ENABLED
+  permission: READ_ONLY
+}

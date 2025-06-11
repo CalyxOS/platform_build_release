@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.location.flags"
+  name: "population_density_provider"
+  state: ENABLED
+  permission: READ_ONLY
+}

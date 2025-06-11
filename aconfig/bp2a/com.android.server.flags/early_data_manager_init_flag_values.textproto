@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.flags"
+  name: "early_data_manager_init"
+  state: ENABLED
+  permission: READ_ONLY
+}

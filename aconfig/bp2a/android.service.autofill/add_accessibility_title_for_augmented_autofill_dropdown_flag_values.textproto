@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.service.autofill"
+  name: "add_accessibility_title_for_augmented_autofill_dropdown"
+  state: ENABLED
+  permission: READ_ONLY
+}

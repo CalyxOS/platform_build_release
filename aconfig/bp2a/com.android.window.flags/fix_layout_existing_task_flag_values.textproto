@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "fix_layout_existing_task"
+  state: ENABLED
+  permission: READ_ONLY
+}

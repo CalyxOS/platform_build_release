@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.net.platform.flags"
-  name: "deprecate_network_policy_callback"
-  state: ENABLED
-  permission: READ_WRITE
-}

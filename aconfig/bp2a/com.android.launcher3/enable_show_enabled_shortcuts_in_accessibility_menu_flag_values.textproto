@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.launcher3"
+  name: "enable_show_enabled_shortcuts_in_accessibility_menu"
+  state: ENABLED
+  permission: READ_ONLY
+}

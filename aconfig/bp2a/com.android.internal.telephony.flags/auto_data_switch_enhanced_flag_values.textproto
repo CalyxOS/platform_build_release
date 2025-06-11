@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.telephony.flags"
+  name: "auto_data_switch_enhanced"
+  state: ENABLED
+  permission: READ_ONLY
+}

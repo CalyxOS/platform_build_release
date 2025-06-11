@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.intentresolver"
+  name: "announce_shortcuts_and_suggested_apps"
+  state: ENABLED
+  permission: READ_ONLY
+}

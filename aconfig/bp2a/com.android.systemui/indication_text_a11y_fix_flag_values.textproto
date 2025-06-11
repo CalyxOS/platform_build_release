@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "indication_text_a11y_fix"
+  state: ENABLED
+  permission: READ_ONLY
+}

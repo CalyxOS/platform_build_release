@@ -1,0 +1,8 @@
+name:  "RELEASE_R8_STORE_STORE_FENCE_CONSTRUCTOR_INLINING"
+namespace:  "system_performance"
+description:  "feature flag for enabling more aggressive constructor inlining in R8"
+workflow:  LAUNCH
+containers:  "product"
+containers:  "system"
+containers:  "system_ext"
+containers:  "vendor"

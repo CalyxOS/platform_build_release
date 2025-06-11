@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.telephony.flags"
+  name: "dynamic_do_not_ask_again_text"
+  state: ENABLED
+  permission: READ_ONLY
+}

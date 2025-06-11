@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.audio"
+  name: "routed_device_ids"
+  state: ENABLED
+  permission: READ_ONLY
+}

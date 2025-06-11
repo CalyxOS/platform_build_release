@@ -1,6 +1,0 @@
-flag_value {
-  package: "com.android.nfc.flags"
-  name: "observe_mode_without_rf"
-  state: ENABLED
-  permission: READ_WRITE
-}

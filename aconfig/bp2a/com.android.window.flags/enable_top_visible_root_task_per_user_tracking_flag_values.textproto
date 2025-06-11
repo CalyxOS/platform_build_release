@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "enable_top_visible_root_task_per_user_tracking"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,6 +1,0 @@
-flag_value {
-  package: "com.android.internal.camera.flags"
-  name: "camera_device_setup"
-  state: ENABLED
-  permission: READ_WRITE
-}

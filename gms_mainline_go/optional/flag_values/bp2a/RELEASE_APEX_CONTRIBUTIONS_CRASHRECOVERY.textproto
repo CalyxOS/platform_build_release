@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_CRASHRECOVERY"
+value: {
+  string_value: "crashrecovery.go.google.contributions.prebuilt"
+}

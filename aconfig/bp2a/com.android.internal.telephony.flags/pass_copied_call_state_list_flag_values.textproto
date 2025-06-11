@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.telephony.flags"
+  name: "pass_copied_call_state_list"
+  state: ENABLED
+  permission: READ_ONLY
+}

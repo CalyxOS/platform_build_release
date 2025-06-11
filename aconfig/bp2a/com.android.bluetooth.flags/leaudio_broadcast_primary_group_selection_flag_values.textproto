@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "leaudio_broadcast_primary_group_selection"
+  state: ENABLED
+  permission: READ_ONLY
+}

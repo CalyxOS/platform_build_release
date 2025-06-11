@@ -1,4 +1,0 @@
-name: "RELEASE_LIBBINDER_ADDSERVICE_CACHE"
-value: {
-  bool_value: true
-}

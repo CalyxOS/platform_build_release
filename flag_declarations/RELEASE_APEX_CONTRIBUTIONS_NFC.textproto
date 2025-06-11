@@ -1,0 +1,8 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_NFC"
+namespace: "android_UNKNOWN"
+description: "Specify whether to use prebuilts or source this module"
+workflow: MANUAL
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

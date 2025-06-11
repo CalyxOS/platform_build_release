@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.flags"
+  name: "extended_screenshots_exclude_nested_scrollables"
+  state: ENABLED
+  permission: READ_ONLY
+}

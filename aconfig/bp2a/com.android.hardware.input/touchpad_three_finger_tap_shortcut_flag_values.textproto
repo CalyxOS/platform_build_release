@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.hardware.input"
+  name: "touchpad_three_finger_tap_shortcut"
+  state: ENABLED
+  permission: READ_ONLY
+}

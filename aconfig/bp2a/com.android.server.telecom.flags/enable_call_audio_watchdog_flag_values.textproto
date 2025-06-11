@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.telecom.flags"
+  name: "enable_call_audio_watchdog"
+  state: ENABLED
+  permission: READ_ONLY
+}

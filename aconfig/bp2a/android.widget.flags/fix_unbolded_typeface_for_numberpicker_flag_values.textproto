@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.widget.flags"
+  name: "fix_unbolded_typeface_for_numberpicker"
+  state: ENABLED
+  permission: READ_ONLY
+}

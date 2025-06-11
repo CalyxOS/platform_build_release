@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.media.flags"
+  name: "enable_output_switcher_device_grouping"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.usb.flags"
+  name: "maximize_usb_audio_volume_when_connecting"
+  state: ENABLED
+  permission: READ_ONLY
+}

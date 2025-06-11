@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.media.audio"
+  name: "defer_wear_permission_updates"
+  state: ENABLED
+  permission: READ_ONLY
+}

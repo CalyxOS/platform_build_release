@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "gatt_queue_cleanup_connected"
+  state: ENABLED
+  permission: READ_ONLY
+}

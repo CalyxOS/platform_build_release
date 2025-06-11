@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.hardware.biometrics"
-  name: "effective_user_bp"
-  state: ENABLED
-  permission: READ_WRITE
-}

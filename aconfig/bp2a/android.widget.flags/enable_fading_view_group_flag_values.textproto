@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.widget.flags"
+  name: "enable_fading_view_group"
+  state: ENABLED
+  permission: READ_ONLY
+}

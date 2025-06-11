@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.telecom.flags"
+  name: "skip_baseline_switch_when_route_not_bluetooth"
+  state: ENABLED
+  permission: READ_ONLY
+}

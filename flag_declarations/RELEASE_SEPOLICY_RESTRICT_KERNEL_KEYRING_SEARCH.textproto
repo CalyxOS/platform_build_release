@@ -1,0 +1,8 @@
+name: "RELEASE_SEPOLICY_RESTRICT_KERNEL_KEYRING_SEARCH"
+namespace: "hardware_backed_security"
+description: "Remove unnecessary kernel keyring search capability from generic domain"
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "system"

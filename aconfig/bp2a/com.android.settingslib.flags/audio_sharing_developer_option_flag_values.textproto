@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settingslib.flags"
+  name: "audio_sharing_developer_option"
+  state: ENABLED
+  permission: READ_ONLY
+}

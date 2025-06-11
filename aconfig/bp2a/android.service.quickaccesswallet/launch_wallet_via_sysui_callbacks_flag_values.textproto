@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.service.quickaccesswallet"
+  name: "launch_wallet_via_sysui_callbacks"
+  state: ENABLED
+  permission: READ_ONLY
+}

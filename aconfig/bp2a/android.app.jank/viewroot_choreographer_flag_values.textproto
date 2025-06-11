@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app.jank"
+  name: "viewroot_choreographer"
+  state: ENABLED
+  permission: READ_ONLY
+}

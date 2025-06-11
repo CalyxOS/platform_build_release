@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.service.autofill"
+  name: "multiple_fill_history"
+  state: ENABLED
+  permission: READ_ONLY
+}

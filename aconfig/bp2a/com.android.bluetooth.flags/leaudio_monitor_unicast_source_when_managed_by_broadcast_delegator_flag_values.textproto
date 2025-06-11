@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "leaudio_monitor_unicast_source_when_managed_by_broadcast_delegator"
+  state: ENABLED
+  permission: READ_ONLY
+}

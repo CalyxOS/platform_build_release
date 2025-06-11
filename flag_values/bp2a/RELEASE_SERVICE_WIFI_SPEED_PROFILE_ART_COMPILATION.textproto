@@ -1,0 +1,4 @@
+name: "RELEASE_SERVICE_WIFI_SPEED_PROFILE_ART_COMPILATION"
+value {
+  bool_value: false
+}

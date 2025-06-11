@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "enable_drag_resize_set_up_in_bg_thread"
+  state: ENABLED
+  permission: READ_ONLY
+}

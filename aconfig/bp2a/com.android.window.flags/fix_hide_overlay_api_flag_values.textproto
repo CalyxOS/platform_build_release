@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "fix_hide_overlay_api"
+  state: ENABLED
+  permission: READ_ONLY
+}

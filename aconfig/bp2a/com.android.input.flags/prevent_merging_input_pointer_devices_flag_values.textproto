@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.input.flags"
+  name: "prevent_merging_input_pointer_devices"
+  state: ENABLED
+  permission: READ_ONLY
+}

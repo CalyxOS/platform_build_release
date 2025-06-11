@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.managedprovisioning.flags"
+  name: "stop_disruptive_announcement_education"
+  state: ENABLED
+  permission: READ_ONLY
+}

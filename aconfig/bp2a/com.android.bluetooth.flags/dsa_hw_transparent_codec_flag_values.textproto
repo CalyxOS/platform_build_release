@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "dsa_hw_transparent_codec"
+  state: ENABLED
+  permission: READ_ONLY
+}

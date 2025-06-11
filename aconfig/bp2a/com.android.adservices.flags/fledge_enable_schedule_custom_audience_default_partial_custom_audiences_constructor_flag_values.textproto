@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.adservices.flags"
+  name: "fledge_enable_schedule_custom_audience_default_partial_custom_audiences_constructor"
+  state: ENABLED
+  permission: READ_ONLY
+}

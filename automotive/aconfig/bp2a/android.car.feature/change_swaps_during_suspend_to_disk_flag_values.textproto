@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.car.feature"
+  name: "change_swaps_during_suspend_to_disk"
+  state: ENABLED
+  permission: READ_ONLY
+}

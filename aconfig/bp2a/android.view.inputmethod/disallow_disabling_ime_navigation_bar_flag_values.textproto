@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.inputmethod"
+  name: "disallow_disabling_ime_navigation_bar"
+  state: ENABLED
+  permission: READ_ONLY
+}

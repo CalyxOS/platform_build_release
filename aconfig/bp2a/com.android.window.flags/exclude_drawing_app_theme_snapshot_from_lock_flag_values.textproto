@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "exclude_drawing_app_theme_snapshot_from_lock"
+  state: ENABLED
+  permission: READ_ONLY
+}

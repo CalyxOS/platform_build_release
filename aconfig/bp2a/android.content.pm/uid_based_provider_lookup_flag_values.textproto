@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.content.pm"
+  name: "uid_based_provider_lookup"
+  state: ENABLED
+  permission: READ_ONLY
+}

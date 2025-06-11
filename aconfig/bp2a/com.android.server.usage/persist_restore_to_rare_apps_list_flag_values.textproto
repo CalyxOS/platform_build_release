@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.usage"
+  name: "persist_restore_to_rare_apps_list"
+  state: ENABLED
+  permission: READ_ONLY
+}

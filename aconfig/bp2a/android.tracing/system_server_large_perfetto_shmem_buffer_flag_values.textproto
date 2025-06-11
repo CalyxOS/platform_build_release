@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.tracing"
+  name: "system_server_large_perfetto_shmem_buffer"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "opp_remove_empty_group_notification"
+  state: ENABLED
+  permission: READ_ONLY
+}

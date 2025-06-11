@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "common_surface_animator"
+  state: ENABLED
+  permission: READ_ONLY
+}

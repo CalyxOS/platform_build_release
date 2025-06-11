@@ -1,0 +1,8 @@
+name: "RELEASE_NEXUS_LAUNCHER_USE_SPEED_PROFILE"
+namespace: "launcher"
+description: "b/400412521: Flag to use speed profile in Nexus Launcher."
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "system"

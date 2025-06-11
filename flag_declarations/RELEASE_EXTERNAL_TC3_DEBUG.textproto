@@ -1,0 +1,9 @@
+name: "RELEASE_EXTERNAL_TC3_DEBUG"
+namespace: "android_UNKNOWN"
+value: {
+  bool_value: false
+}
+description: "Enables assertions and verbose logging in libtextclassifier."
+workflow: MANUAL
+containers: "product"
+containers: "system"

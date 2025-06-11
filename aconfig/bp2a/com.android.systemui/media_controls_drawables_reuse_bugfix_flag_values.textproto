@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "media_controls_drawables_reuse_bugfix"
+  state: ENABLED
+  permission: READ_ONLY
+}

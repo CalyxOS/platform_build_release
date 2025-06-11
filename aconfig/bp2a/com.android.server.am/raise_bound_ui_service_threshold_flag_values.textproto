@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.am"
+  name: "raise_bound_ui_service_threshold"
+  state: ENABLED
+  permission: READ_ONLY
+}

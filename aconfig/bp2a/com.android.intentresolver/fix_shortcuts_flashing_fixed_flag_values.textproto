@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.intentresolver"
+  name: "fix_shortcuts_flashing_fixed"
+  state: ENABLED
+  permission: READ_ONLY
+}

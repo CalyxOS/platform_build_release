@@ -1,6 +1,6 @@
 name: "RELEASE_APEX_CONTRIBUTIONS_CONNECTIVITY"
 namespace: "android_UNKNOWN"
-description: ""
+description: "Specify whether to use prebuilts or source this module"
 workflow: MANUAL
 containers: "product"
 containers: "system"

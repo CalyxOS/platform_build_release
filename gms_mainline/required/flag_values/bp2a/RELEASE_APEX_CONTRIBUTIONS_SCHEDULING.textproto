@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_SCHEDULING"
+value: {
+  string_value: "scheduling.google.contributions.prebuilt"
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.provider.flags"
+  name: "device_config_writable_namespaces_api"
+  state: ENABLED
+  permission: READ_ONLY
+}

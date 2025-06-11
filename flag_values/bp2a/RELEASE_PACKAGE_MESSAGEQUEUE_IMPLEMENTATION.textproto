@@ -1,0 +1,4 @@
+name: "RELEASE_PACKAGE_MESSAGEQUEUE_IMPLEMENTATION"
+value {
+  string_value: "CombinedMessageQueue/MessageQueue.java"
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app.admin.flags"
+  name: "internal_log_event_listener"
+  state: ENABLED
+  permission: READ_ONLY
+}

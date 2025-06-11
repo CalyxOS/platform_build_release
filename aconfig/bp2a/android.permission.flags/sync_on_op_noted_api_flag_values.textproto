@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "sync_on_op_noted_api"
+  state: ENABLED
+  permission: READ_ONLY
+}

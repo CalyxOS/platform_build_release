@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.telephony.flags"
+  name: "force_imsi_certificate_delete"
+  state: ENABLED
+  permission: READ_ONLY
+}

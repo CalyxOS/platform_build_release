@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.camera.flags"
+  name: "ae_priority"
+  state: ENABLED
+  permission: READ_ONLY
+}

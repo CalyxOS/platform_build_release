@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.graphics.surfaceflinger.flags"
+  name: "adpf_native_session_manager"
+  state: ENABLED
+  permission: READ_ONLY
+}

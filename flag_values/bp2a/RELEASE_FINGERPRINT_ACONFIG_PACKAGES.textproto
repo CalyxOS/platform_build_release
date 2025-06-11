@@ -1,0 +1,4 @@
+name: "RELEASE_FINGERPRINT_ACONFIG_PACKAGES"
+value {
+  bool_value: true
+}

@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.car.feature"
-  name: "always_send_initial_value_event"
-  state: ENABLED
-  permission: READ_WRITE
-}

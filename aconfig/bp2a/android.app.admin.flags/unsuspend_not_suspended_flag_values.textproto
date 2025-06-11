@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app.admin.flags"
+  name: "unsuspend_not_suspended"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "fix_bluetooth_gatt_getting_duplicate_services"
+  state: ENABLED
+  permission: READ_ONLY
+}

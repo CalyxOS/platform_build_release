@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "unregister_gatt_client_disconnected"
+  state: ENABLED
+  permission: READ_ONLY
+}

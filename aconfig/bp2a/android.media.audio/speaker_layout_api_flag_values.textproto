@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.audio"
+  name: "speaker_layout_api"
+  state: ENABLED
+  permission: READ_ONLY
+}

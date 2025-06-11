@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.content.res"
+  name: "self_targeting_android_resource_frro"
+  state: ENABLED
+  permission: READ_ONLY
+}

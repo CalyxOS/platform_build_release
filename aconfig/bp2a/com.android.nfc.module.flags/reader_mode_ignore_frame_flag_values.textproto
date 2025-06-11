@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.nfc.module.flags"
+  name: "reader_mode_ignore_frame"
+  state: ENABLED
+  permission: READ_ONLY
+}

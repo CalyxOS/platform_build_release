@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.jank"
+  name: "ignore_hwui_is_first_frame"
+  state: ENABLED
+  permission: READ_ONLY
+}

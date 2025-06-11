@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "shade_expands_on_status_bar_long_press"
+  state: ENABLED
+  permission: READ_ONLY
+}

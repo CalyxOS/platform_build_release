@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui.shared"
+  name: "smartspace_remoteviews_intent_handler"
+  state: ENABLED
+  permission: READ_ONLY
+}

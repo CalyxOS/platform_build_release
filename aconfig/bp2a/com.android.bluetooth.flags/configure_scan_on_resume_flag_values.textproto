@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "configure_scan_on_resume"
+  state: ENABLED
+  permission: READ_ONLY
+}

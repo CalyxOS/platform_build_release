@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "batch_scan_optimization"
+  state: ENABLED
+  permission: READ_ONLY
+}

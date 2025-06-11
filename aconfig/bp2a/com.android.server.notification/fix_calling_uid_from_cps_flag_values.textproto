@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.notification"
+  name: "fix_calling_uid_from_cps"
+  state: ENABLED
+  permission: READ_ONLY
+}

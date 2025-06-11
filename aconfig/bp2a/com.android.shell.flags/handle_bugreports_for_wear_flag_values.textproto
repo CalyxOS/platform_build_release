@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.shell.flags"
+  name: "handle_bugreports_for_wear"
+  state: ENABLED
+  permission: READ_ONLY
+}

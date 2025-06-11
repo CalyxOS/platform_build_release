@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "bta_dm_disc_close_proper_conn_id"
+  state: ENABLED
+  permission: READ_ONLY
+}

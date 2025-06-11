@@ -1,0 +1,11 @@
+name: "RELEASE_DISABLE_SYSTEM_ACONFIGD_SOCKET"
+namespace: "android_UNKNOWN"
+description: "Control if we should turn on system aconfigd socket."
+value: {
+  bool_value: false
+}
+workflow: MANUAL
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

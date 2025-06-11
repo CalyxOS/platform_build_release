@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "track_system_ui_context_before_wms"
+  state: ENABLED
+  permission: READ_ONLY
+}

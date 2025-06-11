@@ -1,0 +1,6 @@
+flag_value {
+  package: "libgooglecamerahal.flags"
+  name: "batched_shutter_notifications"
+  state: ENABLED
+  permission: READ_ONLY
+}

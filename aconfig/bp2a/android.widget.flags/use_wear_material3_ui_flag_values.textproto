@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.widget.flags"
+  name: "use_wear_material3_ui"
+  state: ENABLED
+  permission: READ_ONLY
+}

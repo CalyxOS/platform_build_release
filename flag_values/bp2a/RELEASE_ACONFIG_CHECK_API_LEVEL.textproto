@@ -1,0 +1,4 @@
+name: "RELEASE_ACONFIG_CHECK_API_LEVEL"
+value {
+  bool_value: true
+}

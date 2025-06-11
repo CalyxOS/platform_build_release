@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.media.flags"
+  name: "disable_transfer_when_apps_do_not_support"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.permission.flags"
+  name: "enforce_default_device_id_in_my_attribution_source"
+  state: ENABLED
+  permission: READ_ONLY
+}

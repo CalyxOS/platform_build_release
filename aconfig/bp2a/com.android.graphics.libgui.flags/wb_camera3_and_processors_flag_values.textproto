@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.graphics.libgui.flags"
+  name: "wb_camera3_and_processors"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "opp_set_insets_for_edge_to_edge"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "smartspace_swipe_event_logging_fix"
+  state: ENABLED
+  permission: READ_ONLY
+}

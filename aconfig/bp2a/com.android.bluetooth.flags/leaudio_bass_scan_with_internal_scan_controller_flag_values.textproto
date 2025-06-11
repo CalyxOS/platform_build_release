@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "leaudio_bass_scan_with_internal_scan_controller"
+  state: ENABLED
+  permission: READ_ONLY
+}

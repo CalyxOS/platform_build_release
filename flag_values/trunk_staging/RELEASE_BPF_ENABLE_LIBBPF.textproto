@@ -1,4 +1,0 @@
-name: "RELEASE_BPF_ENABLE_LIBBPF"
-value: {
-  bool_value: true
-}

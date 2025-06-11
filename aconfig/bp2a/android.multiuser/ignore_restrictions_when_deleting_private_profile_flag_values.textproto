@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.multiuser"
+  name: "ignore_restrictions_when_deleting_private_profile"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,8 @@
+name:  "RELEASE_R8_ONLY_RUNTIME_VISIBLE_ANNOTATIONS"
+namespace:  "system_performance"
+description:  "feature flag for only retaining runtime visible annotations in R8"
+workflow:  LAUNCH
+containers:  "product"
+containers:  "system"
+containers:  "system_ext"
+containers:  "vendor"

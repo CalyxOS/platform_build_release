@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app.job"
+  name: "ignore_important_while_foreground"
+  state: ENABLED
+  permission: READ_ONLY
+}

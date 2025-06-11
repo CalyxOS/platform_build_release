@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.backup"
+  name: "enable_metrics_settings_backup_agents"
+  state: ENABLED
+  permission: READ_ONLY
+}

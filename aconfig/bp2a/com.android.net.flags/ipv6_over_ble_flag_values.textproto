@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.net.flags"
+  name: "ipv6_over_ble"
+  state: ENABLED
+  permission: READ_ONLY
+}

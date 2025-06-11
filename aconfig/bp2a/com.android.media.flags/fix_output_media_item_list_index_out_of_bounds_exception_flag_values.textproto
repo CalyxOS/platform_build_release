@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.media.flags"
+  name: "fix_output_media_item_list_index_out_of_bounds_exception"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.audio"
+  name: "spatializer_capabilities"
+  state: ENABLED
+  permission: READ_ONLY
+}

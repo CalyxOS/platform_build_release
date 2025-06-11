@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.usage"
+  name: "screen_time_bypass"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "notif_channel_estimate_effect_size"
+  state: ENABLED
+  permission: READ_ONLY
+}

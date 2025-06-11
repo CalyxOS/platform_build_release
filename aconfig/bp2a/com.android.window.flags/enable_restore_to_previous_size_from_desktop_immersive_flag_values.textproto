@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "enable_restore_to_previous_size_from_desktop_immersive"
+  state: ENABLED
+  permission: READ_ONLY
+}

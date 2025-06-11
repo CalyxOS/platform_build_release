@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_UPROBESTATS"
+value: {
+  string_value: "uprobestats.google.contributions.prebuilt"
+}

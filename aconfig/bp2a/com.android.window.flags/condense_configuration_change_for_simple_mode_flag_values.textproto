@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "condense_configuration_change_for_simple_mode"
+  state: ENABLED
+  permission: READ_ONLY
+}

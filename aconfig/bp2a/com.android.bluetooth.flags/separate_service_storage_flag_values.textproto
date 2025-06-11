@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "separate_service_storage"
+  state: ENABLED
+  permission: READ_ONLY
+}

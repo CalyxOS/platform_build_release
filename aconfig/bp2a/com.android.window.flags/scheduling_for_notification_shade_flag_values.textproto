@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "scheduling_for_notification_shade"
+  state: ENABLED
+  permission: READ_ONLY
+}

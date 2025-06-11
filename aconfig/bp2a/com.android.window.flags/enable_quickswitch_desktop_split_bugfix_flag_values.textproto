@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "enable_quickswitch_desktop_split_bugfix"
+  state: ENABLED
+  permission: READ_ONLY
+}

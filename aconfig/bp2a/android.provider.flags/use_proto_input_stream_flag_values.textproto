@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.provider.flags"
+  name: "use_proto_input_stream"
+  state: ENABLED
+  permission: READ_ONLY
+}

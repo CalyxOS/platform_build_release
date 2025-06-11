@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.multiuser"
-  name: "cache_user_info_read_only"
-  state: ENABLED
-  permission: READ_ONLY
-}

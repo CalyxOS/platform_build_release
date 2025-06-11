@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.os"
+  name: "disable_madvise_artfile_default"
+  state: ENABLED
+  permission: READ_ONLY
+}

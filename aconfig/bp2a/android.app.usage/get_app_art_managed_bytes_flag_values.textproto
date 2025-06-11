@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app.usage"
+  name: "get_app_art_managed_bytes"
+  state: ENABLED
+  permission: READ_ONLY
+}

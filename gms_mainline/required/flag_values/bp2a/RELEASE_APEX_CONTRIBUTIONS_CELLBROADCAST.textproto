@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_CELLBROADCAST"
+value: {
+  string_value: "cellbroadcast.google.contributions.prebuilt"
+}

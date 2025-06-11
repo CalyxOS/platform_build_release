@@ -1,4 +1,0 @@
-name: "RELEASE_USE_OPTIMIZED_RESOURCE_SHRINKING_BY_DEFAULT"
-value: {
-  bool_value: true
-}

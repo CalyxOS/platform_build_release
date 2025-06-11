@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.contentcapture.flags"
+  name: "flush_after_each_frame"
+  state: ENABLED
+  permission: READ_ONLY
+}

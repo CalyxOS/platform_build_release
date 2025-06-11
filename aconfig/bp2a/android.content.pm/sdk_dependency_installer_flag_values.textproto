@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.content.pm"
+  name: "sdk_dependency_installer"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,4 @@
+name: "RELEASE_EXTERNAL_TC3_DEBUG"
+value: {
+  bool_value: true
+}

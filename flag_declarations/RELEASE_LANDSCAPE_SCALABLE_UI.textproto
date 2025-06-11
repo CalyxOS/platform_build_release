@@ -1,0 +1,5 @@
+name:  "RELEASE_LANDSCAPE_SCALABLE_UI"
+namespace:  "car_sys_exp"
+description:  "This flags controls if the landscape automotive target is displayed using Scalable UI."
+workflow:  LAUNCH
+containers:  "vendor"

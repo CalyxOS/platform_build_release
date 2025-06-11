@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.power.optimization"
+  name: "extended_battery_history_continuous_collection_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

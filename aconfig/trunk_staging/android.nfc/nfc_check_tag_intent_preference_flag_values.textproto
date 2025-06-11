@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.nfc"
-  name: "nfc_check_tag_intent_preference"
-  state: ENABLED
-  permission: READ_WRITE
-}

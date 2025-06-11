@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.security"
+  name: "prevent_intent_redirect_abort_or_throw_exception"
+  state: ENABLED
+  permission: READ_ONLY
+}

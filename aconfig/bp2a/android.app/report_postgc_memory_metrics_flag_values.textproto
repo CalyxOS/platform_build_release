@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "report_postgc_memory_metrics"
+  state: ENABLED
+  permission: READ_ONLY
+}

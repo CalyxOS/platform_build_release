@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.tracing"
-  name: "perfetto_wm_dump"
-  state: ENABLED
-  permission: READ_ONLY
-}

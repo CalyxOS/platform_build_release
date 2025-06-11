@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.permission.flags"
-  name: "wallet_role_enabled"
-  state: ENABLED
-  permission: READ_WRITE
-}

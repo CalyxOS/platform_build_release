@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.multiuser"
+  name: "place_add_user_dialog_within_activity"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,8 @@
+name: "RELEASE_PLATFORM_SDK_VERSION_FULL"
+namespace: "android_sdk"
+description: "The major and minor SDK versions of the platform, e.g. 35.0 or 123.45. This should only be modified when the SDK API is finalized."
+workflow: MANUAL
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

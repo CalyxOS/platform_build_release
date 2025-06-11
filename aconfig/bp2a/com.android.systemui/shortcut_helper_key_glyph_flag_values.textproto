@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "shortcut_helper_key_glyph"
+  state: ENABLED
+  permission: READ_ONLY
+}

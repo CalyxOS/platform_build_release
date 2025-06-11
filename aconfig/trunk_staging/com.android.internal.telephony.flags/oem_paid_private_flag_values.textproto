@@ -1,6 +1,0 @@
-flag_value {
-  package: "com.android.internal.telephony.flags"
-  name: "oem_paid_private"
-  state: ENABLED
-  permission: READ_WRITE
-}

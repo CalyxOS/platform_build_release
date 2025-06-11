@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.telecom.flags"
+  name: "telecom_main_user_in_get_respond_message_app"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,4 @@
+name: "RELEASE_KOTLIN_LANG_VERSION"
+value {
+  string_value: "2"
+}

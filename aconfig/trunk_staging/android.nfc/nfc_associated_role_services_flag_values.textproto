@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.nfc"
-  name: "nfc_associated_role_services"
-  state: ENABLED
-  permission: READ_WRITE
-}

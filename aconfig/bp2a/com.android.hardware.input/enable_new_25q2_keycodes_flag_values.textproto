@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.hardware.input"
+  name: "enable_new_25q2_keycodes"
+  state: ENABLED
+  permission: READ_ONLY
+}

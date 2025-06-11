@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.telephony.flags"
+  name: "starlink_data_bugfix"
+  state: ENABLED
+  permission: READ_ONLY
+}

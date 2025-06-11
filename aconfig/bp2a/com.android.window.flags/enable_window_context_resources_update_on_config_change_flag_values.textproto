@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "enable_window_context_resources_update_on_config_change"
+  state: ENABLED
+  permission: READ_ONLY
+}

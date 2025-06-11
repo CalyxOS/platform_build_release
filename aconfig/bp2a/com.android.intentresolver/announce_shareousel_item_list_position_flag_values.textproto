@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.intentresolver"
+  name: "announce_shareousel_item_list_position"
+  state: ENABLED
+  permission: READ_ONLY
+}

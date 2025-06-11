@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.launcher3"
+  name: "remove_exclude_from_screen_magnification_flag_usage"
+  state: ENABLED
+  permission: READ_ONLY
+}

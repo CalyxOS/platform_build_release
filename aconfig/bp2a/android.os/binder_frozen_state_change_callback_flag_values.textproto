@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.os"
+  name: "binder_frozen_state_change_callback"
+  state: ENABLED
+  permission: READ_ONLY
+}

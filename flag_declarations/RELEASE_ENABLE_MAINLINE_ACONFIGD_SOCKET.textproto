@@ -1,0 +1,11 @@
+name: "RELEASE_ENABLE_MAINLINE_ACONFIGD_SOCKET"
+namespace: "android_UNKNOWN"
+description: "Control if we should turn on mainline aconfigd socket."
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

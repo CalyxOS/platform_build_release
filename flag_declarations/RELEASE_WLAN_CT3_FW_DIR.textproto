@@ -1,5 +1,5 @@
 name: "RELEASE_WLAN_CT3_FW_DIR"
-namespace: "android_UNKNOWN"
+namespace: "pixel_wifi"
 description: ""
 value: {
   string_value: "."

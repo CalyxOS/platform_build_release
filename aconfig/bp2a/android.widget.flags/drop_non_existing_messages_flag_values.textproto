@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.widget.flags"
+  name: "drop_non_existing_messages"
+  state: ENABLED
+  permission: READ_ONLY
+}

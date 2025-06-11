@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app.contextualsearch.flags"
+  name: "contextual_search_prevent_self_capture"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,6 +1,0 @@
-flag_value {
-  package: "com.android.healthfitness.flags"
-  name: "phr_fhir_oneof_validation"
-  state: ENABLED
-  permission: READ_ONLY
-}

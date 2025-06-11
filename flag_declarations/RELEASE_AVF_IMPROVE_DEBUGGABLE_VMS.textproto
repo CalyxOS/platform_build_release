@@ -1,5 +1,5 @@
 name: "RELEASE_AVF_IMPROVE_DEBUGGABLE_VMS"
-namespace: "android_virtualization"
+namespace: "android_platform_virtualization"
 description: "Improvements to debuggable VMs (e.g. tracing in guest VMs, earlycon)"
 value: {
   bool_value: false

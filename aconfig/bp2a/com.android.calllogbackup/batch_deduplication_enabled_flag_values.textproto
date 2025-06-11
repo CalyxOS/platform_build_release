@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.calllogbackup"
+  name: "batch_deduplication_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

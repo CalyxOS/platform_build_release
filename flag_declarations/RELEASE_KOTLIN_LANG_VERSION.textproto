@@ -1,0 +1,11 @@
+name: "RELEASE_KOTLIN_LANG_VERSION"
+namespace: "android_UNKNOWN"
+description: "Which Kotlin Language version to target."
+workflow: MANUAL
+value: {
+  string_value: "1.9"
+}
+containers:  "product"
+containers:  "system"
+containers:  "system_ext"
+containers:  "vendor"

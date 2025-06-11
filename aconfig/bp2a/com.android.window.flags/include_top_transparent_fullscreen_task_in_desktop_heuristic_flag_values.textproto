@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "include_top_transparent_fullscreen_task_in_desktop_heuristic"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "check_disabled_snapshots_in_task_persister"
+  state: ENABLED
+  permission: READ_ONLY
+}

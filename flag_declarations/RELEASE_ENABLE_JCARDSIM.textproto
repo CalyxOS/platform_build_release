@@ -1,0 +1,8 @@
+name: "RELEASE_ENABLE_JCARDSIM"
+namespace: "hardware_backed_security"
+description: "This flag enables the jcardsimulator for SE Simulation"
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "vendor"

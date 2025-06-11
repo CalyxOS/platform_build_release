@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "expand_collapse_privacy_dialog"
+  state: ENABLED
+  permission: READ_ONLY
+}

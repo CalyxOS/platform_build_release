@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.graphics.hwui.flags"
+  name: "calc_workload_orig_deadline"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.display.feature.flags"
+  name: "framerate_override_triggers_rr_callbacks"
+  state: ENABLED
+  permission: READ_ONLY
+}

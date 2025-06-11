@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.launcher3"
+  name: "enable_separate_external_display_tasks"
+  state: ENABLED
+  permission: READ_ONLY
+}

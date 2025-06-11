@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "face_scanning_animation_npe_fix"
+  state: ENABLED
+  permission: READ_ONLY
+}

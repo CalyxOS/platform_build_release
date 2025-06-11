@@ -1,6 +1,0 @@
-flag_value {
-  package: "com.android.intentresolver"
-  name: "target_hover_and_keyboard_focus_states"
-  state: ENABLED
-  permission: READ_WRITE
-}

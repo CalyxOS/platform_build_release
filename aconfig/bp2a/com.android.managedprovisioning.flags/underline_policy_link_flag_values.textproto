@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.managedprovisioning.flags"
+  name: "underline_policy_link"
+  state: ENABLED
+  permission: READ_ONLY
+}

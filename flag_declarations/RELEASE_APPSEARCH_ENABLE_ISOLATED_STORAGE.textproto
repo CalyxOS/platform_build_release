@@ -1,0 +1,8 @@
+name: "RELEASE_APPSEARCH_ENABLE_ISOLATED_STORAGE"
+namespace: "appsearch"
+description: "Use isolated storage for user data."
+value: {
+    bool_value: false
+}
+workflow: LAUNCH
+containers: "system"

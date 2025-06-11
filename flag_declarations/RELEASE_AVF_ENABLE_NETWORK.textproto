@@ -1,5 +1,5 @@
 name: "RELEASE_AVF_ENABLE_NETWORK"
-namespace: "android_virtualization"
+namespace: "android_platform_virtualization"
 description: "Adds supports for network functionality in VMs."
 value: {
   bool_value: false

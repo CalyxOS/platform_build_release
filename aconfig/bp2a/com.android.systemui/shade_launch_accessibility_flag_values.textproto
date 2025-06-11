@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "shade_launch_accessibility"
+  state: ENABLED
+  permission: READ_ONLY
+}

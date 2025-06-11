@@ -1,0 +1,4 @@
+name: "RELEASE_R8_GLOBAL_CHECK_NOT_NULL_FLAGS"
+value {
+  bool_value: true
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "fix_unusable_adv_slot_due_to_map_access"
+  state: ENABLED
+  permission: READ_ONLY
+}

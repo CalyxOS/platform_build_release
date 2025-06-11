@@ -1,0 +1,5 @@
+name: "RELEASE_CAR_FRAMEWORK_WATCHDOG_FLASHMEMORY_REFACTOR"
+namespace: "car_framework"
+description: "b/394348457: Controls CarWatchdog refactoring to extract flash memory protection feature."
+workflow: LAUNCH
+containers: "system"

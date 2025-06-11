@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.chre.flags"
+  name: "bug_fix_remove_exit_call_in_hal"
+  state: ENABLED
+  permission: READ_ONLY
+}

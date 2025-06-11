@@ -1,0 +1,4 @@
+name: "RELEASE_HARDWARE_AUDIO_USE_CAP_AIDL"
+value {
+  bool_value: true
+}

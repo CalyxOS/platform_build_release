@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "floating_menu_notify_targets_changed_on_strict_diff"
+  state: ENABLED
+  permission: READ_ONLY
+}

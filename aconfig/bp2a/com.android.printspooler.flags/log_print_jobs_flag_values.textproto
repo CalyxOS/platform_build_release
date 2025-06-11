@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.printspooler.flags"
+  name: "log_print_jobs"
+  state: ENABLED
+  permission: READ_ONLY
+}

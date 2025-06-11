@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.accessibility"
+  name: "deprecate_ani_label_for_apis"
+  state: ENABLED
+  permission: READ_ONLY
+}

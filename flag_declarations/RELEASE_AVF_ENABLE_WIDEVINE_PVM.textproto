@@ -1,5 +1,5 @@
 name: "RELEASE_AVF_ENABLE_WIDEVINE_PVM"
-namespace: "android_virtualization"
+namespace: "android_platform_virtualization"
 description: "Adds supports for Widevine pVM"
 value: {
   bool_value: false

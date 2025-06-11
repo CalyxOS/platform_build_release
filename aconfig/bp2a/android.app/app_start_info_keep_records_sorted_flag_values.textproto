@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "app_start_info_keep_records_sorted"
+  state: ENABLED
+  permission: READ_ONLY
+}

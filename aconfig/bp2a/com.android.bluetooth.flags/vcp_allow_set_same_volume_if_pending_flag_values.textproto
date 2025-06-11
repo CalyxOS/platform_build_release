@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "vcp_allow_set_same_volume_if_pending"
+  state: ENABLED
+  permission: READ_ONLY
+}

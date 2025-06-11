@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.media.codec"
-  name: "secure_codecs_require_crypto"
-  state: ENABLED
-  permission: READ_WRITE
-}

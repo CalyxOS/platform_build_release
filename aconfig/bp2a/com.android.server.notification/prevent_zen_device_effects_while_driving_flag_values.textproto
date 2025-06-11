@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.notification"
+  name: "prevent_zen_device_effects_while_driving"
+  state: ENABLED
+  permission: READ_ONLY
+}

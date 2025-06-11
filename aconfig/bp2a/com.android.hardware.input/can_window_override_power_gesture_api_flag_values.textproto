@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.hardware.input"
+  name: "can_window_override_power_gesture_api"
+  state: ENABLED
+  permission: READ_ONLY
+}

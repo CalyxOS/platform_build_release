@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.accessibility"
+  name: "magnification_enlarge_pointer_bugfix"
+  state: ENABLED
+  permission: READ_ONLY
+}

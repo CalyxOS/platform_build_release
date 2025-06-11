@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "exclude_caption_from_app_bounds"
+  state: ENABLED
+  permission: READ_ONLY
+}

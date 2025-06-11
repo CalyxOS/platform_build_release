@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "peripheral_auth_req"
+  state: ENABLED
+  permission: READ_ONLY
+}

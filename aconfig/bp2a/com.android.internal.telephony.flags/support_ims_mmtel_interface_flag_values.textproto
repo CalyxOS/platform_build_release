@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.telephony.flags"
+  name: "support_ims_mmtel_interface"
+  state: ENABLED
+  permission: READ_ONLY
+}

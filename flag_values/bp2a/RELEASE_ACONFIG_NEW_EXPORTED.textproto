@@ -1,0 +1,4 @@
+name: "RELEASE_ACONFIG_NEW_EXPORTED"
+value {
+  bool_value: true
+}

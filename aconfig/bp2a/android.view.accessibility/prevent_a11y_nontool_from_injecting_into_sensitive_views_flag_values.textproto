@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.accessibility"
+  name: "prevent_a11y_nontool_from_injecting_into_sensitive_views"
+  state: ENABLED
+  permission: READ_ONLY
+}

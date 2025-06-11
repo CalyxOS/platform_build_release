@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.hardware.input"
+  name: "abort_slow_multi_press"
+  state: ENABLED
+  permission: READ_ONLY
+}

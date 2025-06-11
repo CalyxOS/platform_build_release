@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.aconfig_new_storage"
+  name: "support_clear_local_overrides_immediately"
+  state: ENABLED
+  permission: READ_ONLY
+}

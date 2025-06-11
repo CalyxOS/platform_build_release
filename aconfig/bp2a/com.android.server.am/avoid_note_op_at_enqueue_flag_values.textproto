@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.am"
+  name: "avoid_note_op_at_enqueue"
+  state: ENABLED
+  permission: READ_ONLY
+}

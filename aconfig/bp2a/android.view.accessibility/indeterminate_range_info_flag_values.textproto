@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.accessibility"
+  name: "indeterminate_range_info"
+  state: ENABLED
+  permission: READ_ONLY
+}

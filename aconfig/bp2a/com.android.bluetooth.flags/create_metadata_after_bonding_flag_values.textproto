@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "create_metadata_after_bonding"
+  state: ENABLED
+  permission: READ_ONLY
+}

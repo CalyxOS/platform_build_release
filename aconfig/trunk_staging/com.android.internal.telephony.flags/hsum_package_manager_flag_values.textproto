@@ -1,6 +1,0 @@
-flag_value {
-  package: "com.android.internal.telephony.flags"
-  name: "hsum_package_manager"
-  state: ENABLED
-  permission: READ_WRITE
-}

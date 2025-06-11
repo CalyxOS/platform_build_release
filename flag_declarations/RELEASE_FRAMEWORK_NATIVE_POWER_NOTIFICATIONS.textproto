@@ -1,0 +1,5 @@
+name: "RELEASE_FRAMEWORK_NATIVE_POWER_NOTIFICATIONS"
+namespace: "car_framework"
+description: "b/377528743: Enables notifications to be sent to native listeners for power state changes"
+workflow: LAUNCH
+containers: "system"

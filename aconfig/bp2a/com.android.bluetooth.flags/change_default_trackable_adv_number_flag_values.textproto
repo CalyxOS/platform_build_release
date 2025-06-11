@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "change_default_trackable_adv_number"
+  state: ENABLED
+  permission: READ_ONLY
+}

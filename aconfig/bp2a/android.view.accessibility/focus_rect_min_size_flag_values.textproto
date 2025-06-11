@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.accessibility"
+  name: "focus_rect_min_size"
+  state: ENABLED
+  permission: READ_ONLY
+}

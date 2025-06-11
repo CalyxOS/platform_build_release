@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "leaudio_use_audio_recording_listener"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.multiuser"
-  name: "enable_biometrics_to_unlock_private_space"
-  state: ENABLED
-  permission: READ_WRITE
-}

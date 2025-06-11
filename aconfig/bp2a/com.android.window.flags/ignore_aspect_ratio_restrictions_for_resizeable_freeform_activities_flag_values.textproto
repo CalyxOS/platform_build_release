@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "ignore_aspect_ratio_restrictions_for_resizeable_freeform_activities"
+  state: ENABLED
+  permission: READ_ONLY
+}

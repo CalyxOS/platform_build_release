@@ -1,0 +1,11 @@
+name:  "RELEASE_ZUMAPRO_TARGET_ARCH_VARIANT_ARMV92"
+namespace:  "system_performance"
+description:  "Build code for Tensor G4 (Zuma Pro) as ARMv9.2-A instead of ARMv8.2-A"
+value: {
+  bool_value: false
+}
+workflow:  LAUNCH
+containers:  "product"
+containers:  "system"
+containers:  "system_ext"
+containers:  "vendor"

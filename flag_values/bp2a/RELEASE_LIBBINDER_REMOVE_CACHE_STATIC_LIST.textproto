@@ -1,0 +1,4 @@
+name: "RELEASE_LIBBINDER_REMOVE_CACHE_STATIC_LIST"
+value {
+  bool_value: true
+}

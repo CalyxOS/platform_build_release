@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.telephony.flags"
+  name: "security_algorithms_update_indications"
+  state: ENABLED
+  permission: READ_ONLY
+}

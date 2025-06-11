@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.display.feature.flags"
+  name: "refresh_rate_event_for_foreground_apps"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.service.autofill"
+  name: "autofill_session_destroyed"
+  state: ENABLED
+  permission: READ_ONLY
+}

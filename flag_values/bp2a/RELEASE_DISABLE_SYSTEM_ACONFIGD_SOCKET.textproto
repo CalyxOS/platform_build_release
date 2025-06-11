@@ -1,0 +1,4 @@
+name: "RELEASE_DISABLE_SYSTEM_ACONFIGD_SOCKET"
+value {
+  bool_value: true
+}

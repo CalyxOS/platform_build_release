@@ -1,0 +1,11 @@
+name: "RELEASE_SOONG_ONLY_CUTTLEFISH"
+namespace: "android_UNKNOWN"
+description: "Enables building cuttlefish devices with soong-only (no make) builds"
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

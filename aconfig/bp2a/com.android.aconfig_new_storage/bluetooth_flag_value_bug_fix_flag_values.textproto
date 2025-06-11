@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.aconfig_new_storage"
+  name: "bluetooth_flag_value_bug_fix"
+  state: ENABLED
+  permission: READ_ONLY
+}

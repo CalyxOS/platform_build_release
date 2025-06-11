@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "a2dp_cleanup_on_remove_device"
+  state: ENABLED
+  permission: READ_ONLY
+}

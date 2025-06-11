@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.server"
+  name: "early_system_config_init"
+  state: ENABLED
+  permission: READ_ONLY
+}

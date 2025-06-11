@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.providers.calendar"
+  name: "defer_post_initialize_work"
+  state: ENABLED
+  permission: READ_ONLY
+}

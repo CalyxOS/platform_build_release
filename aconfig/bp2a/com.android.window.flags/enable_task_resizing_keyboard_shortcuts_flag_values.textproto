@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "enable_task_resizing_keyboard_shortcuts"
+  state: ENABLED
+  permission: READ_ONLY
+}

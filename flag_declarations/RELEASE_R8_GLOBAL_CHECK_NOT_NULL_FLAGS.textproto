@@ -1,0 +1,8 @@
+name:  "RELEASE_R8_GLOBAL_CHECK_NOT_NULL_FLAGS"
+namespace:  "system_performance"
+description:  "Enables use of global -convertchecknotnull R8 flags by default"
+workflow:  LAUNCH
+containers:  "product"
+containers:  "system"
+containers:  "system_ext"
+containers:  "vendor"

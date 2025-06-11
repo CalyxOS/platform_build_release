@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.am"
+  name: "unfreeze_bind_policy_fix"
+  state: ENABLED
+  permission: READ_ONLY
+}

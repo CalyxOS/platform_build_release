@@ -1,6 +1,0 @@
-flag_value {
-  package: "com.android.hardware.input"
-  name: "override_power_key_behavior_in_focused_window"
-  state: ENABLED
-  permission: READ_WRITE
-}

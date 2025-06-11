@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.camera.flags"
+  name: "metadata_resize_fix"
+  state: ENABLED
+  permission: READ_ONLY
+}

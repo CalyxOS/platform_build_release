@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.job"
+  name: "additional_quota_for_system_installer"
+  state: ENABLED
+  permission: READ_ONLY
+}

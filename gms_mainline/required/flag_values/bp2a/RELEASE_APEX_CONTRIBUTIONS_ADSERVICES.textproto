@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_ADSERVICES"
+value: {
+  string_value: "adservices.google.contributions.prebuilt"
+}

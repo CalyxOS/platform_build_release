@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "early_launch_hint"
+  state: ENABLED
+  permission: READ_ONLY
+}

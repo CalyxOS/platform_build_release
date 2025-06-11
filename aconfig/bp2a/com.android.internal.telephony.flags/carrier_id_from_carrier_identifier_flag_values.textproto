@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.telephony.flags"
+  name: "carrier_id_from_carrier_identifier"
+  state: ENABLED
+  permission: READ_ONLY
+}

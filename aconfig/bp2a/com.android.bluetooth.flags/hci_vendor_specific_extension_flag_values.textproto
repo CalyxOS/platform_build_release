@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "hci_vendor_specific_extension"
+  state: ENABLED
+  permission: READ_ONLY
+}

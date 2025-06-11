@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "notifications_pinned_hun_in_shade"
+  state: ENABLED
+  permission: READ_ONLY
+}

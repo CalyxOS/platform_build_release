@@ -1,6 +1,0 @@
-flag_value {
-  package: "com.android.internal.telephony.flags"
-  name: "combine_ril_death_handle"
-  state: ENABLED
-  permission: READ_WRITE
-}

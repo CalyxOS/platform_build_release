@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.launcher3"
+  name: "enable_use_top_visible_activity_for_exclude_from_recent_task"
+  state: ENABLED
+  permission: READ_ONLY
+}

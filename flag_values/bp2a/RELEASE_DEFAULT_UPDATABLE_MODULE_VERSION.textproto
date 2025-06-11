@@ -1,0 +1,4 @@
+name: "RELEASE_DEFAULT_UPDATABLE_MODULE_VERSION"
+value {
+  string_value: "360499999"
+}

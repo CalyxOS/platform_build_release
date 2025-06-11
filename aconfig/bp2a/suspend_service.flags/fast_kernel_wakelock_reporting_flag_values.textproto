@@ -1,0 +1,6 @@
+flag_value {
+  package: "suspend_service.flags"
+  name: "fast_kernel_wakelock_reporting"
+  state: ENABLED
+  permission: READ_ONLY
+}

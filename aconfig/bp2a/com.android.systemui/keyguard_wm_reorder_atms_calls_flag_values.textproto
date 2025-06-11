@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "keyguard_wm_reorder_atms_calls"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.media.flags"
+  name: "enable_fix_for_empty_system_routes_crash"
+  state: ENABLED
+  permission: READ_ONLY
+}

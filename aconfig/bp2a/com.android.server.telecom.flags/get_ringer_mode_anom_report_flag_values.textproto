@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.telecom.flags"
+  name: "get_ringer_mode_anom_report"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.codec"
+  name: "subsession_metrics"
+  state: ENABLED
+  permission: READ_ONLY
+}

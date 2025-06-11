@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "hogp_reconnection"
+  state: ENABLED
+  permission: READ_ONLY
+}

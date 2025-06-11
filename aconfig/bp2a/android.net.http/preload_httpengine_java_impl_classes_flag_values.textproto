@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.net.http"
+  name: "preload_httpengine_java_impl_classes"
+  state: ENABLED
+  permission: READ_ONLY
+}

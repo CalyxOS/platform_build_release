@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.tv.flags"
+  name: "tif_extension_standardization_bugfix"
+  state: ENABLED
+  permission: READ_ONLY
+}

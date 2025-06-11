@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "enable_input_layer_transition_fix"
+  state: ENABLED
+  permission: READ_ONLY
+}

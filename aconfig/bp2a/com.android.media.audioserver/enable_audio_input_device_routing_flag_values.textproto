@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.media.audioserver"
+  name: "enable_audio_input_device_routing"
+  state: ENABLED
+  permission: READ_ONLY
+}

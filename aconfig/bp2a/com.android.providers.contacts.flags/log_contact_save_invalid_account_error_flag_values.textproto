@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.providers.contacts.flags"
+  name: "log_contact_save_invalid_account_error"
+  state: ENABLED
+  permission: READ_ONLY
+}

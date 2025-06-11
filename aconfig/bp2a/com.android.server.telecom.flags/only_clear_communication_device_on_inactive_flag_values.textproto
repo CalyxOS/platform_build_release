@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.telecom.flags"
+  name: "only_clear_communication_device_on_inactive"
+  state: ENABLED
+  permission: READ_ONLY
+}

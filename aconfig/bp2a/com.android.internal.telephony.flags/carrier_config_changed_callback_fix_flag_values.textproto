@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.telephony.flags"
+  name: "carrier_config_changed_callback_fix"
+  state: ENABLED
+  permission: READ_ONLY
+}

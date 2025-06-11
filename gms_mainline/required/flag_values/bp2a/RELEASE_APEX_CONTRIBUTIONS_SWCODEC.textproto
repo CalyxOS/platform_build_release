@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_SWCODEC"
+value: {
+  string_value: "swcodec.google.contributions.prebuilt"
+}

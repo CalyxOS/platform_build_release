@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.policy.feature.flags"
+  name: "force_foldables_tent_mode_with_screen_wakelock"
+  state: ENABLED
+  permission: READ_ONLY
+}

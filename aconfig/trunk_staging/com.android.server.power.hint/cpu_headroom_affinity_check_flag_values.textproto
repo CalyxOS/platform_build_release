@@ -1,6 +1,0 @@
-flag_value {
-  package: "com.android.server.power.hint"
-  name: "cpu_headroom_affinity_check"
-  state: ENABLED
-  permission: READ_WRITE
-}

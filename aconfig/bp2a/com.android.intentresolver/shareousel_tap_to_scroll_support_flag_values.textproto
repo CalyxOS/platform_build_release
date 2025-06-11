@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.intentresolver"
+  name: "shareousel_tap_to_scroll_support"
+  state: ENABLED
+  permission: READ_ONLY
+}

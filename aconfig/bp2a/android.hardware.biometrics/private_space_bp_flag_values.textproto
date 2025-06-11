@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.hardware.biometrics"
+  name: "private_space_bp"
+  state: ENABLED
+  permission: READ_ONLY
+}

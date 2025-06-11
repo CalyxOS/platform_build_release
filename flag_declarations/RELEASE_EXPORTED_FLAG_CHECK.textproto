@@ -1,0 +1,8 @@
+name: "RELEASE_EXPORTED_FLAG_CHECK"
+namespace: "core_experiments_team_internal"
+description: "Control checking exported flag only for API"
+workflow: LAUNCH
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

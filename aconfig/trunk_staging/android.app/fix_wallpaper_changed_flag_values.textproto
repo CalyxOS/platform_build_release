@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.app"
-  name: "fix_wallpaper_changed"
-  state: ENABLED
-  permission: READ_WRITE
-}

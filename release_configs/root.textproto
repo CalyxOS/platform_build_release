@@ -1,3 +1,4 @@
 name: "root"
 aconfig_value_sets: "aconfig_value_set-platform_build_release-root"
 release_config_type: EXPLICIT_INHERITANCE_CONFIG
+disallow_lunch_use: true

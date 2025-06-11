@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.nfc.flags"
+  name: "coalesce_rf_events"
+  state: ENABLED
+  permission: READ_ONLY
+}

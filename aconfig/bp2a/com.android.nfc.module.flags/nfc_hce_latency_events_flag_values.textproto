@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.nfc.module.flags"
+  name: "nfc_hce_latency_events"
+  state: ENABLED
+  permission: READ_ONLY
+}

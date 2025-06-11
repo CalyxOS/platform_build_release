@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "hap_connect_only_requested_device"
+  state: ENABLED
+  permission: READ_ONLY
+}

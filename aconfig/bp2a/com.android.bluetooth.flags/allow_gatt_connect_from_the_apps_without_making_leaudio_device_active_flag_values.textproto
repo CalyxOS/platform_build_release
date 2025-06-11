@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "allow_gatt_connect_from_the_apps_without_making_leaudio_device_active"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.internal.os"
+  name: "enable_media_and_location_preload"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.icu"
+  name: "telephony_lookup_mcc_extension"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.credentials.flags"
+  name: "framework_session_id_metric_bundle"
+  state: ENABLED
+  permission: READ_ONLY
+}

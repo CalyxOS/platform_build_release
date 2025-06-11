@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "release_user_aspect_ratio_wm"
+  state: ENABLED
+  permission: READ_ONLY
+}

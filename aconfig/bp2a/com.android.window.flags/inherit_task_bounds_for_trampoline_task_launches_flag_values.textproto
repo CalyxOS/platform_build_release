@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "inherit_task_bounds_for_trampoline_task_launches"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.provider"
+  name: "new_default_account_api_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

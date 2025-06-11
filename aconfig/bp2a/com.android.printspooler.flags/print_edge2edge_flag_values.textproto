@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.printspooler.flags"
+  name: "print_edge2edge"
+  state: ENABLED
+  permission: READ_ONLY
+}

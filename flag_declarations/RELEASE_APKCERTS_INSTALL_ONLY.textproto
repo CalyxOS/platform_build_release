@@ -1,0 +1,11 @@
+name: "RELEASE_APKCERTS_INSTALL_ONLY"
+namespace: "android_UNKNOWN"
+description: "If true, the entries in apkcerts.txt will be limited to the list of installed apps."
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

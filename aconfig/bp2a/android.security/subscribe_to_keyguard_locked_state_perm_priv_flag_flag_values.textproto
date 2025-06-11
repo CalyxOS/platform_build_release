@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.security"
+  name: "subscribe_to_keyguard_locked_state_perm_priv_flag"
+  state: ENABLED
+  permission: READ_ONLY
+}

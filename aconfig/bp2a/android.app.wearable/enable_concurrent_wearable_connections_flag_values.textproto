@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app.wearable"
+  name: "enable_concurrent_wearable_connections"
+  state: ENABLED
+  permission: READ_ONLY
+}

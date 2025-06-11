@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.display.feature.flags"
+  name: "delay_implicit_rr_registration_until_rr_accessed"
+  state: ENABLED
+  permission: READ_ONLY
+}

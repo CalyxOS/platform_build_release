@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "cache_window_style"
+  state: ENABLED
+  permission: READ_ONLY
+}

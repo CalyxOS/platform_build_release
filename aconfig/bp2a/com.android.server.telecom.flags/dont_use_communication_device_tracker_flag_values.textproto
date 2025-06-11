@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.telecom.flags"
+  name: "dont_use_communication_device_tracker"
+  state: ENABLED
+  permission: READ_ONLY
+}

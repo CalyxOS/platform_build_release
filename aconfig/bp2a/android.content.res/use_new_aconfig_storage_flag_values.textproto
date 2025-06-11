@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.content.res"
+  name: "use_new_aconfig_storage"
+  state: ENABLED
+  permission: READ_ONLY
+}

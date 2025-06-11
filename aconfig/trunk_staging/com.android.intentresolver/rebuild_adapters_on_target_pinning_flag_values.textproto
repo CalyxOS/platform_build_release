@@ -1,6 +1,0 @@
-flag_value {
-  package: "com.android.intentresolver"
-  name: "rebuild_adapters_on_target_pinning"
-  state: ENABLED
-  permission: READ_WRITE
-}

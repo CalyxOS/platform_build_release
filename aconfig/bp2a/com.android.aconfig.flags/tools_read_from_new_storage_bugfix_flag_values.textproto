@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.aconfig.flags"
+  name: "tools_read_from_new_storage_bugfix"
+  state: ENABLED
+  permission: READ_ONLY
+}

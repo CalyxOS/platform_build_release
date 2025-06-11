@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "avdt_handle_suspend_cfm_bad_state"
+  state: ENABLED
+  permission: READ_ONLY
+}

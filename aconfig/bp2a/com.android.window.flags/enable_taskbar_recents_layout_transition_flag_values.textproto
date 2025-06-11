@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "enable_taskbar_recents_layout_transition"
+  state: ENABLED
+  permission: READ_ONLY
+}

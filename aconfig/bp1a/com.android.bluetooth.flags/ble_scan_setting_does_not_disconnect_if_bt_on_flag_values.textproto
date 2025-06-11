@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "ble_scan_setting_does_not_disconnect_if_bt_on"
+  state: ENABLED
+  permission: READ_ONLY
+}

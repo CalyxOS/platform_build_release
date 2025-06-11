@@ -1,0 +1,5 @@
+name:  "RELEASE_ENABLE_TOT_CRONET"
+namespace:  "cronet"
+description:  "If enabled, use Cronet from ToT import channel instead of Stable."
+workflow:  LAUNCH
+containers:  "com.android.tethering"

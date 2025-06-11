@@ -1,7 +1,0 @@
-{
-  "imports": [
-    {
-       "path": "vendor/unbundled_google/packages/SystemUIGoogle"
-    }
-  ]
-}

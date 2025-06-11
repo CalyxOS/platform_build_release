@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.launcher3"
+  name: "remove_apps_refresh_on_right_click"
+  state: ENABLED
+  permission: READ_ONLY
+}

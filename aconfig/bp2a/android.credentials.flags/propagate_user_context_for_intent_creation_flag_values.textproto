@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.credentials.flags"
+  name: "propagate_user_context_for_intent_creation"
+  state: ENABLED
+  permission: READ_ONLY
+}

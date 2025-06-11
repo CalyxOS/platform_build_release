@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "disconnect_hid_channels_serially"
+  state: ENABLED
+  permission: READ_ONLY
+}

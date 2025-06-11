@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "enable_desktop_recents_transitions_corners_bugfix"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.server.display.feature.flags"
+  name: "subscribe_granular_display_events"
+  state: ENABLED
+  permission: READ_ONLY
+}

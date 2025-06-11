@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.service.chooser"
+  name: "announce_shortcuts_and_suggested_apps_legacy"
+  state: ENABLED
+  permission: READ_ONLY
+}

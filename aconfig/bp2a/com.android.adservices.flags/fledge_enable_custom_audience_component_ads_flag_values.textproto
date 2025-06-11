@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.adservices.flags"
+  name: "fledge_enable_custom_audience_component_ads"
+  state: ENABLED
+  permission: READ_ONLY
+}

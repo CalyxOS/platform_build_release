@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "leaudio_sm_ignore_connect_events_in_connecting_state"
+  state: ENABLED
+  permission: READ_ONLY
+}

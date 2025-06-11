@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_PROFILING"
+value: {
+  string_value: "profiling.google.contributions.prebuilt"
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "redaction_on_lockscreen_metrics"
+  state: ENABLED
+  permission: READ_ONLY
+}

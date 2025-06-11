@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.bluetooth.flags"
+  name: "avdt_handle_signaling_on_peer_failure"
+  state: ENABLED
+  permission: READ_ONLY
+}

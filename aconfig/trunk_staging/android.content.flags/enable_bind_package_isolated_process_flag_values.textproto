@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.content.flags"
-  name: "enable_bind_package_isolated_process"
-  state: ENABLED
-  permission: READ_WRITE
-}

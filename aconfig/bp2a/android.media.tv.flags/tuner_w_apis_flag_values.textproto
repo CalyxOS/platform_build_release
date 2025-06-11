@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.media.tv.flags"
+  name: "tuner_w_apis"
+  state: ENABLED
+  permission: READ_ONLY
+}

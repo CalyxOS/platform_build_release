@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.aconfig.flags"
+  name: "invoke_updatable_aflags"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,4 @@
+name: "RELEASE_APEX_CONTRIBUTIONS_ADBD"
+value: {
+  string_value: "adbd.go.google.contributions.prebuilt"
+}

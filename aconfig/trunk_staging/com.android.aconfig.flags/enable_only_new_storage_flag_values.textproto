@@ -1,6 +1,0 @@
-flag_value {
-  package: "com.android.aconfig.flags"
-  name: "enable_only_new_storage"
-  state: ENABLED
-  permission: READ_WRITE
-}

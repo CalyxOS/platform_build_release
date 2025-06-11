@@ -1,0 +1,11 @@
+name: "RELEASE_ACONFIG_NEW_EXPORTED"
+namespace: "core_experiments_team_internal"
+description: "Control if generated exported java flag library read from new storage."
+value: {
+  bool_value: false
+}
+workflow: LAUNCH
+containers: "product"
+containers: "system"
+containers: "system_ext"
+containers: "vendor"

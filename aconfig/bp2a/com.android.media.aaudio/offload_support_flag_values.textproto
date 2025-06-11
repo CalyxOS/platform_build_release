@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.media.aaudio"
+  name: "offload_support"
+  state: ENABLED
+  permission: READ_ONLY
+}

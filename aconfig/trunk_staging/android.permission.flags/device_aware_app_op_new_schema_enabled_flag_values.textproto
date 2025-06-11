@@ -1,6 +1,0 @@
-flag_value {
-  package: "android.permission.flags"
-  name: "device_aware_app_op_new_schema_enabled"
-  state: ENABLED
-  permission: READ_ONLY
-}

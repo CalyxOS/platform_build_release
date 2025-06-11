@@ -1,3 +1,4 @@
 name: "userdebug"
 aconfig_value_sets: "aconfig_value_set-platform_build_release-userdebug"
 release_config_type: BUILD_VARIANT
+disallow_lunch_use: true

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.window.flags"
+  name: "keep_app_window_hide_while_locked"
+  state: ENABLED
+  permission: READ_ONLY
+}
